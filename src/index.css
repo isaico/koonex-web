@@ -1,23 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,400;0,600;0,700;0,800;1,200;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-    .active {
-        @apply text-red-400;
+    .screen-container {
+        @apply flex flex-col mt-16;
     }
+    html {
+        @apply font-fira;
+    }
+}
+.active {
+    @apply text-white bg-transparent
 }
 .btn-card {
     @apply text-white bg-gradient-to-r from-secondary to-indigo border-none hover:bg-primary;
 }
-.btn-hero{
-    @apply  bg-gradient-to-r from-secondary to-indigo border-none
+.button {
+    @apply text-white border-none;
 }
+.btn-hero {
+    @apply bg-gradient-to-r from-secondary to-indigo border-none;
+}
+
 html {
     /* @apply mt-16 */
 }
-.bg-waves{
+.bg-waves {
     background-image: url('./assets/svg.png');
     background-size: cover;
     background-repeat: no-repeat;
+}
+.bg-mesh {
+    background-image: url('./assets/mesh-238.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.d2 {
+    animation-delay: 0.05s;
+}
+.d3 {
+    animation-delay: 0.1s;
 }

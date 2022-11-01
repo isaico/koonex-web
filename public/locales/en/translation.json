@@ -1,0 +1,25 @@
+
+{
+    "header": {
+        "sub": "Travels and Tours",
+        "desc":"Stay present and leave stress behind, we invito you to connect with the sea and its silence.",
+        "btn":"GET STARTED"
+    },
+    "coursesContainer":{
+        "titleCourse": "THIS COURSES ARE FOR YOU!!",
+        "titleTour": "ESTOS TOURS SON PARA TI!!",
+        "sub":"We have different levels of diving certification courses endorsed. If you are one of those who want to deepen your knowledge about diving and the marine environment, or you want to dedicate yourself professionally to diving to share and guide others, we have courses for you.",
+        "bannerTitle":"Connect with the ocean!",
+        "bannerDesc":"Choose yours favorites {{gradientTitle}} buy and enjoy. We take care of the rest. Includes: Instruction, Instructor and complete equipment. For more information, please do not hesitate to contact us",
+        "bannerBtn":"SEND A MAIL",
+        "categoryTitleCourse":"COURSES",
+        "categoryTitleTour":"TOURS"
+    },
+    "navbar":{
+        "linkHome":"HOME",
+        "linkProd":"PRODUCTS",
+        "linkProdChild1":"COURSES",
+        "linkProdChild2":"TOURS",
+        "linkContact":"CONTACT"
+    }
+}
