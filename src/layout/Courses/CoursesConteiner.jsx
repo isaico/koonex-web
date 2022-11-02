@@ -11,15 +11,16 @@ const gradientTitleTours = 'bg-gradient-to-r from-secondary to-accent';
 const gradientTitleCourses = 'bg-gradient-to-r from-secondary to-indigo';
 const gradientButtonTours = 'bg-gradient-to-r from-secondary to-green';
 const gradientButtonCourses = 'bg-gradient-to-r from-secondary to-indigo';
+// const userLang = navigator.language || navigator.userLanguage;
+// const defaultLocale = userLang.substring(0, 2);
 
 export const CoursesConteiner = () => {
-    const { t } = useTranslation(['translation']);
+    const { t, i18n } = useTranslation(['translation']);
     const [data, setData] = useState([]);
     const { URL } = useParams();
     const [gradientTitle, setGradientTitle] = useState('');
     const [loader, setLoader] = useState(true);
-    const userLang = navigator.language || navigator.userLanguage;
-    const defaultLocale = userLang.substring(0, 2);
+    
 
     useEffect(() => {
         setTimeout(function () {
@@ -49,7 +50,7 @@ export const CoursesConteiner = () => {
                                     : gradientTitleCourses
                             }`}
                         >
-                            {gradientTitle === 'CURSOS'
+                            {URL === 'cursos'
                                 ? t('coursesContainer.titleCourse')
                                 : t('coursesContainer.titleTour')}
                         </h2>
@@ -106,6 +107,7 @@ export const CoursesConteiner = () => {
                                 gradientButtonTours,
                                 gradientButtonCourses,
                             ]}
+                            language={i18n.language}
                         />
                     </div>
                     <Footer />

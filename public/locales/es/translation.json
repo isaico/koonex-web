@@ -1,26 +1,30 @@
 {
     "header": {
         "sub": "Viajes y Guias",
-        "desc":"Mantente presente y deja atrás el estrés, te invitamos a conectar con el mar y su silencio.",
-        "btn":"COMENZAR!"
-        
+        "desc": "Mantente presente y deja atrás el estrés, te invitamos a conectar con el mar y su silencio.",
+        "btn": "COMENZAR!"
     },
-    "coursesContainer":{
+    "coursesContainer": {
         "titleCourse": "ESTOS CURSOS SON PARA TI!!",
         "titleTour": "ESTOS RECORRIDOS  SON PARA TI!!",
-        "sub":"Tenemos diferentes niveles de cursos y  certificaciónes de buceo avalados. Si eres de los que quieren profundizar en sus conocimientos sobre el buceo y el medio marino, o quieres dedicarte profesionalmente al buceo para compartir y guiar a otros, tenemos cursos para ti.",
-        "bannerTitle":"¡Conecta con el océano!",
-        "bannerDesc":"Elija sus {{gradientTitle}} favoritos, compre y disfrute. Nosotros nos encargamos del resto. Incluye: Instrucción, Instructor y equipo completo. Si deseas mas informacion no dude en contactarte",
-        "bannerBtn":"ENVÍANOS UN CORREO",
-        "categoryTitleCourse":"CURSOS",
-        "categoryTitleTour":"RECORRIDOS"
-        
+        "sub": "Tenemos diferentes niveles de cursos y  certificaciónes de buceo avalados. Si eres de los que quieren profundizar en sus conocimientos sobre el buceo y el medio marino, o quieres dedicarte profesionalmente al buceo para compartir y guiar a otros, tenemos cursos para ti.",
+        "bannerTitle": "¡Conecta con el océano!",
+        "bannerDesc": "Elija sus {{gradientTitle}} favoritos, compre y disfrute. Nosotros nos encargamos del resto. Incluye: Instrucción, Instructor y equipo completo. Si deseas mas informacion no dude en contactarte",
+        "bannerBtn": "ENVÍANOS UN CORREO",
+        "categoryTitleCourse": "CURSOS",
+        "categoryTitleTour": "RECORRIDOS"
     },
-    "navbar":{
-        "linkHome":"INICIO",
-        "linkProd":"PRODUCTOS",
-        "linkProdChild1":"CURSOS",
-        "linkProdChild2":"RECORRIDOS",
-        "linkContact":"CONTACTO"
+    "navbar": {
+        "linkHome": "INICIO",
+        "linkProd": "PRODUCTOS",
+        "linkProdChild1": "CURSOS",
+        "linkProdChild2": "RECORRIDOS",
+        "linkContact": "CONTACTO"
+    },
+    "featured": "Destacado",
+    "cardBtn":"Ver info",
+    "courseDetail":{
+        "duration":"Duracion",
+        "infoBtn":"Obtener!"
     }
 }
