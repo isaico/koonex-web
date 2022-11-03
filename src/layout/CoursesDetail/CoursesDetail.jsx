@@ -71,7 +71,7 @@ export const CoursesDetail = () => {
                             <ul className="py-6 text-lg">
                                 {currentLanguage === 'es'
                                     ? item.included?.map((item, index) => (
-                                          <li className="flex items-center ">
+                                          <li className="flex items-center " key={index}>
                                               <BsCheck2All className="text-accent min-w-[20px] my-2" />{' '}
                                               <span className="sm:px-2 p-2 text-base sm:text-lg">
                                                   {item}
@@ -79,7 +79,7 @@ export const CoursesDetail = () => {
                                           </li>
                                       ))
                                     : item.includedEN?.map((item, index) => (
-                                          <li className="flex items-center">
+                                          <li className="flex items-center" key={index}>
                                               <BsCheck2All className="text-accent min-w-[20px]" />{' '}
                                               <span className="sm:px-2 p-2 text-base sm:text-lg">
                                                   {item}

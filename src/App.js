@@ -14,7 +14,6 @@ function App() {
                 <Route exact path="/:URL" element={<CoursesConteiner />} />
                 <Route exact path="/:URL/:URL/:DETAILURL" element={<CoursesDetail />} />
             </Routes>
-            
         </BrowserRouter>
     );
 }

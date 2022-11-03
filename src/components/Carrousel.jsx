@@ -3,8 +3,8 @@ import { RiArrowDownSLine } from 'react-icons/ri';
 export const Carrousel = ({ images }) => {
     return (
         <div className="h-96 carousel carousel-vertical group w-auto rounded-box hover:cursor-grab">
-            {images?.map((item) => (
-                <div className="carousel-item min-h-full">
+            {images?.map((item,index) => (
+                <div className="carousel-item min-h-full" key={index}>
                     <img src={item.image} alt={item.alt} />
                 </div>
             ))}

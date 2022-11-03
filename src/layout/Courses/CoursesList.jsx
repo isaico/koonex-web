@@ -36,7 +36,7 @@ export const CoursesList = (props) => {
                                 ? course.text
                                 : course.textEN}
                         </p>
-                        <div className="card-actions justify-end">
+                        <div className="card-actions justify-end mt-4 sm:mt-0">
                             <NavLink to={`${URL}/${course.id}`}>
                                 <button
                                     className={`btn button 
