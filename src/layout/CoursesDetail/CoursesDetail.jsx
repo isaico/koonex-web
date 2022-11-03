@@ -6,6 +6,7 @@ import { BsCheck2All } from 'react-icons/bs';
 import { Footer } from '../Footer';
 import { Loader } from '../../components/Loader';
 import { useTranslation } from 'react-i18next';
+import { Modal } from '../../components/Modal';
 
 export const CoursesDetail = () => {
     const { DETAILURL } = useParams();
@@ -40,22 +41,22 @@ export const CoursesDetail = () => {
                 <Loader></Loader>
             ) : (
                 <div className="hero min-h-screen bg-mesh flex flex-col justify-between">
-                    <h2 className="text-8xl max-w-3/4 font-extrabold self-center mt-16 text-center p-10 text-transparent bg-clip-text bg-gradient-to-r from-white  to-indigo font-monserrat ">
+                    <h2 className="text-4xl sm:text-8xl max-w-3/4 font-extrabold self-center mt-16 text-center p-10 text-transparent bg-clip-text bg-gradient-to-r from-white  to-secondary font-monserrat ">
                         {currentLanguage === 'es'
                             ? item.title?.toUpperCase()
                             : item.titleEN?.toUpperCase()}
                     </h2>
-                    <div className="hero-content  flex-col lg:flex-row-reverse">
-                        <div className="relative min-w-fit">
+                    <div className="hero-content flex-col lg:flex-row-reverse">
+                        <div className="relative w-[90vw]  sm:min-w-fit">
                             <Carrousel images={item.imageDetail} />
                         </div>
                         <div className="p-4 text-white first:none">
-                            <h3 className="text-2xl text-center text-semibold italic ">
+                            <h3 className="text-xl sm:text-2xl text-center text-semibold italic ">
                                 {currentLanguage === 'es'
                                     ? item.subtitle
                                     : item.subtitleEN}
                             </h3>
-                            <p className=" text-lg py-6">
+                            <p className=" text-[0.9rem]  sm:text-lg py-8 sm:py-6">
                                 {currentLanguage === 'es'
                                     ? item.description
                                     : item.descriptionEN}
@@ -70,33 +71,57 @@ export const CoursesDetail = () => {
                             <ul className="py-6 text-lg">
                                 {currentLanguage === 'es'
                                     ? item.included?.map((item, index) => (
-                                          <li className="flex items-center">
-                                              <BsCheck2All className="text-accent" />{' '}
-                                              <span className="px-2">
+                                          <li className="flex items-center ">
+                                              <BsCheck2All className="text-accent min-w-[20px] my-2" />{' '}
+                                              <span className="sm:px-2 p-2 text-base sm:text-lg">
                                                   {item}
                                               </span>
                                           </li>
                                       ))
                                     : item.includedEN?.map((item, index) => (
                                           <li className="flex items-center">
-                                              <BsCheck2All className="text-accent" />{' '}
-                                              <span className="px-2">
+                                              <BsCheck2All className="text-accent min-w-[20px]" />{' '}
+                                              <span className="sm:px-2 p-2 text-base sm:text-lg">
                                                   {item}
                                               </span>
                                           </li>
                                       ))}
                             </ul>
 
-                            <p>{t('courseDetail.duration')}:  {currentLanguage === 'es'
+                            <p>
+                                {t('courseDetail.duration')}:{' '}
+                                {currentLanguage === 'es'
                                     ? item.duration
-                                    : item.durationEN}</p>
-                            <button
-                                className={`btn btn-card mt-4${
-                                    loader ? 'animate-pulse' : ''
-                                }`}
-                            >
-                                {t('courseDetail.infoBtn')}
-                            </button>
+                                    : item.durationEN}
+                            </p>
+                            <div className="flex sm:flex-row flex-col mx-8 gap-5 sm:gap-2  flex-wrap items-center justify-between mt-8">
+                                <button
+                                    className={`btn btn-card hover:scale-[1.1] hover:drop-shadow-xl w-[13rem] sm:w-auto `}
+                                >
+                                    <span className=" px-6">
+                                        {t('courseDetail.infoBtn')}
+                                    </span>
+                                </button>
+
+                                {item.operationsTextEN && (
+                                    <Modal 
+                                        openText={t('modal.openOperation')}
+                                        modalTitle={t('modal.titleOperation')}
+                                        modalText={
+                                            currentLanguage === 'es'
+                                                ? item.operationsTextES
+                                                : item.operationsTextEN
+                                        }
+                                        modalClose={t('modal.close')}
+                                    />
+                                )}
+                                <Modal
+                                    openText={t('modal.openPolicy')}
+                                    modalTitle={t('modal.titlePolicy')}
+                                    modalText={t('modal.textPolicy')}
+                                    modalClose={t('modal.close')}
+                                />
+                            </div>
                         </div>
                     </div>
                     <Footer />

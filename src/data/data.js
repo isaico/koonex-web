@@ -1,28 +1,21 @@
 export const coursesArray = [
     {
-        title: 'Bajo el mar de Alguna ciudad!',
-        titleEN: 'Under the sea of agluna',
-        subtitle: 'Tour lancha transparente + Snorke! ',
-        subtitleEN: 'Tours and somthing in inglish for this',
-        text: 'Vive Cozumel desde nuestra. lancha transparente. Una de las islas mas grandes y pobladas de Mexico. Paraiso del caribe en la costa del estado de quintana Roo ',
-        textEN: 'live zocume from our boute transparent asdasd1234 some more in inglish words',
+        title: 'Curso avanzado de Aguas Abiertas',
+        titleEN: 'Advanced Open Water Course',
+        subtitle:
+            'Orientado a quienes quieren mejorara sus habilidades de buzo',
+        subtitleEN:
+            'Oriented to those who want to improve their diving skills.',
+        text: 'Adentrate en el mundo submarino acompañado de nuestros mejores instructores',
+        textEN: 'Enter the underwater world accompanied by our best instructors',
         description:
-            'Arrancamos nuestro tour y nos dirigimos hacia la zona norte para conocer el muelle San Miguel, donde se encuentra la primer puerta que tuvo Cozumel. Pasaremos por el monumento al buzo y posteriormente conocerás las maravillosas sorpresas que esta isla tiene debajo del agua, como los barcos hundidos, inmensa variedad de corales y peces tropicales, las cuales podrás disfrutar desde nuestra embarcación, totalmente transparente. ¡Al final nos trasladamos hacia los arrecifes artificiales "Lego" en donde podrás hacer snorke! Y disfrutar de la maravillosa vida marina',
-        descriptionEN: 'some more desc english word bla bla more and more',
-        duration: '1 Hora y 30 minutos',
-        durationEN: '1 hour and 30 minutes',
-        included: [
-            '1 agua embotellada por persona',
-            '1 Refresco por persona',
-            '2 cervezas  por persona',
-            'EQUIPO SNORKE!',
-        ],
-        includedEN: [
-            '1 watter bottle for each persone',
-            '1 soda for each persone',
-            '2 bears for each persone',
-            'SNORKE equipment!',
-        ],
+            'Adentrate en el mundo submarino acompañado de nuestros mejores instructores, en una aventura como ninguna otra por las aguas mas coloridas del caribe mexicano. Conoce los arrecifes mas bellos y llenos de vida marina.',
+        descriptionEN:
+            'Enter the underwater world accompanied by our best instructors, in an adventure like no other in the most colorful waters of the Mexican Caribbean. Get to know the most beautiful reefs full of marine life.',
+        duration: 'de 2 a 3 días, según las necesidades de los alumnos',
+        durationEN: 'from 2 to 3 days, depending on the needs of the students.',
+        included: ['Instructor', 'EQUIPO SNORKE!'],
+        includedEN: ['Instructor', 'SNORKE EQUIPMENT!'],
         image: 'https://placeimg.com/400/400/arch',
         imageDetail: [
             {
@@ -38,31 +31,70 @@ export const coursesArray = [
                 alt: 'some alt desc',
             },
         ],
-        id: 'asd123',
+        id: '023c7717-fe7c-49d1-84a5-0cc3cb35a703',
+        featured: false,
     },
     {
-        title: 'Bajo el mar de Rio de janeiro!',
-        titleEN: 'Under the sea of Cozumel',
-        subtitle: 'Tour lancha transparente + Snorke! ',
-        subtitleEN: 'Tours and somthing in inglish for this',
-        text: 'Vive Cozumel desde nuestra. lancha transparente. Una de las islas mas grandes y pobladas de Mexico. Paraiso del caribe en la costa del estado de quintana Roo ',
-        textEN: 'live zocume from our boute transparent asdasd1234 some more in inglish words',
+        title: 'Curso de Aguas Abiertas PADI',
+        titleEN: 'PADI Open Water Course',
+        subtitle:
+            'Orientado a quienes quieren mejorara sus habilidades de buzo',
+        subtitleEN:
+            'Oriented to those who want to improve their diving skills.',
+        text: 'Obtén tu certificación PADI para sumergirte en la mejor experiencia',
+        textEN: 'Get your PADI certification to immerse yourself in the best experience',
         description:
-            'Arrancamos nuestro tour y nos dirigimos hacia la zona norte para conocer el muelle San Miguel, donde se encuentra la primer puerta que tuvo Cozumel. Pasaremos por el monumento al buzo y posteriormente conocerás las maravillosas sorpresas que esta isla tiene debajo del agua, como los barcos hundidos, inmensa variedad de corales y peces tropicales, las cuales podrás disfrutar desde nuestra embarcación, totalmente transparente. ¡Al final nos trasladamos hacia los arrecifes artificiales "Lego" en donde podrás hacer snorke! Y disfrutar de la maravillosa vida marina',
-        descriptionEN: 'some more desc english word bla bla more and more',
-        duration: '1 Hora y 30 minutos',
-        durationEN: '1 hour and 30 minutes',
+            'Si siempre has querido tomar lecciones de buceo, experimentar una aventura sin igual y ver el mundo bajo las olas, aquí es donde comienza. Obtén tu certificación de buceo con el curso PADI Open Water.',
+        descriptionEN:
+            "if you've always wanted to take scuba lessons, experience an unparalleled adventure and see the world beneath the waves, this is where it starts. Get your scuba certification with the PADI Open Water Diver course",
+        duration: 'de 3 a 5 días, según las necesidades de los alumnos.',
+        durationEN: 'from 3 to 5 days, depending on the needs of the students',
+        included: ['Instructor', 'Libro en pdf', 'EQUIPO SNORKE!'],
+        includedEN: ['Instructor', 'Pdf book', 'SNORKE EQUIPMENT!'],
+        image: 'https://placeimg.com/400/400/arch',
+        imageDetail: [
+            {
+                image: 'https://scubamau.com/wp-content/uploads/2022/02/Mujer-haciendo-snorkeling.jpg',
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://scubamau.com/wp-content/uploads/2022/02/Patas-de-rana-para-hacer-snorkel.jpg',
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://scubamau.com/wp-content/uploads/2022/02/Persona-haciendo-snorkeling-avistando-una-tortuga.jpg',
+                alt: 'some alt desc',
+            },
+        ],
+        id: 'e89e3cd9-811f-4ed8-8eb9-977d26877f17',
+        featured: false,
+    },
+    {
+        title: 'Paquete - Curso de aguas abiertas + 2 noches ',
+        titleEN: 'PACKAGE - Open water course + 2 nights ',
+        subtitle: 'Obtenga su certificación PADI y duerma con nosotros.',
+        subtitleEN: 'Get your PADI Certification and sleep with us!',
+        text: 'El curso se divide en 3 partes: Una parte teórica que incluye 5 capítulos teóricos donde se exponen las reglas básicas del buceo, el equipo a utilizar, la planificación del buceo, la fisiología y la física del buceo, las técnicas básicas de rescate, etc.',
+        textEN: 'The course is divided into 3 parts: A theoretical part that includes 5 theoretical chapters where the basic rules of diving, the equipment to use, diving planning, the physiology and physics of diving, basic rescue techniques, etc.',
+        description:
+            'El curso se divide en 3 partes: Una parte teórica que incluye 5 capítulos teóricos donde se enseñan las reglas básicas del buceo, el equipo a utilizar, la planificación del buceo, la fisiología y la física del buceo, las técnicas básicas de rescate, etc. Otra parte en aguas confinadas donde se practicarán ejercicios para que domines las habilidades necesarias como buceador y aprendas a resolver cualquier situación que pueda darse en el buceo. La última parte del curso consiste en 4 inmersiones en aguas abiertas para practicar las habilidades que acabas de aprender y disfrutar del entorno subacuático. Las primeras 2 inmersiones se realizarán desde la playa, donde las condiciones son óptimas para aprender y practicar, y las últimas 2 inmersiones se realizarán desde la embarcación una vez que tengas la confianza y habilidad para navegar por el arrecife más famoso de Latinoamérica. Nos preocupamos por nuestros clientes y siempre hacemos grupos pequeños para ofrecer el mejor servicio posible. Los grupos son de un máximo de 4 personas por instructor, pero a menudo comenzamos el curso con 1 o 2 personas. Nuestro equipo se encargará de que todos los alumnos se sientan seguros y preparados para bucear de forma autónoma. El curso dura 2 días. Si son necesarios días adicionales para que el alumno domine las habilidades, puede aplicarse un cargo adicional. ',
+        descriptionEN:
+            'The course is divided into 3 parts: A theoretical part that includes 5 theoretical chapters where the basic rules of diving, the equipment to use, diving planning, the physiology and physics of diving, basic rescue techniques, etc. are taught. Another part in confined water where exercises will be practiced to make sure you master the necessary skills as a diver and learn to solve any situation that may occur while diving. The last part of the course consists of 4 open water dives to practice the skills you have just learned and enjoy the underwater environment. The first 2 dives will take place from the beach, where conditions are optimal for learning and practicing, and the last 2 dives will take place from the boat once you have the confidence and skill to navigate the most famous reef in Latin America. We care about our clients and we always do small groups to offer the best possible service. Groups are a maximum of 4 people per instructor, but we often start the course with 1 or 2 people. Our team will ensure that all students feel safe and ready to dive autonomously. The course lasts 2 days. If additional days are necessary for the student to master the skills, an additional charge may be apply.',
+        duration: '2 dias',
+        durationEN: '2 days',
         included: [
-            '1 agua embotellada por persona',
-            '1 Refresco por persona',
-            '2 cervezas  por persona',
-            'EQUIPO SNORKE!',
+            'Material de aprendizaje',
+            'Equipamiento',
+            'Transporte',
+            'Certificacion',
+            'Instructor PADI experimentado',
         ],
         includedEN: [
-            '1 watter bottle for each persone',
-            '1 soda for each persone',
-            '2 bears for each persone',
-            'SNORKE equipment!',
+            'Learning material',
+            'Equipment',
+            'Transportation',
+            'Certification',
+            'Experienced PADI instructor',
         ],
         image: 'https://placeimg.com/400/400/arch',
         imageDetail: [
@@ -79,18 +111,62 @@ export const coursesArray = [
                 alt: 'some alt desc',
             },
         ],
-        id: 'asd124123',
-        featured:true
+        id: '299c4244-0c66-461e-9ab1-9ef7f75f205b',
+        featured: true,
+    },
+    {
+        title: 'Paquete - Curso avanzado de aguas abiertas + 1 noche ',
+        titleEN: 'PACKAGE - Advanced open water course + 1 night',
+        subtitle:
+            'No es necesario ser "Avanzado" para hacerlo, está diseñado para avanzar en el buceo',
+        subtitleEN:
+            'You do not have to be “Advanced” to do so it is designed to advance your diving!',
+        text: 'Puedes empezar inmediatamente una vez que hayas conseguido tu certificación PADI Open Water Diver. El curso te ayuda a ganar confianza y a ampliar tus habilidades de buceo a través de diferentes inmersiones de aventura',
+        textEN: 'You can start immediately once you have achieved your PADI Open Water Diver certification. The course helps you build confidence and expand your diving skills through different adventure dives',
+        description:
+            'El curso te ayuda a ganar confianza y ampliar tus habilidades de buceo a través de diferentes inmersiones de aventura. Probarás diferentes especialidades mientras ganas experiencia bajo la supervisión de tu instructor PADI.En la profundización en las diferentes técnicas de buceo, mejorarás la flotabilidad y tu orientación con la brújula. Haremos inmersiones de hasta 30 metros, bucearemos de noche e incluso en barcos insumisos. Se divide en 5 inmersiones de especialidad con su correspondiente explicación teórica específica para cada especialidad. Dos de las inmersiones estarán dedicadas al buceo profundo (máximo 30 metros), al buceo de navegación con brújula y tres serán elegidas por el alumno. ',
+        descriptionEN:
+            'The course helps you build confidence and expand your diving skills through different adventure dives. You try differents specialities while you gain experience under the supervision of your PADI instructor. In the deepening on the different diving techniques,you will improve the buoyancy and your orientation with the compass. We will do dives up to 30 meters, we will dive at night, and even insunken ships. It is divided into 5 specialty dives with their corresponding specific theoretical explanation for each specialty. Two of the dives will be dedicated to deep diving (max. 30 meters), navigation diving with a compass and three will be chosen by the student.',
+        durationEN: '1 Day.',
+        duration: '1 Dia.',
+        included: [
+            '1 noche en suite con vistas al mar para 1 persona',
+            'Equipamiento Completo.',
+            'Instructor experimentado',
+        ],
+        includedEN: [
+            '1 night on sea view suite for 1 person.',
+            'Full Equipment',
+            'Experienced nstructor',
+        ],
+        image: 'https://placeimg.com/400/400/arch',
+        imageDetail: [
+            {
+                image: 'https://scubamau.com/wp-content/uploads/2022/02/Mujer-haciendo-snorkeling.jpg',
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://scubamau.com/wp-content/uploads/2022/02/Patas-de-rana-para-hacer-snorkel.jpg',
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://scubamau.com/wp-content/uploads/2022/02/Persona-haciendo-snorkeling-avistando-una-tortuga.jpg',
+                alt: 'some alt desc',
+            },
+        ],
+        id: 'cf942770-67c4-47e2-b3b2-2c6834e59ca3',
+        featured: true,
     },
 ];
+
 export const toursArray = [
     {
         title: 'Bajo el mar de Cozumel!',
         titleEN: 'Under the sea of Cozumel',
         subtitle: 'Tour lancha transparente + Snorke! ',
-        subtitleEN: 'Tours and somthing in inglish for this',
+        subtitleEN: 'Transparent boat tour + Snorke!',
         text: 'Vive Cozumel desde nuestra. lancha transparente. Una de las islas mas grandes y pobladas de Mexico. Paraiso del caribe en la costa del estado de quintana Roo ',
-        textEN: 'live zocume from our boute transparent asdasd1234 some more in inglish words',
+        textEN: 'Experience Cozumel from our transparent boat. One of the largest and most populated islands in Mexico. Caribbean paradise on the coast of the state of Quintana Roo. ',
         description:
             'Arrancamos nuestro tour y nos dirigimos hacia la zona norte para conocer el muelle San Miguel, donde se encuentra la primer puerta que tuvo Cozumel. Pasaremos por el monumento al buzo y posteriormente conocerás las maravillosas sorpresas que esta isla tiene debajo del agua, como los barcos hundidos, inmensa variedad de corales y peces tropicales, las cuales podrás disfrutar desde nuestra embarcación, totalmente transparente. ¡Al final nos trasladamos hacia los arrecifes artificiales "Lego" en donde podrás hacer snorke! Y disfrutar de la maravillosa vida marina',
         descriptionEN: 'some more desc english word bla bla more and more',
@@ -123,31 +199,33 @@ export const toursArray = [
                 alt: 'some alt desc',
             },
         ],
-        id: 'aa2a11',
+        id: '6b0a110f-ea8c-4860-bce0-8b03dd7ab5df',
         featured: true,
     },
     {
-        title: 'Bajo el mar de argentina!',
-        titleEN: 'Under the sea of argentina',
+        title: 'El cielo snorkel tour + 2 noches',
+        titleEN: 'El cielo snorkel tour + 2 nights',
         subtitle: 'Tour lancha transparente + Snorke! ',
         subtitleEN: 'Tours and somthing in inglish for this',
-        text: 'Vive Cozumel desde nuestra. lancha transparente. Una de las islas mas grandes y pobladas de Mexico. Paraiso del caribe en la costa del estado de quintana Roo ',
-        textEN: 'live zocume from our boute transparent asdasd1234 some more in inglish words',
+        text: 'Visitaremos 2 arrecifes y las zonas de El Cielo',
+        textEN: 'We will visit 2 reefs and the areas of El Cielo',
         description:
             'Arrancamos nuestro tour y nos dirigimos hacia la zona norte para conocer el muelle San Miguel, donde se encuentra la primer puerta que tuvo Cozumel. Pasaremos por el monumento al buzo y posteriormente conocerás las maravillosas sorpresas que esta isla tiene debajo del agua, como los barcos hundidos, inmensa variedad de corales y peces tropicales, las cuales podrás disfrutar desde nuestra embarcación, totalmente transparente. ¡Al final nos trasladamos hacia los arrecifes artificiales "Lego" en donde podrás hacer snorke! Y disfrutar de la maravillosa vida marina',
-        descriptionEN: 'some more desc english word bla bla more and more',
-        duration: '1 Hora y 30 minutos',
-        durationEN: '1 hour and 30 minutes',
+        descriptionEN:
+            'We will visit 2 reefs and the areas of El Cielo and El Cielito, in the Natural Protected Area of the National Park Protected Natural Area Cozumel Reefs National Park. Capacity of the boat based on the occupancies established by the sanitary authorities, respecting the health authorities, respecting the epidemiological traffic light.',
+        duration: '3:30 a 4 horas',
+        durationEN: '3.5 to 4 hours',
         included: [
-            '1 agua embotellada por persona',
-            '1 Refresco por persona',
-            '2 cervezas  por persona',
+            '2 noches para dos personas en una suite con vista al mar con desayuno americano incluido',
+            'Guia certificado',
+            'Agua natural, agua aromatizada, refresco o cerveza',
             'EQUIPO SNORKE!',
         ],
         includedEN: [
-            '1 watter bottle for each persone',
-            '1 soda for each persone',
-            '2 bears for each persone',
+            '2 nights for two people in a Ocean View Suit with American brackfast included',
+            'Certified guide',
+            'Natural water, flavored water, soft drink ,or beer',
+            '',
             'SNORKE equipment!',
         ],
         image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
@@ -165,31 +243,65 @@ export const toursArray = [
                 alt: 'some alt desc',
             },
         ],
-        id: 'aa2a111231',
+        id: 'b0444850-4e23-417d-befa-9e699e7e012f',
         featured: false,
     },
     {
-        title: 'Bajo el mar de bolivia xd!',
-        titleEN: 'Under the sea of bolivia',
-        subtitle: 'Tour lancha transparente + Snorke! ',
-        subtitleEN: 'Tours and somthing in inglish for this',
-        text: 'Vive Cozumel desde nuestra. lancha transparente. Una de las islas mas grandes y pobladas de Mexico. Paraiso del caribe en la costa del estado de quintana Roo ',
-        textEN: 'live zocume from our boute transparent asdasd1234 some more in inglish words',
+        title: 'Descrubre el buceo (Playa 1 tanke)',
+        titleEN: 'Discover Scuba diving (Playa 1 tank) ',
+        subtitle: 'Para adentrarte en el mundo del buceo',
+        subtitleEN: 'To enter the world of scuba diving',
+        text: 'Sumergete y descubre la magia submarina que Cozumel tiene para ti.',
+        textEN: 'Dive and discover the underwater magic that Cozumel has for you.',
         description:
-            'Arrancamos nuestro tour y nos dirigimos hacia la zona norte para conocer el muelle San Miguel, donde se encuentra la primer puerta que tuvo Cozumel. Pasaremos por el monumento al buzo y posteriormente conocerás las maravillosas sorpresas que esta isla tiene debajo del agua, como los barcos hundidos, inmensa variedad de corales y peces tropicales, las cuales podrás disfrutar desde nuestra embarcación, totalmente transparente. ¡Al final nos trasladamos hacia los arrecifes artificiales "Lego" en donde podrás hacer snorke! Y disfrutar de la maravillosa vida marina',
-        descriptionEN: 'some more desc english word bla bla more and more',
+            'Sumergete y descubre la magia submarina que Cozumel tiene para ti. entraras a un mundo lleno de colores ya que Cozumel es el lugar predilecto para bucear de su belleza natural.',
+        descriptionEN:
+            'Dive in and discover the underwater magic that cozumel has for you. You will enter a world full of colors since Cozumel is the favorite place to dive of its natural beauty',
+        duration: '1 Hora y 30 minutos',
+        durationEN: '1 hour and 30 minutes',
+        included: ['1 agua embotellada por persona', 'EQUIPO SNORKE!'],
+        includedEN: ['1 watter bottle for each persone', 'SNORKE equipment!'],
+        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        imageDetail: [
+            {
+                image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://placeimg.com/600/600/arch',
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://placeimg.com/600/600/arch',
+                alt: 'some alt desc',
+            },
+        ],
+        id: '382363c8-9dd2-4b8e-b01c-c3e4281e3207',
+        featured: false,
+    },
+    {
+        title: 'Tour en lancha transparente a los barcos hundidos',
+        titleEN: 'Clear boat tour in the sunken ships ',
+        subtitle: 'Para adentrarte en el mundo del buceo',
+        subtitleEN: 'To enter the world of scuba diving',
+        text: 'Ven a disfrutar en uno de nuestros mas originales paseos sobre nuestra lancha transparente',
+        textEN: 'Come and enjoy one of our most original rides on our transparent boat',
+        description:
+            'Maravíllate con nuestra lancha transparente! Ven a disfrutar en uno de nuestros mas originales paseos sobre nuestra lancha transparente y los barcos hundidos del norte de la isla, aprecia el maravilloso panorama bajo el mar!',
+        descriptionEN:
+            'Marvel with our transparent boat! Come and enjoy one of our most original tours on our transparent boat and the wrecks of the north of the island, appreciate the wonderful panorama under the sea!',
         duration: '1 Hora y 30 minutos',
         durationEN: '1 hour and 30 minutes',
         included: [
-            '1 agua embotellada por persona',
-            '1 Refresco por persona',
-            '2 cervezas  por persona',
+            'Viaje en barco transparente',
+            'Guia experimentado',
+            'Bebidas',
             'EQUIPO SNORKE!',
         ],
         includedEN: [
-            '1 watter bottle for each persone',
-            '1 soda for each persone',
-            '2 bears for each persone',
+            'Transparent boat trip',
+            'Experienced guide',
+            'Drinks',
             'SNORKE equipment!',
         ],
         image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
@@ -207,7 +319,100 @@ export const toursArray = [
                 alt: 'some alt desc',
             },
         ],
-        id: 'aa2aaa212',
+        id: 'b6d416fc-e04e-443c-87a3-492f3e9549dc',
+        featured: false,
+    },
+    {
+        title: 'Tour de snorkel',
+        titleEN: 'Snorkel Tour ',
+        subtitle:
+            'Sumérgete y descubre la magia submarina que Cozumel tiene para ti. ',
+        subtitleEN:
+            'Dive and discover the underwater magic that Cozumel has for you. ',
+        text: 'Vive Cozumel desde nuestra. lancha transparente. Una de las islas mas grandes y pobladas de Mexico. Paraiso del caribe en la costa del estado de quintana Roo ',
+        textEN: 'live zocume from our boute transparent asdasd1234 some more in inglish words',
+        description:
+            'Sumérgete y descubre la magia submarina que Cozumel tiene para ti. Entrarás a un mundo lleno de colores ya que Cozumel es el lugar predilecto para practicar snorkel y buceo por su belleza natural. Visitaremos 2 arrecifes y las áreas del Cielo y el Cielito, en el Área Natural Protegida Parque Nacional Arrecifes de Cozumel. Capacidad de la embarcación en base a las ocupaciones establecidas por las autoridades sanitarias respetando el semáforo epidemiológico.',
+        descriptionEN:
+            'Dive and discover the underwater magic that Cozumel has for you. You will enter a world full of colors since Cozumel is the favorite place to practice snorkeling and diving for its natural beauty. We will visit 2 reefs and the areas of Cielo and El Cielito, in the Natural Protected Area of the National Park Protected National Park Reefs of Cozumel. Vessel capacity based on the occupancies established by the health authorities, respecting the epidemiological authorities, respecting the epidemiological traffic light.',
+        duration: '3:30 a 4 horas',
+        durationEN: '3.5 to 4 hours',
+        included: [
+            'Guia experimentado',
+            'Agua natural, agua de sabor o refresco, cerveza, y fruta de temporada',
+            'Impuesto de muelle y Parque marino',
+            'EQUIPO SNORKE!',
+        ],
+
+        operationsTextEN:
+            'Daily departures at 12:30 hrs, with embarkation and disembarkation at the dock in front of the hotel. dock in front of the hotel.',
+
+        operationsTextES:
+            'Salidas diarias a las 12:30 horas, con embarque y desembarque en el muelle frente al hotel. muelle frente al hotel.',
+
+        includedEN: [
+            'Certified Guide',
+            'Natural water, flavored water or soft drink, beer and seasonal fruit',
+            'Dock taxes and Marine park',
+            'SNORKE equipment!',
+        ],
+        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        imageDetail: [
+            {
+                image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://placeimg.com/600/600/arch',
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://placeimg.com/600/600/arch',
+                alt: 'some alt desc',
+            },
+        ],
+        id: 'af6751a0-9e1f-4075-b687-86a6a7b916d6',
+        featured: true,
+    },
+    {
+        title: 'Submarino Atlantico',
+        titleEN: 'Atlantis Submarine',
+        subtitle: 'Da un paseo en el unico Sumarino turistico de Mexico ',
+        subtitleEN: "Take a ride on Mexico's only tourist Sumarino.",
+        text: 'Permítenos llevarte en el único submarino turístico de México, el Atlantis XII. Este increíble navío se deslizará suavemente hasta profundidades más allá de los 30 metros',
+        textEN: "Let us take you on Mexico's only tourist submarine, the Atlantis XII. This incredible vessel will glide smoothly to depths beyond 100 feet (30 meters).",
+        description:
+            'Este increíble navío se deslizará suavemente hasta profundidades más allá de los 30 metros manteniéndote a ti  y tu familia en un ambiente presurizado y confortablemente climatizado. Con más de 26 claraboyas y una gran ventana frontal situada en la proa del submarino, todos disfrutarán de las más impresionantes vistas del arrecife de Chankanaab, el segundo más grande del mundo. Tendrás la oportunidad de visitar un misterioso barco hundido, el Felipe Xicoténcatl, a más de 20 metros de profundidad, mientras un miembro de nuestra tripulación le acompaña con una entretenida narración. ',
+        descriptionEN:
+            'This incredible vessel will gently glide to depths beyond 100 feet keeping you and your family in a pressurized and comfortably air-conditioned environment. With over 26 skylights and a large front window located at the bow of the submarine, everyone will enjoy the most breathtaking views of the Chankanaab reef, the second largest in the world. You will have the opportunity to visit a mysterious sunken ship, the Felipe Xicoténcatl, at more than 20 meters deep, while a member of our crew accompanies you with an entertaining narration.',
+        duration: '2 horas',
+        durationEN: '2 hours',
+        included: [
+            'Agua natural, agua de sabor o refresco, cerveza, y fruta de temporada',
+            'Pase para subir',
+            'EQUIPO SNORKE!',
+        ],
+        includedEN: [
+            'Natural water, flavored water or soft drink, beer and seasonal fruit',
+            'Ticket to ride',
+            'SNORKE equipment!',
+        ],
+        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        imageDetail: [
+            {
+                image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://placeimg.com/600/600/arch',
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://placeimg.com/600/600/arch',
+                alt: 'some alt desc',
+            },
+        ],
+        id: '5d63e72f-c3e5-4a07-8893-4662188d1131',
         featured: false,
     },
 ];

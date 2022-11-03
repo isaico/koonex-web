@@ -22,9 +22,17 @@
         "linkContact": "CONTACTO"
     },
     "featured": "Destacado",
-    "cardBtn":"Ver info",
-    "courseDetail":{
-        "duration":"Duracion",
-        "infoBtn":"Obtener!"
+    "cardBtn": "Ver info",
+    "courseDetail": {
+        "duration": "Duracion",
+        "infoBtn": "Obtener!"
+    },
+    "modal": {
+        "openPolicy": "PAGO Y CANCELACIÓN",
+        "openOperation": "DIAS HABILES",
+        "titleOperation": "DIAS HABILES",
+        "titlePolicy": "POLÍTICA DE PAGO Y CANCELACIÓN",
+        "textPolicy": "50% de depósito para confirmar la reserva. Suplemento del 5% para pagos con tarjeta de crédito. Cancelación gratuita hasta 24 horas antes de la llegada. Llegada. Si no se presenta, se cobrará el 100% del depósito.",
+        "close": "Cerrar"
     }
 }

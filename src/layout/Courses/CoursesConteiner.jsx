@@ -20,7 +20,6 @@ export const CoursesConteiner = () => {
     const { URL } = useParams();
     const [gradientTitle, setGradientTitle] = useState('');
     const [loader, setLoader] = useState(true);
-    
 
     useEffect(() => {
         setTimeout(function () {
@@ -42,19 +41,21 @@ export const CoursesConteiner = () => {
                 <Loader />
             ) : (
                 <div className="flex flex-col bg-primary">
-                    <div className="screen-container  w-3/5 self-center my-16">
+                    <div className="screen-container w-3/4  sm:w-3/5 self-center my-16">
                         <h2
-                            className={`self-center text-center my-10  text-transparent text-8xl bg-clip-text font-monserrat font-extrabold ${
+                            className={` self-center text-center my-10  text-transparent text-5xl bg-clip-text font-monserrat font-extrabold ${
                                 gradientTitle !== 'CURSOS'
                                     ? gradientTitleTours
                                     : gradientTitleCourses
-                            }`}
+                            } sm:text-8xl
+                            
+                            `}
                         >
                             {URL === 'cursos'
                                 ? t('coursesContainer.titleCourse')
                                 : t('coursesContainer.titleTour')}
                         </h2>
-                        <p className="text-xl text-center leading-8 self-center w-2/3">
+                        <p className="sm:text-xl text-base text-center leading-8 self-center w-full">
                             {t('coursesContainer.sub')}
                         </p>
                     </div>
@@ -65,13 +66,13 @@ export const CoursesConteiner = () => {
                                 <img
                                     src="https://scubamau.com/wp-content/uploads/2022/03/divingcoursesandcert.jpg"
                                     alt="  a man and a woman sitting on a table"
-                                    className=" rounded-lg shadow-2xl min-w-"
+                                    className=" rounded-lg shadow-2xl sm:w-full w-3/4"
                                 />
                                 <div className="px-10 ">
-                                    <h2 className="text-5xl font-bold py-5 italic text-white ">
+                                    <h2 className="sm:text-5xl text-3xl font-bold py-5 italic text-white ">
                                         {t('coursesContainer.bannerTitle')}
                                     </h2>
-                                    <p className="py-6">
+                                    <p className="py-6 sm:text-xl text-base">
                                         {t('coursesContainer.bannerDesc', {
                                             gradientTitle,
                                         })}
@@ -94,7 +95,7 @@ export const CoursesConteiner = () => {
                                 </div>
                             </div>
                         </div>
-                        <h2 className=" text-center text-6xl font-bold mt-10 py-5 text-white italic">
+                        <h2 className=" text-center sm:text-6xl text-4xl sm:my-16 font-bold  py-5 text-white italic">
                             {gradientTitle === 'CURSOS'
                                 ? t('coursesContainer.categoryTitleCourse')
                                 : t('coursesContainer.categoryTitleTour')}

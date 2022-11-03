@@ -2,7 +2,7 @@
 {
     "header": {
         "sub": "Travels and Tours",
-        "desc":"Stay present and leave stress behind, we invito you to connect with the sea and its silence.",
+        "desc":"Stay present and leave stress behind, we invite you to connect with the sea and its silence.",
         "btn":"GET STARTED"
     },
     "coursesContainer":{
@@ -25,8 +25,16 @@
     "featured": "Featured",
     "cardBtn":"Get info",
     "courseDetail":{
-        "duration":"Duracion",
+        "duration":"Duration",
         "infoBtn":"Get Started!"
+    },
+    "modal": {
+        "openPolicy": "PAYMENT & CANCELLATION",
+        "titlePolicy": "PAYMENT AND CANCELLATION POLICY",
+        "titleOperation": "OPERATING DAYS",
+        "textPolicy":"50% deposit to confirm the reservation. Supplement of 5% for credit card payments. Free cancellation up to 24 hours before arrival.arrival. No show, 100% of the deposit will be charged.",
+        "openOperation": "OPERATING DAYS",
+        "close":"Close"
     }
 
 }

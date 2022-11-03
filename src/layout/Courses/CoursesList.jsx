@@ -9,10 +9,10 @@ export const CoursesList = (props) => {
     const currentLanguage = props.language;
 
     return (
-        <div className="flex flex-wrap ">
+        <div className="flex flex-wrap justify-center ">
             {props.data.map((course, index) => (
                 <div
-                    className="card overflow-visible w-96 glass m-16 shadow-xl "
+                    className="flex card  overflow-visible max-w-[400px] glass m-16 shadow-xl "
                     key={index}
                 >
                     {course.featured && (
@@ -23,15 +23,15 @@ export const CoursesList = (props) => {
                         </span>
                     )}
                     <figure>
-                        <img src={course.image} alt="car!" />
+                        <img src={course.image} alt="some water" className="" />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title text-white ">
+                        <h2 className="card-title font-monserrat text-white sm:text-3xl py-4 sm:py-4  ">
                             {currentLanguage === 'es'
                                 ? course.title
                                 : course.titleEN}
                         </h2>
-                        <p className="text-white/80 font-medium ">
+                        <p className="text-white/80 font-medium italic sm:py-2 ">
                             {currentLanguage === 'es'
                                 ? course.text
                                 : course.textEN}
@@ -46,7 +46,7 @@ export const CoursesList = (props) => {
                                         : props.buttonStyles[1]
                                 }`}
                                 >
-                                   {t('cardBtn')}
+                                    {t('cardBtn')}
                                 </button>
                             </NavLink>
                         </div>
