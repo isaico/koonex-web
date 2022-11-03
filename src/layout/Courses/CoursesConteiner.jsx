@@ -11,8 +11,7 @@ const gradientTitleTours = 'bg-gradient-to-r from-secondary to-accent';
 const gradientTitleCourses = 'bg-gradient-to-r from-secondary to-indigo';
 const gradientButtonTours = 'bg-gradient-to-r from-secondary to-green';
 const gradientButtonCourses = 'bg-gradient-to-r from-secondary to-indigo';
-// const userLang = navigator.language || navigator.userLanguage;
-// const defaultLocale = userLang.substring(0, 2);
+
 
 export const CoursesConteiner = () => {
     const { t, i18n } = useTranslation(['translation']);
@@ -99,7 +98,7 @@ export const CoursesConteiner = () => {
                             {gradientTitle === 'CURSOS'
                                 ? t('coursesContainer.categoryTitleCourse')
                                 : t('coursesContainer.categoryTitleTour')}
-                            {/* {t('coursesContainer.categoryTitle',{gradientTitle})} */}
+                          
                         </h2>
                         <CoursesList
                             data={data}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import flagMX from '../assets/mx.png';
@@ -7,16 +7,14 @@ import { TbLanguageKatakana } from 'react-icons/tb';
 import { RiMenu4Fill } from 'react-icons/ri';
 export const Navbar = () => {
     const { t, i18n } = useTranslation();
-    const [isOpen, setIsOpen] = useState(false);
-
-    const handleNavbar = () => {
-        setIsOpen(!isOpen);
-    };
 
     return (
         <div className=" navbar backdrop-blur-[1px] text-white fixed top-0 z-10 h-[70px]">
             <div className=" flex-1 ">
-                <Link to="/" className="btn btn-ghost normal-case text-base  sm:text-xl">
+                <Link
+                    to="/"
+                    className="btn btn-ghost normal-case text-base  sm:text-xl"
+                >
                     KOONEX
                 </Link>
 
@@ -66,12 +64,12 @@ export const Navbar = () => {
                         </NavLink>
                     </li>
 
-                    <li >
+                    <li>
                         <NavLink to="/cursos" className="btn btn-ghost">
                             {t('navbar.linkProdChild1')}
                         </NavLink>
                     </li>
-                    <li >
+                    <li>
                         <NavLink to="/tours" className="btn btn-ghost">
                             {t('navbar.linkProdChild2')}
                         </NavLink>
@@ -118,37 +116,6 @@ export const Navbar = () => {
                         </div>
                     </li>
 
-                    {/* <li className="dropdown dropdown-bottom dropdown-end">
-                        <label tabIndex={0} className="btn btn-ghost ">
-                            {t('navbar.linkProd')}
-                            <svg
-                                className="fill-current"
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="20"
-                                height="20"
-                                viewBox="0 0 24 24"
-                            >
-                                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                            </svg>
-                        </label>
-                        <ul className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 ">
-                            <li>
-                                <p>
-                                    <NavLink to="/cursos">
-                                        {' '}
-                                        {t('navbar.linkProdChild1')}
-                                    </NavLink>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <NavLink to="/tours">
-                                        {t('navbar.linkProdChild2')}
-                                    </NavLink>
-                                </p>
-                            </li>
-                        </ul>
-                    </li> */}
                     <li>
                         <a
                             href="https://walink.co/70f16a"

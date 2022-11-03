@@ -71,7 +71,10 @@ export const CoursesDetail = () => {
                             <ul className="py-6 text-lg">
                                 {currentLanguage === 'es'
                                     ? item.included?.map((item, index) => (
-                                          <li className="flex items-center " key={index}>
+                                          <li
+                                              className="flex items-center "
+                                              key={index}
+                                          >
                                               <BsCheck2All className="text-accent min-w-[20px] my-2" />{' '}
                                               <span className="sm:px-2 p-2 text-base sm:text-lg">
                                                   {item}
@@ -79,7 +82,10 @@ export const CoursesDetail = () => {
                                           </li>
                                       ))
                                     : item.includedEN?.map((item, index) => (
-                                          <li className="flex items-center" key={index}>
+                                          <li
+                                              className="flex items-center"
+                                              key={index}
+                                          >
                                               <BsCheck2All className="text-accent min-w-[20px]" />{' '}
                                               <span className="sm:px-2 p-2 text-base sm:text-lg">
                                                   {item}
@@ -95,16 +101,22 @@ export const CoursesDetail = () => {
                                     : item.durationEN}
                             </p>
                             <div className="flex sm:flex-row flex-col mx-8 gap-5 sm:gap-2  flex-wrap items-center justify-between mt-8">
-                                <button
-                                    className={`btn btn-card hover:scale-[1.1] hover:drop-shadow-xl w-[13rem] sm:w-auto `}
+                                <a
+                                    href="https://walink.co/70f16a"
+                                    target="_blank"
+                                    rel="noreferrer"
                                 >
-                                    <span className=" px-6">
-                                        {t('courseDetail.infoBtn')}
-                                    </span>
-                                </button>
+                                    <button
+                                        className={`btn btn-card hover:scale-[1.1] hover:drop-shadow-xl w-[13rem] sm:w-auto `}
+                                    >
+                                        <span className=" px-6">
+                                            {t('courseDetail.infoBtn')}
+                                        </span>
+                                    </button>
+                                </a>
 
                                 {item.operationsTextEN && (
-                                    <Modal 
+                                    <Modal
                                         openText={t('modal.openOperation')}
                                         modalTitle={t('modal.titleOperation')}
                                         modalText={

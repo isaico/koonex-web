@@ -1,5 +1,4 @@
 import React from 'react';
-// import bg from '../../assets/wave-haikei.svg'
 import { NavLink, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
