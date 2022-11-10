@@ -64,11 +64,11 @@ export const Navbar = () => {
                         </NavLink>
                     </li>
 
-                    <li>
+                    {/* <li>
                         <NavLink to="/cursos" className="btn btn-ghost">
                             {t('navbar.linkProdChild1')}
                         </NavLink>
-                    </li>
+                    </li> */}
                     <li>
                         <NavLink to="/tours" className="btn btn-ghost">
                             {t('navbar.linkProdChild2')}

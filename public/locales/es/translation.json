@@ -1,13 +1,14 @@
 {
     "header": {
         "sub": "Viajes y Guias",
-        "desc": "Mantente presente y deja atrás el estrés, te invitamos a conectar con el mar y su silencio.",
+        "desc": "Deja atrás el estrés, te invitamos a conectar con el mar y su belleza.",
         "btn": "COMENZAR!"
     },
     "coursesContainer": {
         "titleCourse": "ESTOS CURSOS SON PARA TI!!",
         "titleTour": "ESTOS RECORRIDOS  SON PARA TI!!",
-        "sub": "Tenemos diferentes niveles de cursos y  certificaciónes de buceo avalados. Si eres de los que quieren profundizar en sus conocimientos sobre el buceo y el medio marino, o quieres dedicarte profesionalmente al buceo para compartir y guiar a otros, tenemos cursos para ti.",
+        "sub1": "Tenemos diferentes niveles de cursos y  certificaciónes de buceo avalados. Si eres de los que quieren profundizar en sus conocimientos sobre el buceo y el medio marino, o quieres dedicarte profesionalmente al buceo para compartir y guiar a otros, tenemos cursos para ti.",
+        "sub": "Vive una de las increíbles experiencias que 'Cozumel' tiene para ti, con nuestros guías podrás disfrutar de las mejores aventuras y vistas inigualables,  no te pierdas esta oportunidad y reserva ya tu recorrido!",
         "bannerTitle": "¡Conecta con el océano!",
         "bannerDesc": "Elija sus {{gradientTitle}} favoritos, compre y disfrute. Nosotros nos encargamos del resto. Incluye: Instrucción, Instructor y equipo completo. Si deseas mas informacion no dude en contactarte",
         "bannerBtn": "ENVÍANOS UN CORREO",

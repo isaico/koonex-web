@@ -100,6 +100,11 @@ export const CoursesDetail = () => {
                                     ? item.duration
                                     : item.durationEN}
                             </p>
+                            <p>
+                                {currentLanguage === 'es'
+                                    ? item.schedule
+                                    : item.scheduleEN}
+                            </p>
                             <div className="flex sm:flex-row flex-col mx-8 gap-5 sm:gap-2  flex-wrap items-center justify-between mt-8">
                                 <a
                                     href="https://walink.co/70f16a"
@@ -115,7 +120,7 @@ export const CoursesDetail = () => {
                                     </button>
                                 </a>
 
-                                {item.operationsTextEN && (
+                                {/* {item && (
                                     <Modal
                                         openText={t('modal.openOperation')}
                                         modalTitle={t('modal.titleOperation')}
@@ -126,7 +131,7 @@ export const CoursesDetail = () => {
                                         }
                                         modalClose={t('modal.close')}
                                     />
-                                )}
+                                )} */}
                                 <Modal
                                     openText={t('modal.openPolicy')}
                                     modalTitle={t('modal.titlePolicy')}

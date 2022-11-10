@@ -160,74 +160,81 @@ export const coursesArray = [
 ];
 
 export const toursArray = [
+    // {
+    //     title: 'Bajo el mar de Cozumel!',
+    //     titleEN: 'Under the sea of Cozumel',
+    //     subtitle: 'Tour lancha transparente + Snorke! ',
+    //     subtitleEN: 'Transparent boat tour + Snorke!',
+    //     text: 'Vive Cozumel desde nuestra. lancha transparente. Una de las islas mas grandes y pobladas de Mexico. Paraiso del caribe en la costa del estado de quintana Roo ',
+    //     textEN: 'Experience Cozumel from our transparent boat. One of the largest and most populated islands in Mexico. Caribbean paradise on the coast of the state of Quintana Roo. ',
+    //     description:
+    //         'Arrancamos nuestro tour y nos dirigimos hacia la zona norte para conocer el muelle San Miguel, donde se encuentra la primer puerta que tuvo Cozumel. Pasaremos por el monumento al buzo y posteriormente conocerás las maravillosas sorpresas que esta isla tiene debajo del agua, como los barcos hundidos, inmensa variedad de corales y peces tropicales, las cuales podrás disfrutar desde nuestra embarcación, totalmente transparente. ¡Al final nos trasladamos hacia los arrecifes artificiales "Lego" en donde podrás hacer snorke! Y disfrutar de la maravillosa vida marina',
+    //     descriptionEN: 'some more desc english word bla bla more and more',
+    //     duration: '1 Hora y 30 minutos',
+    //     durationEN: '1 hour and 30 minutes',
+    //     included: [
+    //         '1 agua embotellada por persona',
+    //         '1 Refresco por persona',
+    //         '2 cervezas  por persona',
+    //         'EQUIPO SNORKE!',
+    //     ],
+    //     includedEN: [
+    //         '1 watter bottle for each persone',
+    //         '1 soda for each persone',
+    //         '2 bears for each persone',
+    //         'SNORKE equipment!',
+    //     ],
+    //     image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+    //     imageDetail: [
+    //         {
+    //             image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
+    //             alt: 'some alt desc',
+    //         },
+    //         {
+    //             image: 'https://placeimg.com/600/600/arch',
+    //             alt: 'some alt desc',
+    //         },
+    //         {
+    //             image: 'https://placeimg.com/600/600/arch',
+    //             alt: 'some alt desc',
+    //         },
+    //     ],
+    //     id: '6b0a110f-ea8c-4860-bce0-8b03dd7ab5df',
+    //     featured: true,
+    // },
     {
-        title: 'Bajo el mar de Cozumel!',
-        titleEN: 'Under the sea of Cozumel',
-        subtitle: 'Tour lancha transparente + Snorke! ',
-        subtitleEN: 'Transparent boat tour + Snorke!',
-        text: 'Vive Cozumel desde nuestra. lancha transparente. Una de las islas mas grandes y pobladas de Mexico. Paraiso del caribe en la costa del estado de quintana Roo ',
-        textEN: 'Experience Cozumel from our transparent boat. One of the largest and most populated islands in Mexico. Caribbean paradise on the coast of the state of Quintana Roo. ',
+        title: 'Tour al Cielo',
+        titleEN: 'Tour to El Cielo',
+        subtitle: 'Visitaremos 2 arrecifes y las zonas de El Cielo',
+        subtitleEN: 'We will visit 2 reefs and the El Cielo areas',
+        text: 'El tour es una embarcacion variable, vamos a los arrecifes de Palacar y Colombia',
+        textEN: 'The tour is a variable boat, we go to the reefs of Palacar and Colombia.',
         description:
-            'Arrancamos nuestro tour y nos dirigimos hacia la zona norte para conocer el muelle San Miguel, donde se encuentra la primer puerta que tuvo Cozumel. Pasaremos por el monumento al buzo y posteriormente conocerás las maravillosas sorpresas que esta isla tiene debajo del agua, como los barcos hundidos, inmensa variedad de corales y peces tropicales, las cuales podrás disfrutar desde nuestra embarcación, totalmente transparente. ¡Al final nos trasladamos hacia los arrecifes artificiales "Lego" en donde podrás hacer snorke! Y disfrutar de la maravillosa vida marina',
-        descriptionEN: 'some more desc english word bla bla more and more',
-        duration: '1 Hora y 30 minutos',
-        durationEN: '1 hour and 30 minutes',
-        included: [
-            '1 agua embotellada por persona',
-            '1 Refresco por persona',
-            '2 cervezas  por persona',
-            'EQUIPO SNORKE!',
-        ],
-        includedEN: [
-            '1 watter bottle for each persone',
-            '1 soda for each persone',
-            '2 bears for each persone',
-            'SNORKE equipment!',
-        ],
-        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
-        imageDetail: [
-            {
-                image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
-                alt: 'some alt desc',
-            },
-            {
-                image: 'https://placeimg.com/600/600/arch',
-                alt: 'some alt desc',
-            },
-            {
-                image: 'https://placeimg.com/600/600/arch',
-                alt: 'some alt desc',
-            },
-        ],
-        id: '6b0a110f-ea8c-4860-bce0-8b03dd7ab5df',
-        featured: true,
-    },
-    {
-        title: 'El cielo snorkel tour + 2 noches',
-        titleEN: 'El cielo snorkel tour + 2 nights',
-        subtitle: 'Tour lancha transparente + Snorke! ',
-        subtitleEN: 'Tours and somthing in inglish for this',
-        text: 'Visitaremos 2 arrecifes y las zonas de El Cielo',
-        textEN: 'We will visit 2 reefs and the areas of El Cielo',
-        description:
-            'Arrancamos nuestro tour y nos dirigimos hacia la zona norte para conocer el muelle San Miguel, donde se encuentra la primer puerta que tuvo Cozumel. Pasaremos por el monumento al buzo y posteriormente conocerás las maravillosas sorpresas que esta isla tiene debajo del agua, como los barcos hundidos, inmensa variedad de corales y peces tropicales, las cuales podrás disfrutar desde nuestra embarcación, totalmente transparente. ¡Al final nos trasladamos hacia los arrecifes artificiales "Lego" en donde podrás hacer snorke! Y disfrutar de la maravillosa vida marina',
+            'El tour es una embarcación con capacidad variable. Vamos a los arrecifes de palancar y Colombia por espacio de una hora en cada lugar con parada a la playa de El Cielo (lugar donde se reproduce las estrellas de mar).',
         descriptionEN:
-            'We will visit 2 reefs and the areas of El Cielo and El Cielito, in the Natural Protected Area of the National Park Protected Natural Area Cozumel Reefs National Park. Capacity of the boat based on the occupancies established by the sanitary authorities, respecting the health authorities, respecting the epidemiological traffic light.',
-        duration: '3:30 a 4 horas',
+            'The tour is a boat with variable capacity. We go to the reefs of Palancar and Colombia for one hour in each place with a stop at the sky beach (place where the starfish reproduce).',
+        duration: '4/5 horas',
         durationEN: '3.5 to 4 hours',
         included: [
-            '2 noches para dos personas en una suite con vista al mar con desayuno americano incluido',
             'Guia certificado',
-            'Agua natural, agua aromatizada, refresco o cerveza',
-            'EQUIPO SNORKE!',
+            'Aguas naturales, run punch, refrescos o cervezas',
+            'Frutas',
+            'Mucha diversion',
+            'EQUIPO SNORKEL!',
         ],
         includedEN: [
-            '2 nights for two people in a Ocean View Suit with American brackfast included',
             'Certified guide',
             'Natural water, flavored water, soft drink ,or beer',
-            '',
+            'Tons of fun',
             'SNORKE equipment!',
         ],
+        // operationsTextEN:
+        //     'Daily trips at 10am, 12pm, 1pm. We leave from a dock or from the marina fornatur.',
+
+        // operationsTextES:
+        //     'Salidas diarias a las 10am, 12pm, 1pm. Salimos de algun muelle o de la marina fornatur',
+        schedule:'Horarios: 10am, 12pm,1pm',
+        scheduleEN:'Schedule: 10am, 12pm,1pm',
         image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
         imageDetail: [
             {
@@ -244,7 +251,7 @@ export const toursArray = [
             },
         ],
         id: 'b0444850-4e23-417d-befa-9e699e7e012f',
-        featured: false,
+        featured: true,
     },
     {
         title: 'Descrubre el buceo (Playa 1 tanke)',
@@ -322,58 +329,58 @@ export const toursArray = [
         id: 'b6d416fc-e04e-443c-87a3-492f3e9549dc',
         featured: false,
     },
-    {
-        title: 'Tour de snorkel',
-        titleEN: 'Snorkel Tour ',
-        subtitle:
-            'Sumérgete y descubre la magia submarina que Cozumel tiene para ti. ',
-        subtitleEN:
-            'Dive and discover the underwater magic that Cozumel has for you. ',
-        text: 'Vive Cozumel desde nuestra. lancha transparente. Una de las islas mas grandes y pobladas de Mexico. Paraiso del caribe en la costa del estado de quintana Roo ',
-        textEN: 'live zocume from our boute transparent asdasd1234 some more in inglish words',
-        description:
-            'Sumérgete y descubre la magia submarina que Cozumel tiene para ti. Entrarás a un mundo lleno de colores ya que Cozumel es el lugar predilecto para practicar snorkel y buceo por su belleza natural. Visitaremos 2 arrecifes y las áreas del Cielo y el Cielito, en el Área Natural Protegida Parque Nacional Arrecifes de Cozumel. Capacidad de la embarcación en base a las ocupaciones establecidas por las autoridades sanitarias respetando el semáforo epidemiológico.',
-        descriptionEN:
-            'Dive and discover the underwater magic that Cozumel has for you. You will enter a world full of colors since Cozumel is the favorite place to practice snorkeling and diving for its natural beauty. We will visit 2 reefs and the areas of Cielo and El Cielito, in the Natural Protected Area of the National Park Protected National Park Reefs of Cozumel. Vessel capacity based on the occupancies established by the health authorities, respecting the epidemiological authorities, respecting the epidemiological traffic light.',
-        duration: '3:30 a 4 horas',
-        durationEN: '3.5 to 4 hours',
-        included: [
-            'Guia experimentado',
-            'Agua natural, agua de sabor o refresco, cerveza, y fruta de temporada',
-            'Impuesto de muelle y Parque marino',
-            'EQUIPO SNORKE!',
-        ],
+    // {
+    //     title: 'Tour de snorkel',
+    //     titleEN: 'Snorkel Tour ',
+    //     subtitle:
+    //         'Sumérgete y descubre la magia submarina que Cozumel tiene para ti. ',
+    //     subtitleEN:
+    //         'Dive and discover the underwater magic that Cozumel has for you. ',
+    //     text: 'Vive Cozumel desde nuestra. lancha transparente. Una de las islas mas grandes y pobladas de Mexico. Paraiso del caribe en la costa del estado de quintana Roo ',
+    //     textEN: 'live zocume from our boute transparent asdasd1234 some more in inglish words',
+    //     description:
+    //         'Sumérgete y descubre la magia submarina que Cozumel tiene para ti. Entrarás a un mundo lleno de colores ya que Cozumel es el lugar predilecto para practicar snorkel y buceo por su belleza natural. Visitaremos 2 arrecifes y las áreas del Cielo y el Cielito, en el Área Natural Protegida Parque Nacional Arrecifes de Cozumel. Capacidad de la embarcación en base a las ocupaciones establecidas por las autoridades sanitarias respetando el semáforo epidemiológico.',
+    //     descriptionEN:
+    //         'Dive and discover the underwater magic that Cozumel has for you. You will enter a world full of colors since Cozumel is the favorite place to practice snorkeling and diving for its natural beauty. We will visit 2 reefs and the areas of Cielo and El Cielito, in the Natural Protected Area of the National Park Protected National Park Reefs of Cozumel. Vessel capacity based on the occupancies established by the health authorities, respecting the epidemiological authorities, respecting the epidemiological traffic light.',
+    //     duration: '3:30 a 4 horas',
+    //     durationEN: '3.5 to 4 hours',
+    //     included: [
+    //         'Guia experimentado',
+    //         'Agua natural, agua de sabor o refresco, cerveza, y fruta de temporada',
+    //         'Impuesto de muelle y Parque marino',
+    //         'EQUIPO SNORKE!',
+    //     ],
 
-        operationsTextEN:
-            'Daily departures at 12:30 hrs, with embarkation and disembarkation at the dock in front of the hotel. dock in front of the hotel.',
+    //     operationsTextEN:
+    //         'Daily departures at 12:30 hrs, with embarkation and disembarkation at the dock in front of the hotel. dock in front of the hotel.',
 
-        operationsTextES:
-            'Salidas diarias a las 12:30 horas, con embarque y desembarque en el muelle frente al hotel. muelle frente al hotel.',
+    //     operationsTextES:
+    //         'Salidas diarias a las 12:30 horas, con embarque y desembarque en el muelle frente al hotel. muelle frente al hotel.',
 
-        includedEN: [
-            'Certified Guide',
-            'Natural water, flavored water or soft drink, beer and seasonal fruit',
-            'Dock taxes and Marine park',
-            'SNORKE equipment!',
-        ],
-        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
-        imageDetail: [
-            {
-                image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
-                alt: 'some alt desc',
-            },
-            {
-                image: 'https://placeimg.com/600/600/arch',
-                alt: 'some alt desc',
-            },
-            {
-                image: 'https://placeimg.com/600/600/arch',
-                alt: 'some alt desc',
-            },
-        ],
-        id: 'af6751a0-9e1f-4075-b687-86a6a7b916d6',
-        featured: true,
-    },
+    //     includedEN: [
+    //         'Certified Guide',
+    //         'Natural water, flavored water or soft drink, beer and seasonal fruit',
+    //         'Dock taxes and Marine park',
+    //         'SNORKE equipment!',
+    //     ],
+    //     image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+    //     imageDetail: [
+    //         {
+    //             image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
+    //             alt: 'some alt desc',
+    //         },
+    //         {
+    //             image: 'https://placeimg.com/600/600/arch',
+    //             alt: 'some alt desc',
+    //         },
+    //         {
+    //             image: 'https://placeimg.com/600/600/arch',
+    //             alt: 'some alt desc',
+    //         },
+    //     ],
+    //     id: 'af6751a0-9e1f-4075-b687-86a6a7b916d6',
+    //     featured: true,
+    // },
     {
         title: 'Submarino Atlantico',
         titleEN: 'Atlantis Submarine',
@@ -414,5 +421,44 @@ export const toursArray = [
         ],
         id: '5d63e72f-c3e5-4a07-8893-4662188d1131',
         featured: false,
+    },
+    {
+        title: 'Paracaidas',
+        titleEN: 'Skydive',
+        subtitle:
+            'Sumergete en el cielo de Cozumel',
+        subtitleEN:
+            'Dive into the sky of Cozumel',
+        text: '',
+        textEN: '',
+        description:
+            'Salimos del muelle de el bar carlota Horarios (dependiendo la disponibilidad de la embarcacion).',
+        descriptionEN:
+            'We leave from the dock of the carlota bar. Schedules (depending on the availability of the boat).',
+        duration: '30 minutos',
+        durationEN: '30 minutes',
+        included: [
+           'Vuelo en paracaidas',
+        ],
+        includedEN: [
+            'Skydive',
+        ],
+        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        imageDetail: [
+            {
+                image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://placeimg.com/600/600/arch',
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://placeimg.com/600/600/arch',
+                alt: 'some alt desc',
+            },
+        ],
+        id: 'af6751a0-9e1f-4075-b687-86a6a7b916d6',
+        featured: true,
     },
 ];

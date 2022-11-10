@@ -1,40 +1,38 @@
-
 {
     "header": {
         "sub": "Travels and Tours",
-        "desc":"Stay present and leave stress behind, we invite you to connect with the sea and its silence.",
-        "btn":"GET STARTED"
+        "desc": "Stay present and leave stress behind, we invite you to connect with the sea and its beauty.",
+        "btn": "GET STARTED"
     },
-    "coursesContainer":{
+    "coursesContainer": {
         "titleCourse": "THIS COURSES ARE FOR YOU!!",
         "titleTour": "THIS TOURS ARE FOR YOU!!",
-        "sub":"We have different levels of diving certification courses endorsed. If you are one of those who want to deepen your knowledge about diving and the marine environment, or you want to dedicate yourself professionally to diving to share and guide others, we have courses for you.",
-        "bannerTitle":"Connect with the ocean!",
-        "bannerDesc":"Choose yours favorites {{gradientTitle}} buy and enjoy. We take care of the rest. Includes: Instruction, Instructor and complete equipment. For more information, please do not hesitate to contact us",
-        "bannerBtn":"SEND A MAIL",
-        "categoryTitleCourse":"COURSES",
-        "categoryTitleTour":"TOURS"
+        "sub": "Live one of the incredible experiences that 'Cozumel' has for you, with our guides you can enjoy the best adventures and unparalleled views, do not miss this opportunity and book your tour now!",
+        "bannerTitle": "Connect with the ocean!",
+        "bannerDesc": "Choose yours favorites {{gradientTitle}} buy and enjoy. We take care of the rest. Includes: Instruction, Instructor and complete equipment. For more information, please do not hesitate to contact us",
+        "bannerBtn": "SEND A MAIL",
+        "categoryTitleCourse": "COURSES",
+        "categoryTitleTour": "TOURS"
     },
-    "navbar":{
-        "linkHome":"HOME",
-        "linkProd":"PRODUCTS",
-        "linkProdChild1":"COURSES",
-        "linkProdChild2":"TOURS",
-        "linkContact":"CONTACT"
+    "navbar": {
+        "linkHome": "HOME",
+        "linkProd": "PRODUCTS",
+        "linkProdChild1": "COURSES",
+        "linkProdChild2": "TOURS",
+        "linkContact": "CONTACT"
     },
     "featured": "Featured",
-    "cardBtn":"Get info",
-    "courseDetail":{
-        "duration":"Duration",
-        "infoBtn":"Get Started!"
+    "cardBtn": "Get info",
+    "courseDetail": {
+        "duration": "Duration",
+        "infoBtn": "Get Started!"
     },
     "modal": {
         "openPolicy": "PAYMENT & CANCELLATION",
         "titlePolicy": "PAYMENT AND CANCELLATION POLICY",
         "titleOperation": "OPERATING DAYS",
-        "textPolicy":"50% deposit to confirm the reservation. Supplement of 5% for credit card payments. Free cancellation up to 24 hours before arrival.arrival. No show, 100% of the deposit will be charged.",
+        "textPolicy": "50% deposit to confirm the reservation. Supplement of 5% for credit card payments. Free cancellation up to 24 hours before arrival.arrival. No show, 100% of the deposit will be charged.",
         "openOperation": "OPERATING DAYS",
-        "close":"Close"
+        "close": "Close"
     }
-
 }
