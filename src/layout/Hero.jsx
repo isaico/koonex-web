@@ -20,7 +20,7 @@ export const Hero = () => {
                     </h1>
                     <h2 className="text-3xl sm:text-5xl">{t('header.sub')}</h2>
                     <p className="my-12 text-lg ">{t('header.desc')}</p>
-                    <NavLink to="/cursos">
+                    <NavLink to="/tours">
                         <button className="btn text-white btn-hero ">
                             {t('header.btn')}
                         </button>

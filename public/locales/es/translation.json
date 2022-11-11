@@ -25,8 +25,9 @@
     "featured": "Destacado",
     "cardBtn": "Ver info",
     "courseDetail": {
-        "duration": "Duracion",
-        "infoBtn": "Obtener!"
+        "duration": "Duración",
+        "infoBtn": "Obtener!",
+        "schedule":"Horarios: "
     },
     "modal": {
         "openPolicy": "PAGO Y CANCELACIÓN",

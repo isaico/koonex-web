@@ -160,48 +160,6 @@ export const coursesArray = [
 ];
 
 export const toursArray = [
-    // {
-    //     title: 'Bajo el mar de Cozumel!',
-    //     titleEN: 'Under the sea of Cozumel',
-    //     subtitle: 'Tour lancha transparente + Snorke! ',
-    //     subtitleEN: 'Transparent boat tour + Snorke!',
-    //     text: 'Vive Cozumel desde nuestra. lancha transparente. Una de las islas mas grandes y pobladas de Mexico. Paraiso del caribe en la costa del estado de quintana Roo ',
-    //     textEN: 'Experience Cozumel from our transparent boat. One of the largest and most populated islands in Mexico. Caribbean paradise on the coast of the state of Quintana Roo. ',
-    //     description:
-    //         'Arrancamos nuestro tour y nos dirigimos hacia la zona norte para conocer el muelle San Miguel, donde se encuentra la primer puerta que tuvo Cozumel. Pasaremos por el monumento al buzo y posteriormente conocerás las maravillosas sorpresas que esta isla tiene debajo del agua, como los barcos hundidos, inmensa variedad de corales y peces tropicales, las cuales podrás disfrutar desde nuestra embarcación, totalmente transparente. ¡Al final nos trasladamos hacia los arrecifes artificiales "Lego" en donde podrás hacer snorke! Y disfrutar de la maravillosa vida marina',
-    //     descriptionEN: 'some more desc english word bla bla more and more',
-    //     duration: '1 Hora y 30 minutos',
-    //     durationEN: '1 hour and 30 minutes',
-    //     included: [
-    //         '1 agua embotellada por persona',
-    //         '1 Refresco por persona',
-    //         '2 cervezas  por persona',
-    //         'EQUIPO SNORKE!',
-    //     ],
-    //     includedEN: [
-    //         '1 watter bottle for each persone',
-    //         '1 soda for each persone',
-    //         '2 bears for each persone',
-    //         'SNORKE equipment!',
-    //     ],
-    //     image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
-    //     imageDetail: [
-    //         {
-    //             image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
-    //             alt: 'some alt desc',
-    //         },
-    //         {
-    //             image: 'https://placeimg.com/600/600/arch',
-    //             alt: 'some alt desc',
-    //         },
-    //         {
-    //             image: 'https://placeimg.com/600/600/arch',
-    //             alt: 'some alt desc',
-    //         },
-    //     ],
-    //     id: '6b0a110f-ea8c-4860-bce0-8b03dd7ab5df',
-    //     featured: true,
-    // },
     {
         title: 'Tour al Cielo',
         titleEN: 'Tour to El Cielo',
@@ -228,13 +186,8 @@ export const toursArray = [
             'Tons of fun',
             'SNORKE equipment!',
         ],
-        // operationsTextEN:
-        //     'Daily trips at 10am, 12pm, 1pm. We leave from a dock or from the marina fornatur.',
-
-        // operationsTextES:
-        //     'Salidas diarias a las 10am, 12pm, 1pm. Salimos de algun muelle o de la marina fornatur',
-        schedule:'Horarios: 10am, 12pm,1pm',
-        scheduleEN:'Schedule: 10am, 12pm,1pm',
+        schedule: 'Horarios: 10am, 12pm,1pm',
+        scheduleEN: 'Schedule: 10am, 12pm,1pm',
         image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
         imageDetail: [
             {
@@ -287,30 +240,32 @@ export const toursArray = [
         featured: false,
     },
     {
-        title: 'Tour en lancha transparente a los barcos hundidos',
-        titleEN: 'Clear boat tour in the sunken ships ',
+        title: 'Tour en lancha transparente',
+        titleEN: 'Transparent boat tour ',
         subtitle: 'Para adentrarte en el mundo del buceo',
         subtitleEN: 'To enter the world of scuba diving',
         text: 'Ven a disfrutar en uno de nuestros mas originales paseos sobre nuestra lancha transparente',
         textEN: 'Come and enjoy one of our most original rides on our transparent boat',
         description:
-            'Maravíllate con nuestra lancha transparente! Ven a disfrutar en uno de nuestros mas originales paseos sobre nuestra lancha transparente y los barcos hundidos del norte de la isla, aprecia el maravilloso panorama bajo el mar!',
+            'Maravíllate con nuestra lancha transparente! Arrancamos nuestro tour y nos dirigimos hacia el lado norte de la isla Pasamos por el muelle de San miguel donde se encuentra la primer puerta que tuvo Cozumel seguidamente pasaremos por el monumento al buzo y posteriormente conocerán las maravillosas sorpresas que esta isla tiene bajo sus aguas .Barcos hundidos, inmensa variedad de corales y peces tropicales, las cuales podrás admirar y disfrutar desde nuestra embarcación totalmente transparente. Casi al final nos trasladamos hacia unos arrecifes artificiales "lego" en donde podrás hacer snorkel y disfrutar de la maravillosa vida marina',
         descriptionEN:
-            'Marvel with our transparent boat! Come and enjoy one of our most original tours on our transparent boat and the wrecks of the north of the island, appreciate the wonderful panorama under the sea!',
+            'Marvel with our transparent boat! We start our tour and head towards the north side of the island. We pass by the pier of San Miguel where the first door that Cozumel had is located, then we will pass by the monument to the diver and later you will know the wonderful surprises that this island has under its waters. Sunken ships, immense variety of corals and tropical fish, which you will be able to admire and enjoy from our totally transparent boat. Almost at the end we move to some artificial reefs "lego" where you can snorkel and enjoy the wonderful marine life.',
         duration: '1 Hora y 30 minutos',
         durationEN: '1 hour and 30 minutes',
         included: [
-            'Viaje en barco transparente',
-            'Guia experimentado',
-            'Bebidas',
+            '1 agua embotellada p/persona',
+            '1 refresco p/persona',
+            '2 cervezas p/persona ',
             'EQUIPO SNORKE!',
         ],
         includedEN: [
-            'Transparent boat trip',
-            'Experienced guide',
-            'Drinks',
+            '1 bottled water each person',
+            '1 soda per persona',
+            '2 beers per person',
             'SNORKE equipment!',
         ],
+        schedule:'10 am 12 pm 2 pm y 4 pm',
+        scheduleEN:'10 am 12 pm 2 pm y 4 pm',
         image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
         imageDetail: [
             {
@@ -329,58 +284,6 @@ export const toursArray = [
         id: 'b6d416fc-e04e-443c-87a3-492f3e9549dc',
         featured: false,
     },
-    // {
-    //     title: 'Tour de snorkel',
-    //     titleEN: 'Snorkel Tour ',
-    //     subtitle:
-    //         'Sumérgete y descubre la magia submarina que Cozumel tiene para ti. ',
-    //     subtitleEN:
-    //         'Dive and discover the underwater magic that Cozumel has for you. ',
-    //     text: 'Vive Cozumel desde nuestra. lancha transparente. Una de las islas mas grandes y pobladas de Mexico. Paraiso del caribe en la costa del estado de quintana Roo ',
-    //     textEN: 'live zocume from our boute transparent asdasd1234 some more in inglish words',
-    //     description:
-    //         'Sumérgete y descubre la magia submarina que Cozumel tiene para ti. Entrarás a un mundo lleno de colores ya que Cozumel es el lugar predilecto para practicar snorkel y buceo por su belleza natural. Visitaremos 2 arrecifes y las áreas del Cielo y el Cielito, en el Área Natural Protegida Parque Nacional Arrecifes de Cozumel. Capacidad de la embarcación en base a las ocupaciones establecidas por las autoridades sanitarias respetando el semáforo epidemiológico.',
-    //     descriptionEN:
-    //         'Dive and discover the underwater magic that Cozumel has for you. You will enter a world full of colors since Cozumel is the favorite place to practice snorkeling and diving for its natural beauty. We will visit 2 reefs and the areas of Cielo and El Cielito, in the Natural Protected Area of the National Park Protected National Park Reefs of Cozumel. Vessel capacity based on the occupancies established by the health authorities, respecting the epidemiological authorities, respecting the epidemiological traffic light.',
-    //     duration: '3:30 a 4 horas',
-    //     durationEN: '3.5 to 4 hours',
-    //     included: [
-    //         'Guia experimentado',
-    //         'Agua natural, agua de sabor o refresco, cerveza, y fruta de temporada',
-    //         'Impuesto de muelle y Parque marino',
-    //         'EQUIPO SNORKE!',
-    //     ],
-
-    //     operationsTextEN:
-    //         'Daily departures at 12:30 hrs, with embarkation and disembarkation at the dock in front of the hotel. dock in front of the hotel.',
-
-    //     operationsTextES:
-    //         'Salidas diarias a las 12:30 horas, con embarque y desembarque en el muelle frente al hotel. muelle frente al hotel.',
-
-    //     includedEN: [
-    //         'Certified Guide',
-    //         'Natural water, flavored water or soft drink, beer and seasonal fruit',
-    //         'Dock taxes and Marine park',
-    //         'SNORKE equipment!',
-    //     ],
-    //     image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
-    //     imageDetail: [
-    //         {
-    //             image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
-    //             alt: 'some alt desc',
-    //         },
-    //         {
-    //             image: 'https://placeimg.com/600/600/arch',
-    //             alt: 'some alt desc',
-    //         },
-    //         {
-    //             image: 'https://placeimg.com/600/600/arch',
-    //             alt: 'some alt desc',
-    //         },
-    //     ],
-    //     id: 'af6751a0-9e1f-4075-b687-86a6a7b916d6',
-    //     featured: true,
-    // },
     {
         title: 'Submarino Atlantico',
         titleEN: 'Atlantis Submarine',
@@ -425,23 +328,58 @@ export const toursArray = [
     {
         title: 'Paracaidas',
         titleEN: 'Skydive',
-        subtitle:
-            'Sumergete en el cielo de Cozumel',
-        subtitleEN:
-            'Dive into the sky of Cozumel',
-        text: '',
-        textEN: '',
+        subtitle: 'Sumergete en el cielo de Cozumel',
+        subtitleEN: 'Dive into the sky of Cozumel',
+        text: 'Lanzate en paracaidas y observa la belleza de Cozumel desde lo alto',
+        textEN: 'Go skydiving and see the beauty of Cozumel from above.',
         description:
             'Salimos del muelle de el bar carlota Horarios (dependiendo la disponibilidad de la embarcacion).',
         descriptionEN:
             'We leave from the dock of the carlota bar. Schedules (depending on the availability of the boat).',
         duration: '30 minutos',
         durationEN: '30 minutes',
+        included: ['Vuelo en paracaidas'],
+        includedEN: ['Skydive'],
+        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        imageDetail: [
+            {
+                image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://placeimg.com/600/600/arch',
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://placeimg.com/600/600/arch',
+                alt: 'some alt desc',
+            },
+        ],
+        id: 'af6751a0-9b23-4075-b687-86a6a7b285s0',
+        featured: false,
+    },
+    {
+        title: 'Pesca Deportiva',
+        titleEN: 'sport fishing',
+        subtitle: 'Sumergete en el cielo de Cozumel',
+        subtitleEN: 'Dive into the sky of Cozumel',
+        text: 'Si te gusta la pesca llévala a un nivel superior conociendo las maravillosas especies de animales acuáticos ',
+        textEN: 'If you like fishing, take it to a higher level by getting to know the marvelous species of aquatic animals. ',
+        description:
+            'La pesca deportiva es la actividad deportiva relacionada con el ámbito de la pesca. Esta se realiza a nivel personal o en equipo de personas, por ocio o competición. Hay diversas técnicas para realizarla y también existen competencias. En Cozumel se puede pescar todo el año. El precio depende de las hrs que el cliente contrate Solo pueden ir de 1 a 4 pax en la embarcacion persona adicional tiene cargo extra',
+        descriptionEN:
+            'Sport fishing is the sporting activity related to fishing. It is done by individuals or teams of people, for leisure or competition. There are different techniques to do it and there are also competitions. In Cozumel you can fish all year round.The price depends on the number of hours that the client hires. Only 1 to 4 pax can go on the boat, additional person has extra charge.',
+        duration: '4 hrs, 6hrs o 8hrs',
+        durationEN: '4 hrs, 6hrs o 8hrs',
         included: [
-           'Vuelo en paracaidas',
+            'Carnadas, señuelos y permisos',
+            'Agua, Cerveza y botanas',
+            '6 hrs en adelante light lunch',
         ],
         includedEN: [
-            'Skydive',
+            'Bait, lures and permits',
+            'Water, beer and snacks',
+            '6 hrs onwards light lunch',
         ],
         image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
         imageDetail: [
@@ -459,6 +397,6 @@ export const toursArray = [
             },
         ],
         id: 'af6751a0-9e1f-4075-b687-86a6a7b916d6',
-        featured: true,
+        featured: false,
     },
 ];

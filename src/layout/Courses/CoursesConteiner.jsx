@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 import { coursesArray, toursArray } from '../../data/data';
 import { Loader } from '../../components/Loader';
 import { useTranslation } from 'react-i18next';
-
+import girlsUnderwater from '../../assets/girls-underwater.jpg'
 const gradientTitleTours = 'bg-gradient-to-r from-secondary to-accent';
 const gradientTitleCourses = 'bg-gradient-to-r from-secondary to-indigo';
 const gradientButtonTours = 'bg-gradient-to-r from-secondary to-green';
@@ -63,8 +63,8 @@ export const CoursesConteiner = () => {
                         <div className="hero min-h-[50vh] backdrop-blur-2xl shadow-2xl">
                             <div className="hero-content flex-col lg:flex-row pb-16">
                                 <img
-                                    src="https://scubamau.com/wp-content/uploads/2022/03/divingcoursesandcert.jpg"
-                                    alt="  a man and a woman sitting on a table"
+                                    src={girlsUnderwater}
+                                    alt="two girls under the sea holding a mexico flag"
                                     className=" rounded-lg shadow-2xl sm:w-full w-3/4"
                                 />
                                 <div className="px-10 ">

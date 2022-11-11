@@ -25,7 +25,8 @@
     "cardBtn": "Get info",
     "courseDetail": {
         "duration": "Duration",
-        "infoBtn": "Get Started!"
+        "infoBtn": "Get Started!",
+        "schedule":"Schedule: "
     },
     "modal": {
         "openPolicy": "PAYMENT & CANCELLATION",

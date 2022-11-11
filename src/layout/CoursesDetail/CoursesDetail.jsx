@@ -46,7 +46,7 @@ export const CoursesDetail = () => {
                             ? item.title?.toUpperCase()
                             : item.titleEN?.toUpperCase()}
                     </h2>
-                    <div className="hero-content flex-col lg:flex-row-reverse">
+                    <div className="hero-content flex-col lg:flex-row-reverse ">
                         <div className="relative w-[90vw]  sm:min-w-fit">
                             <Carrousel images={item.imageDetail} />
                         </div>
@@ -56,19 +56,19 @@ export const CoursesDetail = () => {
                                     ? item.subtitle
                                     : item.subtitleEN}
                             </h3>
-                            <p className=" text-[0.9rem]  sm:text-lg py-8 sm:py-6">
+                            <p className=" text-[0.9rem]  sm:text-lg sm:leading-8 py-8 sm:py-6 font-monserrat">
                                 {currentLanguage === 'es'
                                     ? item.description
                                     : item.descriptionEN}
                             </p>
-                            <h3 className="text-lg italic">
-                                Con la adquisicion de este "{' '}
+                            <h3 className="text-2xl italic">
+                                Con la adquisicion de "{' '}
                                 {currentLanguage === 'es'
                                     ? item.title
                                     : item.titleEN}
                                 " tenes incluido lo siguiente:
                             </h3>
-                            <ul className="py-6 text-lg">
+                            <ul className="py-6 text-lg font-monserrat">
                                 {currentLanguage === 'es'
                                     ? item.included?.map((item, index) => (
                                           <li
@@ -94,13 +94,14 @@ export const CoursesDetail = () => {
                                       ))}
                             </ul>
 
-                            <p>
-                                {t('courseDetail.duration')}:{' '}
+                            <p className='sm:text-lg '>
+                               <b> {t('courseDetail.duration')}:{' '}</b>
                                 {currentLanguage === 'es'
                                     ? item.duration
                                     : item.durationEN}
                             </p>
-                            <p>
+                            <p className='sm:text-lg '>
+                            <b>{t('courseDetail.schedule')}:{' '}</b>
                                 {currentLanguage === 'es'
                                     ? item.schedule
                                     : item.scheduleEN}
