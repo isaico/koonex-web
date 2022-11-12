@@ -13,7 +13,10 @@
         "bannerDesc": "Elija sus {{gradientTitle}} favoritos, compre y disfrute. Nosotros nos encargamos del resto. Incluye: Instrucción, Instructor y equipo completo. Si deseas mas informacion no dude en contactarte",
         "bannerBtn": "ENVÍANOS UN CORREO",
         "categoryTitleCourse": "CURSOS",
-        "categoryTitleTour": "RECORRIDOS"
+        "categoryTitleTour": "RECORRIDOS",
+        "categoryTitleFirstExp": "PRIMERAS EXPERIENCIAS",
+        "categoryTitleServices": "SERVICIOS"
+
     },
     "navbar": {
         "linkHome": "INICIO",
@@ -27,7 +30,9 @@
     "courseDetail": {
         "duration": "Duración",
         "infoBtn": "Obtener!",
-        "schedule":"Horarios: "
+        "schedule":"Horarios: ",
+        "adquisition": "Con la adquisicion de ",
+        "included": "tenes lo siguiente incluido "
     },
     "modal": {
         "openPolicy": "PAGO Y CANCELACIÓN",

@@ -1,6 +1,6 @@
 import React from 'react';
-import { ImLocation } from 'react-icons/im';
-import { FaBusinessTime } from 'react-icons/fa';
+// import { ImLocation } from 'react-icons/im';
+// import { FaBusinessTime } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import logo from '../assets/logo.png';
 export const Footer = () => {
@@ -15,7 +15,13 @@ export const Footer = () => {
                 Copyright © 2022 - All right reserved
             </p>
             <div className="flex justify-self-end gap-2 items-center hover:cursor-pointer  sm:z-10">
-                <MdEmail className="text-xl sm:text-2xl text-white hover:text-grey-regular"></MdEmail>
+                <a
+                    href="mailto:koonextyt@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <MdEmail className="text-xl sm:text-2xl text-white hover:text-grey-regular" />
+                </a>
                 <p className="text-xs sm:text-lg">koonextyt@gmail.com</p>
             </div>
         </div>

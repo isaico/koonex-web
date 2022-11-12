@@ -3,32 +3,38 @@ import { CoursesList } from './CoursesList';
 import { Footer } from '../Footer';
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import { coursesArray, toursArray } from '../../data/data';
-import { Loader } from '../../components/Loader';
+import { dataArray } from '../../data/data';
+import { Loader } from '../../components/Loader/Loader';
 import { useTranslation } from 'react-i18next';
-import girlsUnderwater from '../../assets/girls-underwater.jpg'
+import { Banner } from '../../components/Banner';
+import { ServicesList } from '../../components/ServicesList';
+
 const gradientTitleTours = 'bg-gradient-to-r from-secondary to-accent';
 const gradientTitleCourses = 'bg-gradient-to-r from-secondary to-indigo';
 const gradientButtonTours = 'bg-gradient-to-r from-secondary to-green';
 const gradientButtonCourses = 'bg-gradient-to-r from-secondary to-indigo';
 
-
 export const CoursesConteiner = () => {
     const { t, i18n } = useTranslation(['translation']);
     const [data, setData] = useState([]);
+    const [fistExp, setFistExp] = useState([]);
+    const [services, setServices] = useState([]);
     const { URL } = useParams();
     const [gradientTitle, setGradientTitle] = useState('');
     const [loader, setLoader] = useState(true);
 
     useEffect(() => {
         setTimeout(function () {
-            if (URL && URL === 'cursos') {
-                setData(coursesArray);
-                setGradientTitle('CURSOS');
-                setLoader(false);
-            } else {
-                setData(toursArray);
-                setGradientTitle('TOURS');
+            if (URL) {
+                setFistExp(dataArray.filter((i) => i.category === 'fistExp'));
+                setServices(dataArray.filter((i) => i.category === 'services'));
+                if (URL === 'cursos') {
+                    setData(dataArray.filter((i) => i.category === 'courses'));
+                    setGradientTitle('CURSOS');
+                } else {
+                    setData(dataArray.filter((i) => i.category === 'tours'));
+                    setGradientTitle('TOURS');
+                }
                 setLoader(false);
             }
         }, 500);
@@ -60,54 +66,26 @@ export const CoursesConteiner = () => {
                     </div>
 
                     <div className="flex flex-col bg-waves">
-                        <div className="hero min-h-[50vh] backdrop-blur-2xl shadow-2xl">
-                            <div className="hero-content flex-col lg:flex-row pb-16">
-                                <img
-                                    src={girlsUnderwater}
-                                    alt="two girls under the sea holding a mexico flag"
-                                    className=" rounded-lg shadow-2xl sm:w-full w-3/4"
-                                />
-                                <div className="px-10 ">
-                                    <h2 className="sm:text-5xl text-3xl font-bold py-5 italic text-white ">
-                                        {t('coursesContainer.bannerTitle')}
-                                    </h2>
-                                    <p className="py-6 sm:text-xl text-base">
-                                        {t('coursesContainer.bannerDesc', {
-                                            gradientTitle,
-                                        })}
-                                    </p>
-                                    <a
-                                        href="mailto:koonextyt@gmail.com"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        <button
-                                            className={`btn button font-bold ${
-                                                gradientTitle !== 'CURSOS'
-                                                    ? gradientButtonTours
-                                                    : gradientButtonCourses
-                                            } `}
-                                        >
-                                            {t('coursesContainer.bannerBtn')}
-                                        </button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <h2 className=" text-center sm:text-6xl text-4xl sm:my-16 font-bold  py-5 text-white italic">
-                            {gradientTitle === 'CURSOS'
-                                ? t('coursesContainer.categoryTitleCourse')
-                                : t('coursesContainer.categoryTitleTour')}
-                          
-                        </h2>
+                        <Banner
+                            gradientTitle={gradientTitle}
+                            gradientButtonTours={gradientButtonTours}
+                            gradientButtonCourses={gradientButtonCourses}
+                            t={t}
+                        />
+
                         <CoursesList
                             data={data}
-                            styleState={gradientTitle}
+                            fistExp={fistExp}
+                            gradientTitle={gradientTitle}
                             buttonStyles={[
                                 gradientButtonTours,
                                 gradientButtonCourses,
                             ]}
                             language={i18n.language}
+                        />
+                        <ServicesList 
+                        services={services}
+                        t={t}
                         />
                     </div>
                     <Footer />

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { coursesArray, toursArray } from '../../data/data';
+import { dataArray } from '../../data/data';
 import { Carrousel } from '../../components/Carrousel';
 import { BsCheck2All } from 'react-icons/bs';
 import { Footer } from '../Footer';
-import { Loader } from '../../components/Loader';
+import { Loader } from '../../components/Loader/Loader';
 import { useTranslation } from 'react-i18next';
 import { Modal } from '../../components/Modal';
 
@@ -18,9 +18,7 @@ export const CoursesDetail = () => {
     useEffect(() => {
         setTimeout(function () {
             if (DETAILURL) {
-                const found =
-                    coursesArray.find((i) => i.id === DETAILURL) ||
-                    toursArray.find((i) => i.id === DETAILURL);
+                const found = dataArray.find((i) => i.id === DETAILURL);
                 if (found) {
                     setItem(found);
                     setLoader(false);
@@ -62,11 +60,11 @@ export const CoursesDetail = () => {
                                     : item.descriptionEN}
                             </p>
                             <h3 className="text-2xl italic">
-                                Con la adquisicion de "{' '}
+                                {t('courseDetail.adquisition')} "
                                 {currentLanguage === 'es'
                                     ? item.title
                                     : item.titleEN}
-                                " tenes incluido lo siguiente:
+                                " {t('courseDetail.included')} :
                             </h3>
                             <ul className="py-6 text-lg font-monserrat">
                                 {currentLanguage === 'es'
@@ -93,19 +91,21 @@ export const CoursesDetail = () => {
                                           </li>
                                       ))}
                             </ul>
-
-                            <p className='sm:text-lg '>
-                               <b> {t('courseDetail.duration')}:{' '}</b>
+                            <p className="sm:text-lg ">
+                                <b> {t('courseDetail.duration')}: </b>
                                 {currentLanguage === 'es'
                                     ? item.duration
                                     : item.durationEN}
                             </p>
-                            <p className='sm:text-lg '>
-                            <b>{t('courseDetail.schedule')}:{' '}</b>
-                                {currentLanguage === 'es'
-                                    ? item.schedule
-                                    : item.scheduleEN}
-                            </p>
+                            {item.schedule ? (
+                                <p className="sm:text-lg ">
+                                    <b>{t('courseDetail.schedule')}: </b>
+                                    {currentLanguage === 'es'
+                                        ? item.schedule
+                                        : item.scheduleEN}
+                                </p>
+                            ) : null}
+
                             <div className="flex sm:flex-row flex-col mx-8 gap-5 sm:gap-2  flex-wrap items-center justify-between mt-8">
                                 <a
                                     href="https://walink.co/70f16a"

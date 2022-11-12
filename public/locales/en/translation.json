@@ -12,7 +12,9 @@
         "bannerDesc": "Choose yours favorites {{gradientTitle}} buy and enjoy. We take care of the rest. Includes: Instruction, Instructor and complete equipment. For more information, please do not hesitate to contact us",
         "bannerBtn": "SEND A MAIL",
         "categoryTitleCourse": "COURSES",
-        "categoryTitleTour": "TOURS"
+        "categoryTitleTour": "TOURS",
+        "categoryTitleFirstExp": "FIRST DIVES",
+        "categoryTitleServices": "SERVICES"
     },
     "navbar": {
         "linkHome": "HOME",
@@ -26,7 +28,9 @@
     "courseDetail": {
         "duration": "Duration",
         "infoBtn": "Get Started!",
-        "schedule":"Schedule: "
+        "schedule": "Schedule: ",
+        "adquisition": "With the adquisition of ",
+        "included": "you have included "
     },
     "modal": {
         "openPolicy": "PAYMENT & CANCELLATION",
