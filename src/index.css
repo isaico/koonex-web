@@ -13,7 +13,7 @@
     }
 }
 .active {
-    @apply text-white bg-transparent
+    @apply text-white bg-transparent;
 }
 .btn-card {
     @apply text-white bg-gradient-to-r from-secondary to-indigo border-none hover:bg-primary;
@@ -24,23 +24,54 @@
 .btn-hero {
     @apply bg-gradient-to-r from-secondary to-indigo border-none;
 }
-
-html {
-    /* @apply mt-16 */
+.btn-tour{
+    @apply bg-gradient-to-r from-secondary to-green
 }
+
 .bg-waves {
-    background-image: url('./assets/svg.png');
+    background-image: url('./assets/wave-1.png');
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.bg-blob {
+    background-image: url('./assets/blob-big.svg');
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+
 .bg-mesh {
     background-image: url('./assets/mesh-238.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .d2 {
     animation-delay: 0.05s;
 }
 .d3 {
     animation-delay: 0.1s;
 }
+
+@keyframes gradientChange {
+    to {
+        background-position: 100%;
+    }
+}
+.animate-bg-positions {
+    background-size: 200%;
+    animation: gradientChange 2s ease infinite alternate-reverse;
+}
+.bg-size-200{
+    background-size: 120%;
+}
+.bg-size-100{
+    background-size: 100%;
+}
+.btn-hover{
+    @apply hover:scale-[1.1] hover:drop-shadow-xl
+}
+
+

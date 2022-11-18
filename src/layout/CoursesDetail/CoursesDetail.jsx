@@ -39,7 +39,7 @@ export const CoursesDetail = () => {
                 <Loader></Loader>
             ) : (
                 <div className="hero min-h-screen bg-mesh flex flex-col justify-between">
-                    <h2 className="text-4xl sm:text-8xl max-w-3/4 font-extrabold self-center mt-16 text-center p-10 text-transparent bg-clip-text bg-gradient-to-r from-white  to-secondary font-monserrat ">
+                    <h2 className=" animate-bg-positions text-4xl sm:text-8xl max-w-3/4 font-extrabold self-center mt-16 text-center p-10 text-transparent bg-clip-text bg-gradient-to-r from-white  to-secondary font-monserrat ">
                         {currentLanguage === 'es'
                             ? item.title?.toUpperCase()
                             : item.titleEN?.toUpperCase()}
@@ -113,7 +113,7 @@ export const CoursesDetail = () => {
                                     rel="noreferrer"
                                 >
                                     <button
-                                        className={`btn btn-card hover:scale-[1.1] hover:drop-shadow-xl w-[13rem] sm:w-auto `}
+                                        className={`btn btn-card animate-bg-positions btn-hover w-[13rem] sm:w-auto `}
                                     >
                                         <span className=" px-6">
                                             {t('courseDetail.infoBtn')}

@@ -1,10 +1,14 @@
 import React from 'react';
-import girlsUnderwater from '../assets/girls-underwater.jpg'
+import girlsUnderwater from '../assets/girls-underwater.jpg';
 
-
-export const Banner = ({gradientTitle,gradientButtonCourses,gradientButtonTours,t}) => {
+export const Banner = ({
+    gradientTitle,
+    gradientButtonCourses,
+    gradientButtonTours,
+    t,
+}) => {
     return (
-        <div className="hero min-h-[50vh] backdrop-blur-2xl shadow-2xl">
+        <div className="hero min-h-[50vh] bg-primary  shadow-2xl sm:py-12 relative">
             <div className="hero-content flex-col lg:flex-row pb-16">
                 <img
                     src={girlsUnderwater}
@@ -30,7 +34,7 @@ export const Banner = ({gradientTitle,gradientButtonCourses,gradientButtonTours,
                                 gradientTitle !== 'CURSOS'
                                     ? gradientButtonTours
                                     : gradientButtonCourses
-                            } `}
+                            } animate-bg-positions`}
                         >
                             {t('coursesContainer.bannerBtn')}
                         </button>

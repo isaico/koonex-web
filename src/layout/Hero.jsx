@@ -15,13 +15,13 @@ export const Hero = () => {
             <div className="hero-overlay bg-opacity-70"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-lg">
-                    <h1 className="text-5xl text-white mb-5 sm:text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white  to-primary ">
+                    <h1 className="text-5xl text-white mb-5 sm:text-8xl font-bold  animate-bg-positions text-transparent bg-clip-text bg-gradient-to-r from-white  to-primary ">
                         KOONEX{' '}
                     </h1>
                     <h2 className="text-3xl sm:text-5xl">{t('header.sub')}</h2>
                     <p className="my-12 text-lg ">{t('header.desc')}</p>
                     <NavLink to="/tours">
-                        <button className="btn text-white btn-hero ">
+                        <button className="btn text-white btn-hero animate-bg-positions ">
                             {t('header.btn')}
                         </button>
                     </NavLink>

@@ -45,49 +45,44 @@ export const CoursesConteiner = () => {
             {loader ? (
                 <Loader />
             ) : (
-                <div className="flex flex-col bg-primary">
+                <div className="flex flex-col bg-primaryDark relative  ">
                     <div className="screen-container w-3/4  sm:w-3/5 self-center my-16">
                         <h2
                             className={` self-center text-center my-10  text-transparent text-5xl bg-clip-text font-monserrat font-extrabold ${
                                 gradientTitle !== 'CURSOS'
                                     ? gradientTitleTours
                                     : gradientTitleCourses
-                            } sm:text-8xl
-                            
+                            } sm:text-8xl animate-bg-positions
                             `}
                         >
                             {URL === 'cursos'
                                 ? t('coursesContainer.titleCourse')
                                 : t('coursesContainer.titleTour')}
                         </h2>
-                        <p className="sm:text-xl text-base text-center leading-8 self-center w-full">
+                        <p className="sm:text-xl sm:my-12 text-base text-center leading-8 self-center w-full">
                             {t('coursesContainer.sub')}
                         </p>
                     </div>
 
-                    <div className="flex flex-col bg-waves">
-                        <Banner
-                            gradientTitle={gradientTitle}
-                            gradientButtonTours={gradientButtonTours}
-                            gradientButtonCourses={gradientButtonCourses}
-                            t={t}
-                        />
-
-                        <CoursesList
-                            data={data}
-                            fistExp={fistExp}
-                            gradientTitle={gradientTitle}
-                            buttonStyles={[
-                                gradientButtonTours,
-                                gradientButtonCourses,
-                            ]}
-                            language={i18n.language}
-                        />
-                        <ServicesList 
-                        services={services}
+                    <Banner
+                        gradientTitle={gradientTitle}
+                        gradientButtonTours={gradientButtonTours}
+                        gradientButtonCourses={gradientButtonCourses}
                         t={t}
-                        />
-                    </div>
+                    />
+
+                    <CoursesList
+                        data={data}
+                        fistExp={fistExp}
+                        gradientTitle={gradientTitle}
+                        buttonStyles={[
+                            gradientButtonTours,
+                            gradientButtonCourses,
+                        ]}
+                        language={i18n.language}
+                    />
+                    <ServicesList services={services} t={t} />
+
                     <Footer />
                 </div>
             )}
