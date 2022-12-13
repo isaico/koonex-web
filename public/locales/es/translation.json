@@ -1,20 +1,20 @@
 {
     "header": {
-        "sub": "Viajes y Guias",
-        "desc": "Deja atrás el estrés, te invitamos a conectar con el mar y su belleza.",
-        "btn": "COMENZAR!"
+        "sub": "Viajes y Turismo",
+        "desc": "Deja atrás el estrés, en Cozumel te invitamos a conectar con el mar y su belleza.",
+        "btn": "SUMERGIRSE!"
     },
     "coursesContainer": {
         "titleCourse": "ESTOS CURSOS SON PARA TI!!",
-        "titleTour": "ESTOS RECORRIDOS  SON PARA TI!!",
+        "titleTour": "COZUMEL TE OFRECE ESTAS EXPERIENCIAS!",
         "sub1": "Tenemos diferentes niveles de cursos y  certificaciónes de buceo avalados. Si eres de los que quieren profundizar en sus conocimientos sobre el buceo y el medio marino, o quieres dedicarte profesionalmente al buceo para compartir y guiar a otros, tenemos cursos para ti.",
-        "sub": "Vive una de las increíbles experiencias que 'Cozumel' tiene para ti, con nuestros guías podrás disfrutar de las mejores aventuras y vistas inigualables,  no te pierdas esta oportunidad y reserva ya tu recorrido!",
+        "sub": "Vive una de las increíbles aventuras que Koonex ofrece  para ti, con nuestros guías podrás disfrutar de las mejores aventuras y vistas inigualables,  no te pierdas esta oportunidad y reserva ya tu recorrido!",
         "bannerTitle": "¡Conecta con el océano!",
         "bannerDesc": "Elija sus {{gradientTitle}} favoritos, compre y disfrute. Nosotros nos encargamos del resto. Incluye: Instrucción, Instructor y equipo completo. Si deseas mas informacion no dude en contactarte",
         "bannerBtn": "ENVÍANOS UN CORREO",
         "categoryTitleCourse": "CURSOS",
         "categoryTitleTour": "RECORRIDOS",
-        "categoryTitleFirstExp": "PRIMERAS EXPERIENCIAS",
+        "categoryTitleMostSold": "LO MAS VENDIDO",
         "categoryTitleServices": "SERVICIOS"
 
     },
@@ -25,14 +25,14 @@
         "linkProdChild2": "RECORRIDOS",
         "linkContact": "CONTACTO"
     },
-    "featured": "Destacado",
+    "featured": "MAS VENDIDO",
     "cardBtn": "Ver info",
     "courseDetail": {
         "duration": "Duración",
         "infoBtn": "Obtener!",
         "schedule":"Horarios: ",
-        "adquisition": "Con la adquisicion de ",
-        "included": "tenes lo siguiente incluido "
+        "adquisition": "Con la adquisicion de este: ",
+        "included": "tienes lo siguiente incluido..."
     },
     "modal": {
         "openPolicy": "PAGO Y CANCELACIÓN",

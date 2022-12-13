@@ -1,8 +1,8 @@
 {
     "header": {
         "sub": "Travels and Tours",
-        "desc": "Stay present and leave stress behind, we invite you to connect with the sea and its beauty.",
-        "btn": "GET STARTED"
+        "desc": "Stay present and leave stress behind,in Cozumel we invite you to connect with the sea and its beauty.",
+        "btn": "DIVE IN"
     },
     "coursesContainer": {
         "titleCourse": "THIS COURSES ARE FOR YOU!!",
@@ -13,7 +13,7 @@
         "bannerBtn": "SEND A MAIL",
         "categoryTitleCourse": "COURSES",
         "categoryTitleTour": "TOURS",
-        "categoryTitleFirstExp": "FIRST DIVES",
+        "categoryTitleMostSold": "MOST SOLD",
         "categoryTitleServices": "SERVICES"
     },
     "navbar": {
@@ -23,14 +23,14 @@
         "linkProdChild2": "TOURS",
         "linkContact": "CONTACT"
     },
-    "featured": "Featured",
+    "featured": "MOST SOLD",
     "cardBtn": "Get info",
     "courseDetail": {
         "duration": "Duration",
         "infoBtn": "Get Started!",
         "schedule": "Schedule: ",
-        "adquisition": "With the adquisition of ",
-        "included": "you have included "
+        "adquisition": "With the adquisition of this",
+        "included": "you have included..."
     },
     "modal": {
         "openPolicy": "PAYMENT & CANCELLATION",

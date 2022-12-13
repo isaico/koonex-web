@@ -17,7 +17,6 @@ const gradientButtonCourses = 'bg-gradient-to-r from-secondary to-indigo';
 export const CoursesConteiner = () => {
     const { t, i18n } = useTranslation(['translation']);
     const [data, setData] = useState([]);
-    const [fistExp, setFistExp] = useState([]);
     const [services, setServices] = useState([]);
     const { URL } = useParams();
     const [gradientTitle, setGradientTitle] = useState('');
@@ -26,12 +25,11 @@ export const CoursesConteiner = () => {
     useEffect(() => {
         setTimeout(function () {
             if (URL) {
-                setFistExp(dataArray.filter((i) => i.category === 'fistExp'));
                 setServices(dataArray.filter((i) => i.category === 'services'));
                 if (URL === 'cursos') {
                     setData(dataArray.filter((i) => i.category === 'courses'));
                     setGradientTitle('CURSOS');
-                } else {
+                } else if (URL === 'tours') {
                     setData(dataArray.filter((i) => i.category === 'tours'));
                     setGradientTitle('TOURS');
                 }
@@ -64,16 +62,9 @@ export const CoursesConteiner = () => {
                         </p>
                     </div>
 
-                    <Banner
-                        gradientTitle={gradientTitle}
-                        gradientButtonTours={gradientButtonTours}
-                        gradientButtonCourses={gradientButtonCourses}
-                        t={t}
-                    />
-
                     <CoursesList
                         data={data}
-                        fistExp={fistExp}
+                        // fistExp={fistExp}
                         gradientTitle={gradientTitle}
                         buttonStyles={[
                             gradientButtonTours,
@@ -82,7 +73,12 @@ export const CoursesConteiner = () => {
                         language={i18n.language}
                     />
                     <ServicesList services={services} t={t} />
-
+                    <Banner
+                        gradientTitle={gradientTitle}
+                        gradientButtonTours={gradientButtonTours}
+                        gradientButtonCourses={gradientButtonCourses}
+                        t={t}
+                    />
                     <Footer />
                 </div>
             )}

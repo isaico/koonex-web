@@ -8,7 +8,7 @@ export const Banner = ({
     t,
 }) => {
     return (
-        <div className="hero min-h-[50vh] bg-primary  shadow-2xl sm:py-12 relative">
+        <div className="hero min-h-[50vh] bg-primary  sm:py-12 relative">
             <div className="hero-content flex-col lg:flex-row pb-16">
                 <img
                     src={girlsUnderwater}

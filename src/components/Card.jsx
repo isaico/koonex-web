@@ -6,17 +6,19 @@ export const Card = ({ index, item, currentLanguage, t, bgColor }) => {
     const { URL } = useParams();
     return (
         <div
-            className={`flex card overflow-visible max-w-[350px] ${bgColor} my-16  shadow-xl `}
+            className={`flex card overflow-visible max-w-[350px] ${
+                item.featured ? 'bg-indigo' : bgColor
+            } my-16  shadow-xl `}
             key={index}
         >
             {item.featured && (
                 <span
-                    className={` absolute -top-3 z-10  bg-secondary border-none text-bold text-white border badge indicator-item `}
+                    className={` absolute top-0 z-10 w-full  bg-indigo border-none text-bold text-white border  indicator-item text-center`}
                 >
                     {t('featured')}
                 </span>
             )}
-            <figure>
+            <figure className="relative">
                 <img src={item.image} alt="some water" className="" />
             </figure>
             <div className="card-body">

@@ -64,7 +64,7 @@ export const CoursesDetail = () => {
                                 {currentLanguage === 'es'
                                     ? item.title
                                     : item.titleEN}
-                                " {t('courseDetail.included')} :
+                                " {t('courseDetail.included')} 
                             </h3>
                             <ul className="py-6 text-lg font-monserrat">
                                 {currentLanguage === 'es'
