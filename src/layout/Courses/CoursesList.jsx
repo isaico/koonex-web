@@ -7,7 +7,7 @@ export const CoursesList = (props) => {
     const currentLanguage = props.language;
 
     return (
-        <div className="flex flex-col items-center pt-16 ">
+        <div className="flex flex-col items-center ">
             {/* <div className="flex flex-wrap justify-center gap-16 ">
                 {props.fistExp.map((exp, index) => (
                     <Card
@@ -19,7 +19,7 @@ export const CoursesList = (props) => {
                     />
                 ))}
             </div> */}
-            <div className="bg-blob">
+            <div className="">
                 <h2 className=" text-center sm:text-5xl text-2xl sm:my-16 font-bold  py-5 text-white italic">
                     {props.gradientTitle === 'CURSOS'
                         ? t('coursesContainer.categoryTitleCourse')
@@ -40,9 +40,7 @@ export const CoursesList = (props) => {
                     ))}
                 </div>
             </div>
-            <h2 className=" text-center sm:text-5xl text-2xl sm:my-16 font-bold  py-5 text-white italic">
-                {t('coursesContainer.categoryTitleServices')}
-            </h2>
+            
         </div>
     );
 };

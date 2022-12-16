@@ -5,11 +5,11 @@
         "btn": "DIVE IN"
     },
     "coursesContainer": {
-        "titleCourse": "THIS COURSES ARE FOR YOU!!",
-        "titleTour": "THIS TOURS ARE FOR YOU!!",
+        "titleCourse": "COZUMEL OFFERS YOU THESE COURSES!",
+        "titleTour": "COZUMEL OFFERS YOU THESE EXPERIENCES!",
         "sub": "Live one of the incredible experiences that 'Cozumel' has for you, with our guides you can enjoy the best adventures and unparalleled views, do not miss this opportunity and book your tour now!",
         "bannerTitle": "Connect with the ocean!",
-        "bannerDesc": "Choose yours favorites {{gradientTitle}} buy and enjoy. We take care of the rest. Includes: Instruction, Instructor and complete equipment. For more information, please do not hesitate to contact us",
+        "bannerDesc": "Choose your favorite {{gradientTitle}}, buy and enjoy. We take care of the rest. Fun and new experiences guaranteed. For more information, do not hesitate to contact us.",
         "bannerBtn": "SEND A MAIL",
         "categoryTitleCourse": "COURSES",
         "categoryTitleTour": "TOURS",

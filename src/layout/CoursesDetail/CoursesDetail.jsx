@@ -36,7 +36,7 @@ export const CoursesDetail = () => {
     return (
         <>
             {loader ? (
-                <Loader></Loader>
+                <Loader/>
             ) : (
                 <div className="hero min-h-screen bg-mesh flex flex-col justify-between">
                     <h2 className=" animate-bg-positions text-4xl sm:text-8xl max-w-3/4 font-extrabold self-center mt-16 text-center p-10 text-transparent bg-clip-text bg-gradient-to-r from-white  to-secondary font-monserrat ">
@@ -45,20 +45,23 @@ export const CoursesDetail = () => {
                             : item.titleEN?.toUpperCase()}
                     </h2>
                     <div className="hero-content flex-col lg:flex-row-reverse ">
-                        <div className="relative w-[90vw]  sm:min-w-fit">
+                        {/* <div className="relative w-[90vw]  sm:min-w-fit ">
                             <Carrousel images={item.imageDetail} />
-                        </div>
+                        </div> */}
                         <div className="p-4 text-white first:none">
                             <h3 className="text-xl sm:text-2xl text-center text-semibold italic ">
                                 {currentLanguage === 'es'
                                     ? item.subtitle
                                     : item.subtitleEN}
                             </h3>
-                            <p className=" text-[0.9rem]  sm:text-lg sm:leading-8 py-8 sm:py-6 font-monserrat">
-                                {currentLanguage === 'es'
-                                    ? item.description
-                                    : item.descriptionEN}
-                            </p>
+                           
+                                {/* <img src={item.imageDetail[0].image} className='float-right m-8 w-[150px]'></img> */}
+                                <p className=" text-[0.9rem]  sm:text-lg sm:leading-8 my-8 sm:my-6 font-monserrat clear-left">
+                                    {currentLanguage === 'es'
+                                        ? item.description
+                                        : item.descriptionEN}
+                                </p>
+                          
                             <h3 className="text-2xl italic">
                                 {t('courseDetail.adquisition')} "
                                 {currentLanguage === 'es'
@@ -113,7 +116,7 @@ export const CoursesDetail = () => {
                                     rel="noreferrer"
                                 >
                                     <button
-                                        className={`btn btn-card animate-bg-positions btn-hover w-[13rem] sm:w-auto `}
+                                        className={`btn btn-card animate-bg-positions btn-hover w-[13rem] sm:w- `}
                                     >
                                         <span className=" px-6">
                                             {t('courseDetail.infoBtn')}

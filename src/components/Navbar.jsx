@@ -5,16 +5,18 @@ import flagMX from '../assets/mx.png';
 import flagUS from '../assets/us.png';
 import { TbLanguageKatakana } from 'react-icons/tb';
 import { RiMenu4Fill } from 'react-icons/ri';
+import logo from '../assets/logo.png';
 export const Navbar = () => {
     const { t, i18n } = useTranslation();
 
     return (
-        <div className=" navbar backdrop-blur-[1px] text-white fixed top-0 z-10 h-[70px]">
+        <div className=" navbar backdrop-blur-[3px] text-white fixed top-0 z-10 h-[70px]">
             <div className=" flex-1 ">
                 <Link
                     to="/"
-                    className="btn btn-ghost normal-case text-base  sm:text-xl"
+                    className="btn btn-ghost normal-case text-base  sm:text-xl flex gap-2 items-center justify-center"
                 >
+                    <img src={logo} alt="logo" className=" w-8 sm:w-10" />
                     KOONEX
                 </Link>
 
@@ -59,16 +61,16 @@ export const Navbar = () => {
             <div className="flex-none hidden  sm:block">
                 <ul className="menu menu-horizontal p-0">
                     <li>
-                        <NavLink to="/" end className="btn btn-ghost">
+                        <NavLink to="/" end className="btn btn-ghost" activeClassName="active">
                             {t('navbar.linkHome')}
                         </NavLink>
                     </li>
 
-                    {/* <li>
+                    <li>
                         <NavLink to="/cursos" className="btn btn-ghost">
                             {t('navbar.linkProdChild1')}
                         </NavLink>
-                    </li> */}
+                    </li>
                     <li>
                         <NavLink to="/tours" className="btn btn-ghost">
                             {t('navbar.linkProdChild2')}
