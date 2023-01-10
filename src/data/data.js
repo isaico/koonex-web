@@ -1,3 +1,14 @@
+import cielo from '../assets/pictures/cielo.png'
+import clear from '../assets/pictures/clear.png'
+import pesca from '../assets/pictures/pesca.png'
+import submarino from '../assets/pictures/submarino.png'
+import buceo1 from '../assets/pictures/buceo-1.png'
+import buceo2 from '../assets/pictures/buceo-2.png'
+import buceo3 from '../assets/pictures/buceo-3.png'
+import parasail from '../assets/pictures/parasail.png'
+import boat from '../assets/pictures/boat.png'
+import fistDive from '../assets/pictures/fist-dive.png'
+
 export const dataArray = [
     {
         category: 'tours',
@@ -28,10 +39,10 @@ export const dataArray = [
         ],
         schedule: 'Horarios: 10am, 12pm,1pm',
         scheduleEN: 'Schedule: 10am, 12pm,1pm',
-        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        image: cielo, //imagenes de 400px x 400px
         imageDetail: [
             {
-                image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
+                image: 'https://imgur.com/hmLxwBY', //imagenes de 600px x 600px
                 alt: 'some alt desc',
             },
             {
@@ -75,7 +86,7 @@ export const dataArray = [
         ],
         schedule: 'Horarios: a disponibilidad',
         scheduleEN: 'Schedule: to availability ',
-        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        image: buceo1, //imagenes de 400px x 400px
         imageDetail: [
             {
                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
@@ -109,7 +120,7 @@ export const dataArray = [
         durationEN: '1 hour and 30 minutes',
         included: ['Equipo completo de buceo', 'Instructor certificado'],
         includedEN: ['Full diving gear', 'Certified instructor'],
-        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        image: buceo2, //imagenes de 400px x 400px
         imageDetail: [
             {
                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
@@ -158,7 +169,7 @@ export const dataArray = [
         ],
         schedule: 'Horarios: a disponibilidad',
         scheduleEN: 'Schedule: to availability ',
-        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        image: boat, //imagenes de 400px x 400px
         imageDetail: [
             {
                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
@@ -205,7 +216,7 @@ export const dataArray = [
         ],
         schedule: '10 am ,12 pm, 2 pm y 4 pm',
         scheduleEN: '10 am ,12 pm, 2 pm y 4 pm',
-        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        image: clear, //imagenes de 400px x 400px
         imageDetail: [
             {
                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
@@ -247,7 +258,7 @@ export const dataArray = [
             'Ticket to ride',
             'SNORKE equipment!',
         ],
-        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        image: submarino, //imagenes de 400px x 400px
         imageDetail: [
             {
                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
@@ -270,8 +281,8 @@ export const dataArray = [
         category: 'tours',
         title: 'Pesca Deportiva',
         titleEN: 'sport fishing',
-        subtitle: 'Sumergete en el cielo de Cozumel',
-        subtitleEN: 'Dive into the sky of Cozumel',
+        subtitle: '',
+        subtitleEN: '',
         text: 'Si te gusta la pesca llévala a un nivel superior conociendo las maravillosas especies de animales acuáticos ',
         textEN: 'If you like fishing, take it to a higher level by getting to know the marvelous species of aquatic animals. ',
         description:
@@ -290,7 +301,7 @@ export const dataArray = [
             'Water, beer and snacks',
             '6 hrs onwards light lunch',
         ],
-        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        image: pesca, //imagenes de 400px x 400px
         imageDetail: [
             {
                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
@@ -313,8 +324,8 @@ export const dataArray = [
         category: 'tours',
         title: 'Paravelismo',
         titleEN: 'Parasailing',
-        subtitle: 'Sumergete en el cielo de Cozumel',
-        subtitleEN: 'Dive into the sky of Cozumel',
+        subtitle: '',
+        subtitleEN: '',
         text: 'Los participantes de la actividad disfrutarán de un vuelo lleno de emoción y adrenalina. Durante el vuelo, los participantes podrán gozar de unas vistas panorámicas privilegiadas en todo momento. ¡La sensación de libertad es inigualable cuando ves que tienes el mar a tus pies!',
         textEN: 'The participants of the activity will enjoy a flight full of excitement and adrenaline. During the flight, participants will be able to enjoy privileged panoramic views at all times. The feeling of freedom is unmatched when you see the sea at your feet!',
         description:
@@ -325,7 +336,7 @@ export const dataArray = [
         durationEN: '30 minutes',
         included: ['Vuelo en paracaidas'],
         includedEN: ['Skydive'],
-        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        image: parasail, //imagenes de 400px x 400px
         imageDetail: [
             {
                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
@@ -370,7 +381,7 @@ export const dataArray = [
             'Snacks (Chocolate, fresh fruit, cookie)',
             'Snorkel Equipment!',
         ],
-        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        image: fistDive, //imagenes de 400px x 400px
         imageDetail: [
             {
                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
@@ -414,7 +425,7 @@ export const dataArray = [
             'Snacks (Chocolate, fresh fruit, cookie)',
             'Snorkel Equipment!',
         ],
-        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        image: fistDive, //imagenes de 400px x 400px
         imageDetail: [
             {
                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
