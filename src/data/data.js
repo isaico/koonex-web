@@ -546,7 +546,7 @@ export const dataArray = [
         text: 'Practicarás la navegación, mejorarás tu flotabilidad y obtendrás una certificación que te permitirá bucear a una profundidad máxima de 100 pies/30 m.',
         textEN: 'You will practice navigation, improve your buoyancy and get a certification that allows you to dive to a max. depth of 100 ft/30 m',
         description:
-            'Mejore sus habilidades de buceo y amplíe sus conocimientos. Practicará la navegación, mejorará su flotabilidad y obtendrá una certificación que le permitirá bucear a una profundidad máxima de 100 pies/30 m. No hay examen, porque este curso es para divertirse y adquirir experiencia. ¡A 100 pies de profundidad es donde comienza la verdadera aventura!. El curso Padi Advanced Open Water consiste en 5 buceos de entrenamiento y un auto estudio que puede ser completado antes de tu llegada a Cozumel. La teoria sera revisada con tu instructor durante sesiones informativas extendidas. Tu entrenamiento en aguas abiertas incluirá un buceo de navegación obligatorio y un buceo profundo. Las 3 inmersiones de aventura restantes las elegiremos juntos basándonos en tu interés y nivel actual de habilidad/comodidad. Hay mucho donde elegir, pero nuestra recomendación habitual es: inmersión de flotabilidad de máximo rendimiento, inmersión a la deriva y una inmersión nocturna.',
+            'Mejore sus habilidades de buceo y amplíe sus conocimientos. Practicará la navegación, mejorará su flotabilidad y obtendrá una certificación que le permitirá bucear a una profundidad máxima de 100 pies/30 m. Este curso es para divertirse y adquirir experiencia. ¡A 100 pies de profundidad es donde comienza la verdadera aventura!. El curso de Advance Adventure consiste en 5 buceos de entrenamiento y un auto estudio que puede ser completado antes de tu llegada a Cozumel. La teoria sera revisada con tu instructor durante sesiones informativas extendidas. Tu entrenamiento en aguas abiertas incluirá un buceo de navegación obligatorio y un buceo profundo. Las 3 inmersiones de aventura restantes las elegiremos juntos basándonos en tu interés y nivel actual de habilidad/comodidad. Hay mucho donde elegir, pero nuestra recomendación habitual es: inmersión de flotabilidad de máximo rendimiento, inmersión a la deriva y una inmersión nocturna.',
         descriptionEN:
             'Advance your diving skills and expand your knowledge. You will practice navigation, improve your buoyancy and get a certification that allows you to dive to a max. depth of 100 ft/30 m. There is no exam, because this course is all about fun and gaining experience. 100 ft under is where the real adventure begins!. Padi Advanced Open Water course consists of 5 training dives and a self study that can be completed before your arrival to Cozumel. The theory will be reviewed with your instructor during extended briefings. Your open water training will include a mandatory navigation dive and a deep dive. The remaining 3 adventure dives we will choose together based on your interest and current skill/comfort level. There is a lot to choose from, but our usual recommendation is: peak performance buoyancy dive, drift dive and a night dive.',
         duration: '2/3 dias son necesarios',
@@ -554,15 +554,15 @@ export const dataArray = [
         included: [
             'E-learning del course Aventuras avanzadas',
             'sesión de repaso teórico',
-            '3 inmersiones en aguas abiertas desde costa',
-            '2 inmersiones en aguas abiertas desde barco y tarifa de certificación',
+            'inmersiones en aguas abiertas desde costa',
+            'inmersiones en aguas abiertas desde barco y tarifa de certificación',
             'El precio no incluye el alquiler del equipo.',
         ],
         includedEN: [
             'E-learning Advanced adventure',
             'Theory review session',
-            '3 open water shore dives',
-            '2 open water boat dives and PADI certification fee',
+            'open water shore dives',
+            'open water boat dives and certification fee',
             'Price does not include gear rental.',
         ],
         image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
@@ -589,28 +589,28 @@ export const dataArray = [
         titleEN: 'Open water',
         subtitle: 'Curso para obtener certificacion mundial de buceo',
         subtitleEN: 'World diving certification course',
-        text: 'Aprende a bucear bajo la supervisión de un instructor PADI altamente cualificado',
+        text: 'Aprende a bucear bajo la supervisión de un instructor altamente cualificado',
         textEN: 'Learn how to dive under the supervision of a highly-trained PADI instructor.',
         description:
-            'Padi Open Water Diver es el primer nivel de certificación de buceo y es una licencia reconocida mundialmente para toda la vida. Aprende a bucear bajo la supervisión de un instructor PADI altamente cualificado. Te apoyaremos en cada paso del camino creando un ambiente de aprendizaje seguro y relajado. Obtén la certificación para bucear hasta 60 pies- ¡aquí es donde comienza la aventura!. El curso consta de 3 secciones: teoría del buceo, sesiones de habilidades en aguas confinadas e inmersiones en aguas abiertas. Durante las 5 sesiones en aguas confinadas aprenderás habilidades básicas de buceo que te mantendrán seguro y cómodo en aguas abiertas.',
+            'Open Water Diver es el primer nivel de certificación de buceo y es una licencia reconocida mundialmente para toda la vida. Aprende a bucear bajo la supervisión de un instructor altamente cualificado. Te apoyaremos en cada paso del camino creando un ambiente de aprendizaje seguro y relajado. Obtén la certificación para bucear hasta 60 pies- ¡aquí es donde comienza la aventura!. El curso consta de 3 secciones: teoría del buceo, sesiones de habilidades en aguas confinadas e inmersiones en aguas abiertas. Durante las sesiones en aguas confinadas aprenderás habilidades básicas de buceo que te mantendrán seguro y cómodo en aguas abiertas.',
         descriptionEN:
-            'Padi Open Water Diver is the first scuba certification level and is a lifetime worldwide recognized license. Learn how to dive under the supervision of a highly-trained PADI instructor. We will support you every step of the way by creating a safe and relaxed learning environment. Get certified to dive to 60 ft- this is where the adventure begins!. The course consists of 3 sections: dive theory, confined water skill sessions and open water dives. During your 5 confined water sessions you will learn basic diving skills that will keep you safe and comfortable in the open water. ',
+            'Open Water Diver is the first scuba certification level and is a lifetime worldwide recognized license. Learn how to dive under the supervision of a highly-trained instructor. We will support you every step of the way by creating a safe and relaxed learning environment. Get certified to dive to 60 ft- this is where the adventure begins!. The course consists of 3 sections: dive theory, confined water skill sessions and open water dives. During your confined water sessions you will learn basic diving skills that will keep you safe and comfortable in the open water. ',
         duration: '3 dias se necesitan para completar el curso',
         durationEN: '3 days are needed to complete the course',
         included: [
-            'E-learning del curso PADI de Aguas Abiertas',
+            'E-learning del curso de Aguas Abiertas',
             'Sesión de repaso teórico',
-            '5 sesiones en aguas confinadas',
-            '2 inmersiones en aguas abiertas desde costa',
-            '2 inmersiones en aguas abiertas desde barco y tarifa de certificación PADI.',
+            'Sesiones en aguas confinadas',
+            'Inmersiones en aguas abiertas desde costa',
+            'Inmersiones en aguas abiertas desde barco y tarifa de certificación.',
             'El precio no incluye el alquiler del equipo.',
         ],
         includedEN: [
             'PADI Open Water Diver e-learning',
             'Theory review session',
-            '5 confined water sessions',
-            '2 open water shore dives',
-            '2 open water boat dives and PADI certification fee',
+            'Confined water sessions',
+            'Open water shore dives',
+            'Open water boat dives and certification fee',
             'Price does not include gear rental.',
         ],
         image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
@@ -631,30 +631,34 @@ export const dataArray = [
         id: '54de02c5-2560-42dd-9899-0660a8751c43',
         featured: true,
     },
-
+'Theory review session',
     {
         category: 'courses',
         title: 'Maestro de buceo',
         titleEN: 'Dive master',
-        subtitle: 'subtitulo',
-        subtitleEN: 'subtitulo',
-        text: 'El curso PADI Divemaster te enseña a ser un líder y a hacerte cargo de las actividades de buceo.',
-        textEN: 'The PADI Divemaster course teaches you to be a leader and take charge of dive activities.',
+        subtitle: 'Curso orientado para buceadores avanzados que quieran profundizar conociemientos',
+        subtitleEN: 'Course oriented for advanced divers who want to deepen their knowledge',
+        text: 'El curso  Divemaster te enseña a ser un líder y a hacerte cargo de las actividades de buceo.',
+        textEN: 'The  Divemaster course teaches you to be a leader and take charge of dive activities.',
         description:
-            'Comparte tu pasión por el buceo convirtiéndote en PADI Divemaster. Como divemaster supervisarás actividades de buceo y ayudarás en las clases de buceo. PADI Divemaster es el primer paso en tu carrera profesional de buceo. El curso PADI Divemaster te enseña a ser un líder y a hacerte cargo de las actividades de buceo. A través de sesiones de desarrollo de conocimientos, ejercicios de habilidades acuáticas y talleres, y la evaluación práctica, desarrollarás las habilidades para organizar y dirigir una variedad de actividades de buceo.',
+            'Comparte tu pasión por el buceo convirtiéndote en Divemaster. Como divemaster ayudarás a supervisar en las clases de buceo. Divemaster es el primer paso en tu carrera profesional de buceo. El curso Divemaster te enseña a ser un líder y a hacerte cargo de las actividades de buceo. A través de sesiones de desarrollo de conocimientos, ejercicios de habilidades acuáticas y talleres, y la evaluación práctica, desarrollarás las habilidades para organizar y dirigir una variedad de actividades de buceo.',
         descriptionEN:
-            'Share your passion for scuba diving by becoming a PADI Divemaster. As a divemaster you’ll supervise scuba diving activities and assist with scuba classes. PADI Divemaster is the first step in your professional diving career. The PADI Divemaster course teaches you to be a leader and take charge of dive activities. Through knowledge development sessions, waterskills exercises and workshops, and hands-on practical assessment, you develop the skills to organize and direct a variety of scuba diving activities.',
+            'Share your passion for scuba diving by becoming a Divemaster. As a divemaster you’ll assist to supervise scuba classes. Divemaster is the first step in your professional diving career. The Divemaster course teaches you to be a leader and take charge of dive activities. Through knowledge development sessions, waterskills exercises and workshops, and hands-on practical assessment, you develop the skills to organize and direct a variety of scuba diving activities.',
         duration: 'mínimo 24 horas',
         durationEN: 'at least 24 hours',
         included: [
-            'Kilometraje libre',
-            'Seguro de responsabilidad civil',
-            'Seguro de daños a terceros del 100%',
+            'E-learning del curso de Divemaster',
+            'Inmersiones en aguas abiertas desde la costa',
+            'Inmersiones en aguas abiertas desde el barco',
+            'Sesión de repaso teórico',
+            'Certificacion internacional',
         ],
         includedEN: [
-            'Free miles',
-            'Civil liability insurance',
-            '100% third party damage insurance',
+            'E-learning of Divemaster course',
+            'open water shore dives',
+            'open water boat dives and certification fee',
+            'Theory review session',
+            'International certification',
         ],
         image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
         imageDetail: [
@@ -678,29 +682,27 @@ export const dataArray = [
         category: 'courses',
         title: 'Buceo de rescate',
         titleEN: 'Rescue diver',
-        subtitle: '',
-        subtitleEN: ' ',
+        subtitle: 'Curso de rescate',
+        subtitleEN: 'Rescue course',
         text: 'Aprenda a pensar como un buceador de rescate para identificar y solucionar problemas menores antes de que se conviertan en problemas graves.',
         textEN: 'Learn how to think like a rescue diver to identify and fix minor issues before they become big problems.',
         description:
-            'Cambia tu forma de vivir el buceo durante tu Curso de Rescate Padi. Gana confianza mejorando tus habilidades de autorrescate y aprende a ayudar a otros buceadores. Desafíate a ti mismo para hacer el buceo más seguro para ti, tus compañeros de buceo, familiares y amigos. Aprende a pensar como un buceador de rescate para identificar y solucionar problemas menores antes de que se conviertan en grandes problemas. El estudio en casa será revisado con su instructor para asegurarse de que entiende la teoría antes de tomar su examen final. Las nuevas habilidades se practicarán en aguas abiertas confinadas y luego se aplicarán durante sus inmersiones en el océano para darle plena confianza en la solución de todas las posibles emergencias de buceo - desde pequeños a graves problemas.',
+            'Cambia tu forma de vivir el buceo durante tu Curso de Rescate . Gana confianza mejorando tus habilidades de autorrescate y aprende a ayudar a otros buceadores. Desafíate a ti mismo para hacer el buceo más seguro para ti, tus compañeros de buceo, familiares y amigos. Aprende a pensar como un buceador de rescate para identificar y solucionar problemas menores antes de que se conviertan en grandes problemas. El estudio en casa será revisado con su instructor para asegurarse de que entiende la teoría antes de tomar su examen final. Las nuevas habilidades se practicarán en aguas abiertas confinadas y luego se aplicarán durante sus inmersiones en el océano para darle plena confianza en la solución de todas las posibles emergencias de buceo - desde pequeños a graves problemas.',
         descriptionEN:
-            'Change the way you experience diving during your Padi Rescue Course. Gain confidence by improving your self-rescue skills and learn how to help other divers. Challenge yourself to make diving safer for you, your dive buddies, family members and friends. Learn how to think like a rescue diver to identify and fix minor issues before they become big problems. Home study will be reviewed with your instructor to make sure you understand the theory before you take your final exam. New skills will be practiced in confined open water and then applied during your ocean dives to give you full confidence in solving all possible diving emergencies- from small to serious issues.',
+            'Change the way you experience diving during your Rescue Course. Gain confidence by improving your self-rescue skills and learn how to help other divers. Challenge yourself to make diving safer for you, your dive buddies, family members and friends. Learn how to think like a rescue diver to identify and fix minor issues before they become big problems. Home study will be reviewed with your instructor to make sure you understand the theory before you take your final exam. New skills will be practiced in confined open water and then applied during your ocean dives to give you full confidence in solving all possible diving emergencies- from small to serious issues.',
         duration: '3/5 dias necesarios',
         durationEN: '3/5 days are needed',
         included: [
             'E-learning de este curso',
             'Sesión de repaso de la teoría',
-            'Sesiones de entrenamiento que cubren 10 ejercicios de rescate (desde la orilla)',
-            '2 inmersiones desde barco en aguas abiertas y tarifa de certificación',
-            'El precio no incluye el alquiler del equipo.',
+            'Sesiones de entrenamiento',
+            'inmersiones desde barco en aguas abiertas y tarifa de certificación',
         ],
         includedEN: [
             'E-learning of this course',
             'Theory review session',
-            'Training sessions covering 10 rescue exercises (from the shore)',
-            '2 open water boat dives and PADI certification fee',
-            'Price does not include gear rental.',
+            'Training sessions covering',
+            'Open water boat dives and certification fee',
         ],
         image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
         imageDetail: [
@@ -724,28 +726,26 @@ export const dataArray = [
         category: 'courses',
         title: 'Nitrox',
         titleEN: 'Nitrox',
-        subtitle: 'subtitulo',
-        subtitleEN: 'subtitulo',
-        text: 'texto breve',
-        textEN: 'texto breve',
+        subtitle: 'Curso de aire enriquecido',
+        subtitleEN: 'Enriched air course',
+        text: 'Aprende porque el nitrox te permite hacer inmersiones mas largas e intervalos en superficies mas cortos',
+        textEN: 'Learn why nitrox allows you to do longer dives and shorter surface intervals',
         description:
-            'texto desriptivo mas largo You can spot strong contrasting elements and sometimes even the whole sections on many websites and apps, including the biggest players in the industry.',
+            'Aprende porque el nitrox te permite hacer inmersiones más largas e intervalos en superficies más cortos. Durante el curso aprenderás a analizar los tanques y sus mezclas y configurar tu ordenador para tener un buceo más seguro.',
         descriptionEN:
-            'texto desriptivo mas largo You can spot strong contrasting elements and sometimes even the whole sections on many websites and apps, including the biggest players in the industry.',
+            'Learn why nitrox allows you to do longer dives and shorter surface intervals. During the course you will learn to analyze the tanks and their mixtures and configure your computer to have a safer dive.',
         duration: 'mínimo 24 horas',
         durationEN: 'at least 24 hours',
         included: [
-            'Kilometraje libre',
-            'Seguro de responsabilidad civil',
-            'Seguro de daños a terceros del 100%',
+            'E-learning del curso Nitrox',
+            'Costos de certificacion',
         ],
         includedEN: [
-            'Free miles',
-            'Civil liability insurance',
-            '100% third party damage insurance',
+            'E-learning of the Nitrox course',
+            'Certification fee',
         ],
         image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
-        imageDetail: [
+        imageDetail: 
             {
                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
                 alt: 'some alt desc',
