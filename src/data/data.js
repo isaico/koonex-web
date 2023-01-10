@@ -63,20 +63,20 @@ export const dataArray = [
         titleEN: '2-tank dive for certified divers ',
         subtitle: 'Buceo de 2 tankes',
         subtitleEN: '2-tank dive',
-        text: 'Tenemos un recorrido en la lancha, la lancha nos recoge y vamos a una playa y hacemos intervalos de buceo ',
-        textEN: 'We have a tour in the boat, the boat picks us up and we go to a beach and do snorkeling intervals',
+        text: 'Buceo de dos tanques en la rivera maya',
+        textEN: '2 tanks dive from the rivera maya',
         description:
-            ' Tenemos un recorrido en la lancha de aprox. 20 /25 min para llegar hasta la zona de buceo. Durante el trayecto se habla acerca de los lugares que vamos a visitar, flora y fauna del lugar. Indicaremos procedimientos del buceo. Llegando al punto de buceo descendemos al arrecife a una profundidad Max de 24 mts y el tiempo de fondo es de una hora (o 700 psi) Luego de esa hora de buceo, la lancha nos recoge y vamos a una playa para hacer una hora de intervalo de superficie en la cual ofrecemos un pequeño refrigerio que consta de fruta, galletas o pan y chocolates. Agua tenemos todo el tiempo y a cualquier momento que se necesite. Luego del intervalo se realiza otro buceo en una parte diferente del arrecife. Luego regresamos ala tienda de donde partimos ',
+            'Tenemos un recorrido en la lancha de aprox. 20 /25 min para llegar hasta la zona de buceo. Durante el trayecto se habla acerca del procedimiento de buceo, cuidado de flora y fauna. En el intervalo en superficie se dara un refrigerio y algo de beber. Al finalizar realizaremos el segundo buceo y regresaremos a la tienda.',
         descriptionEN:
-            'We have a boat ride of approx. 20 /25 min. to get to the diving area. During the trip we talk about the places we are going to visit, flora and fauna of the place. We will indicate diving procedures. Arriving at the diving point we descend to the reef to a depth of 24 meters and the bottom time is one hour (or 700 psi). After that hour of diving, the boat picks us up and we go to a beach for an hour of surface interval in which we offer a small snack consisting of fruit, cookies or bread and chocolates. Water is available all the time and at any time it is needed. After the interval we do another dive in a different part of the reef. Then we return to the tent from where we depart. ',
-        duration: '4 horas',
-        durationEN: '4 hours',
+            'We have a boat ride of approx. 20 /25 min. to get to the diving area. During the ride we talk about the diving procedure, care of flora and fauna. During the surface interval we will have a snack and something to drink. At the end of the dive we will do the second dive and return to the tent. ',
+        duration: '4/5 horas',
+        durationEN: '4/5 hours',
         included: [
             'Guia certificado',
-            'Aguas naturales, run punch, refrescos o cervezas',
-            'Frutas',
+            'Aguas naturales y refrescos',
+            'Frutas, chocolates y galletas',
             'Mucha diversion',
-            'EQUIPO SNORKEL!',
+            'Equipo Completo!',
         ],
         includedEN: [
             'Certified guide',
@@ -104,89 +104,89 @@ export const dataArray = [
         id: 'c3e2d898-64b2-49ff-8118-3bd8d537cca9',
         featured: false,
     }, //2
-    {
-        category: 'tours',
-        title: 'Descrubre el buceo (Principiantes)',
-        titleEN: 'Discover Scuba diving (Playa 1 tank) ',
-        subtitle: 'Para adentrarte en el mundo del buceo',
-        subtitleEN: 'To enter the world of scuba diving',
-        text: 'Sumergete y descubre la magia submarina que Cozumel tiene para ti.',
-        textEN: 'Dive and discover the underwater magic that Cozumel has for you.',
-        description:
-            'Vive tu primera experiencia de buceo y conoce las maravillas submarinas de Cozumel. No se requiere experiencia previa y es para personas mayores de 10 años de edad.',
-        descriptionEN:
-            'Dive in and discover the underwater magic that cozumel has for you. You will enter a world full of colors since Cozumel is the favorite place to dive of its natural beauty',
-        duration: '1 Hora y 30 minutos',
-        durationEN: '1 hour and 30 minutes',
-        included: ['Equipo completo de buceo', 'Instructor certificado'],
-        includedEN: ['Full diving gear', 'Certified instructor'],
-        image: buceo2, //imagenes de 400px x 400px
-        imageDetail: [
-            {
-                image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
-                alt: 'some alt desc',
-            },
-            {
-                image: 'https://placeimg.com/600/600/arch',
-                alt: 'some alt desc',
-            },
-            {
-                image: 'https://placeimg.com/600/600/arch',
-                alt: 'some alt desc',
-            },
-        ],
-        id: '382363c8-9dd2-4b8e-b01c-c3e4281e3207',
-        featured: false,
-    }, //3
-    {
-        category: 'tours',
-        title: 'Primera experiencia desde barco',
-        titleEN: 'First experience from boat',
-        subtitle: 'Buceo desde un barco',
-        subtitleEN: 'Boat diving',
-        text: 'Explore los hermosos arrecifes de Cozumel.',
-        textEN: 'Explore the beautiful reefs of Cozumel.',
-        description:
-            'Si quieren probar el buceo por primera vez, vivan una experiencia inolvidable descubriendo las profundidades del mar sin tener experiencia previa. Podemos llevarte a bucear en el barco para ver los hermosos arrecifes que Cozumel tiene para ofrecer.',
-        descriptionEN:
-            'If you want to try scuba diving for the first time, live an unforgettable experience discovering the depths of the sea without previous experience. We can take you diving on the boat to see the beautiful reefs that Cozumel has to offer.',
-        duration: '5/6 horas',
-        durationEN: '5/6 hours',
-        included: [
-            'Cafe',
-            'Aguas naturales',
-            'Frutas',
-            'Galletas y chocolates',
-            '2 tankes, cinturon y lastre!',
-            '(Renta de equipo adicional)',
-        ],
-        includedEN: [
-            'Coffe',
-            'Natural water',
-            'Cookies and chocolates',
-            '2 tanks, belt and ballast',
-            '(Rental of additional equipment)',
-        ],
-        schedule: 'Horarios: a disponibilidad',
-        scheduleEN: 'Schedule: to availability ',
-        image: boat, //imagenes de 400px x 400px
-        imageDetail: [
-            {
-                image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
-                alt: 'some alt desc',
-            },
-            {
-                image: 'https://placeimg.com/600/600/arch',
-                alt: 'some alt desc',
-            },
-            {
-                image: 'https://placeimg.com/600/600/arch',
-                alt: 'some alt desc',
-            },
-        ],
-        id: 'c3e2d898-64b2-49ff-8118-3123jdjd92a',
-        featured: false,
-    }, //4
+//     {
+//         category: 'tours',
+//         title: 'Descrubre el buceo (Principiantes)',
+//         titleEN: 'Discover Scuba diving (Playa 1 tank) ',
+//         subtitle: 'Para adentrarte en el mundo del buceo',
+//         subtitleEN: 'To enter the world of scuba diving',
+//         text: 'Sumergete y descubre la magia submarina que Cozumel tiene para ti.',
+//         textEN: 'Dive and discover the underwater magic that Cozumel has for you.',
+//         description:
+//             'Vive tu primera experiencia de buceo y conoce las maravillas submarinas de Cozumel. No se requiere experiencia previa y es para personas mayores de 10 años de edad.',
+//         descriptionEN:
+//             'Dive in and discover the underwater magic that cozumel has for you. You will enter a world full of colors since Cozumel is the favorite place to dive of its natural beauty',
+//         duration: '1 Hora y 30 minutos',
+//         durationEN: '1 hour and 30 minutes',
+//         included: ['Equipo completo de buceo', 'Instructor certificado'],
+//         includedEN: ['Full diving gear', 'Certified instructor'],
+//         image: buceo2, //imagenes de 400px x 400px
+//         imageDetail: [
+//             {
+//                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
+//                 alt: 'some alt desc',
+//             },
+//             {
+//                 image: 'https://placeimg.com/600/600/arch',
+//                 alt: 'some alt desc',
+//             },
+//             {
+//                 image: 'https://placeimg.com/600/600/arch',
+//                 alt: 'some alt desc',
+//             },
+//         ],
+//         id: '382363c8-9dd2-4b8e-b01c-c3e4281e3207',
+//         featured: false,
+//     }, //3
+//     {
+//         category: 'tours',
+//         title: 'Primera experiencia desde barco',
+//         titleEN: 'First experience from boat',
+//         subtitle: 'Buceo desde un barco',
+//         subtitleEN: 'Boat diving',
+//         text: 'Explore los hermosos arrecifes de Cozumel.',
+//         textEN: 'Explore the beautiful reefs of Cozumel.',
+//         description:
+//             'Si quieren probar el buceo por primera vez, vivan una experiencia inolvidable descubriendo las profundidades del mar sin tener experiencia previa. Podemos llevarte a bucear en el barco para ver los hermosos arrecifes que Cozumel tiene para ofrecer.',
+//         descriptionEN:
+//             'If you want to try scuba diving for the first time, live an unforgettable experience discovering the depths of the sea without previous experience. We can take you diving on the boat to see the beautiful reefs that Cozumel has to offer.',
+//         duration: '5/6 horas',
+//         durationEN: '5/6 hours',
+//         included: [
+//             'Cafe',
+//             'Aguas naturales',
+//             'Frutas',
+//             'Galletas y chocolates',
+//             '2 tankes, cinturon y lastre!',
+//             '(Renta de equipo adicional)',
+//         ],
+//         includedEN: [
+//             'Coffe',
+//             'Natural water',
+//             'Cookies and chocolates',
+//             '2 tanks, belt and ballast',
+//             '(Rental of additional equipment)',
+//         ],
+//         schedule: 'Horarios: a disponibilidad',
+//         scheduleEN: 'Schedule: to availability ',
+//         image: boat, //imagenes de 400px x 400px
+//         imageDetail: [
+//             {
+//                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
+//                 alt: 'some alt desc',
+//             },
+//             {
+//                 image: 'https://placeimg.com/600/600/arch',
+//                 alt: 'some alt desc',
+//             },
+//             {
+//                 image: 'https://placeimg.com/600/600/arch',
+//                 alt: 'some alt desc',
+//             },
+//         ],
+//         id: 'c3e2d898-64b2-49ff-8118-3123jdjd92a',
+//         featured: false,
+//     }, //4
     {
         category: 'tours',
         title: 'Tour en lancha transparente',
@@ -357,29 +357,25 @@ export const dataArray = [
 
     {
         category: 'tours',
-        title: 'Primera inmersión opt-1',
-        titleEN: 'First Dive opt-1',
-        subtitle: 'Primera inmersión opcion 1',
-        subtitleEN: 'First Dive option 1',
+        title: 'Primera experiencia desde la playa (buzo no certificado)',
+        titleEN: 'First experiencie from the beach (not certified diver)',
+        subtitle: '',
+        subtitleEN: '',
         text: 'Esta guía es para la gente que nunca ha buceado en su vida y quiere experimentar algo nuevo! ',
         textEN: 'This guide is for people who have never dived in their life and want to experience something new!',
         description:
-            'Esta guía consta de la clase básica y enseñanza acerca del mundo del buceo, luego vamos al mar donde las el agua nos da hasta la cintura para hacer 3 ejercicios básicos,  limpiar el visor,  recuperación del regulador y flotabilidad neutra (ejercicios no obligatorios) y luego continuamos con nuestro buceo por espacio de una hora.',
+            'Esta guía consta de la clase básica y enseñanza acerca del mundo del buceo, luego vamos al mar para hacer 3 ejercicios básicos,  limpiar el visor,  recuperación del regulador y flotabilidad neutra. Luego continuamos con nuestro buceo por espacio de una hora aproximado.',
         descriptionEN:
-            'This guide consists of the basic class and teaching about the world of diving, then we go to the sea where the water is up to our waists to do 3 basic exercises, clean the visor, regulator recovery and neutral buoyancy (not mandatory exercises) and then we continue with our dive for an hour.',
+            'This guide consists of the basic class and teaching about the world of diving, then we go to the sea to do 3 basic exercises, clean the visor, recover the regulator and neutral buoyancy. Then we continue with our diving for approximately one hour.',
         duration: '2 horas aproximadas',
         durationEN: 'Approximately 2 hours',
         included: [
-            'Viaje en lancha',
-            'Agua mineral',
-            'Refrigerio (chocolate, fruta, galleta)',
-            'Equipo Snorke!',
+            'Instuctor certificado',
+            'Equipo completo!',
         ],
         includedEN: [
-            'Boat trip',
-            'Mineral Water',
-            'Snacks (Chocolate, fresh fruit, cookie)',
-            'Snorkel Equipment!',
+            'Certified instrFullctor',
+            'F Equipment!',
         ],
         image: fistDive, //imagenes de 400px x 400px
         imageDetail: [
@@ -401,29 +397,29 @@ export const dataArray = [
     },
     {
         category: 'tours',
-        title: 'Primera inmersión opt-2',
-        titleEN: 'First Dive opt-2',
-        subtitle: 'Primera inmersión opcion 2',
-        subtitleEN: 'First Dive option 2',
+        title: 'Primera experiencia desde barco (buzo no certificado)',
+        titleEN: 'First experience from a boat (not certified diver)',
+        subtitle: '',
+        subtitleEN: '',
         text: 'Esta guía es para la gente que nunca ha buceado en su vida y quiere experimentar algo nuevo! ',
         textEN: 'This guide is for people who have never dived in their life and want to experience something new!',
         description:
-            'Esta guía consta de la clase básica y enseñanza acerca del mundo del buceo, luego vamos al mar donde las el agua nos da hasta la cintura para hacer 3 ejercicios básicos,  limpiar el visor,  recuperación del regulador y flotabilidad neutra (ejercicios no obligatorios) y luego continuamos con nuestro buceo por espacio de una hora.',
+            'Esta guía consta de la clase básica y enseñanza acerca del mundo del buceo y dos inmersiones en distintas secciones del arrecife, sera acompañado en todo momento por un instructor certificado.',
         descriptionEN:
-            'This guide consists of the basic class and teaching about the world of diving, then we go to the sea where the water is up to our waists to do 3 basic exercises, clean the visor, regulator recovery and neutral buoyancy (not mandatory exercises) and then we continue with our dive for an hour.',
+            'This guide consists of the basic class and teaching about the world of diving and two dives in different sections of the reef, you will be accompanied at all times by a certified instructor.',
         duration: '2 horas aproximadas',
         durationEN: 'Approximately 2 hours',
         included: [
             'Viaje en lancha',
-            'Agua mineral',
+            'Agua fresca',
             'Refrigerio (chocolate, fruta, galleta)',
-            'Equipo Snorke!',
+            'Equipo completo!',
         ],
         includedEN: [
             'Boat trip',
-            'Mineral Water',
+            'Fresh Water',
             'Snacks (Chocolate, fresh fruit, cookie)',
-            'Snorkel Equipment!',
+            'Full Equipment!',
         ],
         image: fistDive, //imagenes de 400px x 400px
         imageDetail: [
@@ -745,7 +741,7 @@ export const dataArray = [
             'Certification fee',
         ],
         image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
-        imageDetail: 
+        imageDetail: [
             {
                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
                 alt: 'some alt desc',
