@@ -9,11 +9,6 @@ import { useTranslation } from 'react-i18next';
 import { Banner } from '../../components/Banner';
 import { ServicesList } from '../../components/ServicesList';
 
-const gradientTitleTours = 'bg-gradient-to-r from-secondary to-white';
-const gradientTitleCourses = 'bg-gradient-to-r from-indigo to-white';
-// const gradientButtonTours = 'bg-gradient-to-r from-secondary to-white';
-const gradientButtonCourses = 'bg-gradient-to-r from-secondary to-indigo';
-
 export const CoursesConteiner = () => {
     const { t, i18n } = useTranslation(['translation']);
     const [data, setData] = useState([]);
@@ -43,13 +38,19 @@ export const CoursesConteiner = () => {
             {loader ? (
                 <Loader />
             ) : (
-                <div className="flex flex-col bg-primaryDark relative bg-blob ">
+                <div
+                    className={`flex flex-col relative ${
+                        gradientTitle === 'CURSOS' ? 'bgCourses' : 'bgTours'
+                    } animate-bg
+            
+                `}
+                >
                     <div className="screen-container w-3/4  sm:w-3/5 self-center ">
                         <h2
                             className={` self-center text-center my-10  text-transparent text-5xl bg-clip-text font-monserrat font-extrabold ${
                                 gradientTitle !== 'CURSOS'
-                                    ? gradientTitleTours
-                                    : gradientTitleCourses
+                                    ? 'gradientTitleTours'
+                                    : 'gradientTitleCourses'
                             } sm:text-8xl animate-bg-positions
                             `}
                         >
@@ -64,23 +65,13 @@ export const CoursesConteiner = () => {
 
                     <CoursesList
                         data={data}
-                        // fistExp={fistExp}
                         gradientTitle={gradientTitle}
-                        // buttonStyles={[
-                        //     gradientButtonTours,
-                        //     gradientButtonCourses,
-                        // ]}
                         language={i18n.language}
                     />
                     <div className="bg-primaryDark">
                         <ServicesList services={services} t={t} />
                     </div>
-                    <Banner
-                        gradientTitle={gradientTitle}
-                        // gradientButtonTours={gradientButtonTours}
-                        gradientButtonCourses={gradientButtonCourses}
-                        t={t}
-                    />
+                    <Banner gradientTitle={gradientTitle} t={t} />
                     <Footer />
                 </div>
             )}

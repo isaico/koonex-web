@@ -11,35 +11,54 @@
     html {
         @apply font-fira;
     }
+
 }
-/* .active {
-    @apply text-white bg-transparent;
-} */
-.btn-card {
-    @apply text-white bg-gradient-to-r from-secondary to-indigo border-none hover:bg-primary;
+.gradientTitleCourses{
+   @apply bg-gradient-to-r from-secondary to-white border-none
 }
-.button {
-    @apply text-white border-none;
+.gradientTitleTours{
+    @apply bg-gradient-to-r from-indigo to-white border-none
 }
-.btn-hero {
+.gradientButtonCourses{
+    @apply bg-gradient-to-r from-secondary to-indigo border-none
+}
+.gradientButtonTours {
+   @apply  bg-gradient-to-r from-accent to-green border-none
+}
+.bgCourses{
+    @apply bg-blob bg-primaryDark
+}
+.bgTours{
+    @apply bg-blob2 bg-secondary
+}
+
+/* .btn-hero {
     @apply bg-gradient-to-r from-secondary to-indigo border-none;
+} */
+/* .btn-card {
+    @apply text-white bg-gradient-to-r from-secondary to-indigo border-none hover:bg-primary;
 }
 .btn-tour {
     @apply bg-gradient-to-r from-secondary to-grey-regular
     text-white;
-}
+} */
 .active {
     @apply border-b-4 border-white bg-transparent;
 }
 .bg-waves {
     background-image: url('./assets/wave-1.png');
-    background-size: cover;
-    background-repeat: repeat-y;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .bg-blob {
     background-image: url('./assets/blob-secondary-4k.svg');
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.bg-blob2 {
+    background-image: url('./assets/blob-primary-4k.svg');
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -64,6 +83,10 @@
 .animate-bg-positions {
     background-size: 200%;
     animation: gradientChange 2s ease infinite alternate-reverse;
+}
+.animate-bg {
+    background-size: 120%;
+    animation: gradientChange 5s ease infinite alternate-reverse;
 }
 .bg-size-200 {
     background-size: 120%;

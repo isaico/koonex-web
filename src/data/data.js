@@ -8,6 +8,14 @@ import buceo3 from '../assets/pictures/buceo-3.png'
 import parasail from '../assets/pictures/parasail.png'
 import boat from '../assets/pictures/boat.png'
 import fistDive from '../assets/pictures/fist-dive.png'
+import srvCar from '../assets/pictures/services-car.png'
+import srvBike from '../assets/pictures/services-motorbike.png'
+import rescue from '../assets/pictures/rescue.png'
+import open from '../assets/pictures/open.png'
+import advance  from '../assets/pictures/advance.png'
+import dive from '../assets/pictures/dive.png'
+import nitrox from '../assets/pictures/nitrox.png'
+
 
 export const dataArray = [
     {
@@ -59,136 +67,6 @@ export const dataArray = [
     }, //1
     {
         category: 'tours',
-        title: 'Buceo desde barco por arrecifes (Buzos certificados)',
-        titleEN: '2-tank dive for certified divers ',
-        subtitle: 'Buceo de 2 tankes',
-        subtitleEN: '2-tank dive',
-        text: 'Buceo de dos tanques en la rivera maya',
-        textEN: '2 tanks dive from the rivera maya',
-        description:
-            'Tenemos un recorrido en la lancha de aprox. 20 /25 min para llegar hasta la zona de buceo. Durante el trayecto se habla acerca del procedimiento de buceo, cuidado de flora y fauna. En el intervalo en superficie se dara un refrigerio y algo de beber. Al finalizar realizaremos el segundo buceo y regresaremos a la tienda.',
-        descriptionEN:
-            'We have a boat ride of approx. 20 /25 min. to get to the diving area. During the ride we talk about the diving procedure, care of flora and fauna. During the surface interval we will have a snack and something to drink. At the end of the dive we will do the second dive and return to the tent. ',
-        duration: '4/5 horas',
-        durationEN: '4/5 hours',
-        included: [
-            'Guia certificado',
-            'Aguas naturales y refrescos',
-            'Frutas, chocolates y galletas',
-            'Mucha diversion',
-            'Equipo Completo!',
-        ],
-        includedEN: [
-            'Certified guide',
-            'Natural water, flavored water, soft drink ,or beer',
-            'Tons of fun',
-            'SNORKE equipment!',
-        ],
-        schedule: 'Horarios: a disponibilidad',
-        scheduleEN: 'Schedule: to availability ',
-        image: buceo1, //imagenes de 400px x 400px
-        imageDetail: [
-            {
-                image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
-                alt: 'some alt desc',
-            },
-            {
-                image: 'https://placeimg.com/600/600/arch',
-                alt: 'some alt desc',
-            },
-            {
-                image: 'https://placeimg.com/600/600/arch',
-                alt: 'some alt desc',
-            },
-        ],
-        id: 'c3e2d898-64b2-49ff-8118-3bd8d537cca9',
-        featured: false,
-    }, //2
-//     {
-//         category: 'tours',
-//         title: 'Descrubre el buceo (Principiantes)',
-//         titleEN: 'Discover Scuba diving (Playa 1 tank) ',
-//         subtitle: 'Para adentrarte en el mundo del buceo',
-//         subtitleEN: 'To enter the world of scuba diving',
-//         text: 'Sumergete y descubre la magia submarina que Cozumel tiene para ti.',
-//         textEN: 'Dive and discover the underwater magic that Cozumel has for you.',
-//         description:
-//             'Vive tu primera experiencia de buceo y conoce las maravillas submarinas de Cozumel. No se requiere experiencia previa y es para personas mayores de 10 años de edad.',
-//         descriptionEN:
-//             'Dive in and discover the underwater magic that cozumel has for you. You will enter a world full of colors since Cozumel is the favorite place to dive of its natural beauty',
-//         duration: '1 Hora y 30 minutos',
-//         durationEN: '1 hour and 30 minutes',
-//         included: ['Equipo completo de buceo', 'Instructor certificado'],
-//         includedEN: ['Full diving gear', 'Certified instructor'],
-//         image: buceo2, //imagenes de 400px x 400px
-//         imageDetail: [
-//             {
-//                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
-//                 alt: 'some alt desc',
-//             },
-//             {
-//                 image: 'https://placeimg.com/600/600/arch',
-//                 alt: 'some alt desc',
-//             },
-//             {
-//                 image: 'https://placeimg.com/600/600/arch',
-//                 alt: 'some alt desc',
-//             },
-//         ],
-//         id: '382363c8-9dd2-4b8e-b01c-c3e4281e3207',
-//         featured: false,
-//     }, //3
-//     {
-//         category: 'tours',
-//         title: 'Primera experiencia desde barco',
-//         titleEN: 'First experience from boat',
-//         subtitle: 'Buceo desde un barco',
-//         subtitleEN: 'Boat diving',
-//         text: 'Explore los hermosos arrecifes de Cozumel.',
-//         textEN: 'Explore the beautiful reefs of Cozumel.',
-//         description:
-//             'Si quieren probar el buceo por primera vez, vivan una experiencia inolvidable descubriendo las profundidades del mar sin tener experiencia previa. Podemos llevarte a bucear en el barco para ver los hermosos arrecifes que Cozumel tiene para ofrecer.',
-//         descriptionEN:
-//             'If you want to try scuba diving for the first time, live an unforgettable experience discovering the depths of the sea without previous experience. We can take you diving on the boat to see the beautiful reefs that Cozumel has to offer.',
-//         duration: '5/6 horas',
-//         durationEN: '5/6 hours',
-//         included: [
-//             'Cafe',
-//             'Aguas naturales',
-//             'Frutas',
-//             'Galletas y chocolates',
-//             '2 tankes, cinturon y lastre!',
-//             '(Renta de equipo adicional)',
-//         ],
-//         includedEN: [
-//             'Coffe',
-//             'Natural water',
-//             'Cookies and chocolates',
-//             '2 tanks, belt and ballast',
-//             '(Rental of additional equipment)',
-//         ],
-//         schedule: 'Horarios: a disponibilidad',
-//         scheduleEN: 'Schedule: to availability ',
-//         image: boat, //imagenes de 400px x 400px
-//         imageDetail: [
-//             {
-//                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
-//                 alt: 'some alt desc',
-//             },
-//             {
-//                 image: 'https://placeimg.com/600/600/arch',
-//                 alt: 'some alt desc',
-//             },
-//             {
-//                 image: 'https://placeimg.com/600/600/arch',
-//                 alt: 'some alt desc',
-//             },
-//         ],
-//         id: 'c3e2d898-64b2-49ff-8118-3123jdjd92a',
-//         featured: false,
-//     }, //4
-    {
-        category: 'tours',
         title: 'Tour en lancha transparente',
         titleEN: 'Clear boat tour ',
         subtitle:
@@ -233,7 +111,138 @@ export const dataArray = [
         ],
         id: 'b6d416fc-e04e-443c-87a3-492f3e9549dc',
         featured: true,
-    }, //5
+    }, 
+    {
+        category: 'tours',
+        title: 'Buceo desde barco por arrecifes (Buzos certificados)',
+        titleEN: '2-tank dive for certified divers ',
+        subtitle: 'Buceo de 2 tankes',
+        subtitleEN: '2-tank dive',
+        text: 'Buceo de dos tanques en la rivera maya',
+        textEN: '2 tanks dive from the rivera maya',
+        description:
+            'Tenemos un recorrido en la lancha de aprox. 20 /25 min para llegar hasta la zona de buceo. Durante el trayecto se habla acerca del procedimiento de buceo, cuidado de flora y fauna. En el intervalo en superficie se dara un refrigerio y algo de beber. Al finalizar realizaremos el segundo buceo y regresaremos a la tienda.',
+        descriptionEN:
+            'We have a boat ride of approx. 20 /25 min. to get to the diving area. During the ride we talk about the diving procedure, care of flora and fauna. During the surface interval we will have a snack and something to drink. At the end of the dive we will do the second dive and return to the tent. ',
+        duration: '4/5 horas',
+        durationEN: '4/5 hours',
+        included: [
+            'Guia certificado',
+            'Aguas naturales y refrescos',
+            'Frutas, chocolates y galletas',
+            'Mucha diversion',
+            'Equipo Completo!',
+        ],
+        includedEN: [
+            'Certified guide',
+            'Natural water, flavored water, soft drink ,or beer',
+            'Tons of fun',
+            'SNORKE equipment!',
+        ],
+        schedule: 'Horarios: a disponibilidad',
+        scheduleEN: 'Schedule: to availability ',
+        image: buceo1, //imagenes de 400px x 400px
+        imageDetail: [
+            {
+                image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://placeimg.com/600/600/arch',
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://placeimg.com/600/600/arch',
+                alt: 'some alt desc',
+            },
+        ],
+        id: 'c3e2d898-64b2-49ff-8118-3bd8d537cca9',
+        featured: false,
+    }, 
+    {
+        category: 'tours',
+        title: 'Primera experiencia desde la playa (buzo no certificado)',
+        titleEN: 'First experiencie from the beach (not certified diver)',
+        subtitle: '',
+        subtitleEN: '',
+        text: 'Esta guía es para la gente que nunca ha buceado en su vida y quiere experimentar algo nuevo! ',
+        textEN: 'This guide is for people who have never dived in their life and want to experience something new!',
+        description:
+            'Esta guía consta de la clase básica y enseñanza acerca del mundo del buceo, luego vamos al mar para hacer 3 ejercicios básicos,  limpiar el visor,  recuperación del regulador y flotabilidad neutra. Luego continuamos con nuestro buceo por espacio de una hora aproximado.',
+        descriptionEN:
+            'This guide consists of the basic class and teaching about the world of diving, then we go to the sea to do 3 basic exercises, clean the visor, recover the regulator and neutral buoyancy. Then we continue with our diving for approximately one hour.',
+        duration: '2 horas aproximadas',
+        durationEN: 'Approximately 2 hours',
+        included: [
+            'Instuctor certificado',
+            'Equipo completo!',
+        ],
+        includedEN: [
+            'Certified instrFullctor',
+            'F Equipment!',
+        ],
+        image: fistDive, //imagenes de 400px x 400px
+        imageDetail: [
+            {
+                image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://placeimg.com/600/600/arch',
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://placeimg.com/600/600/arch',
+                alt: 'some alt desc',
+            },
+        ],
+        id: 'af6751a0-9e1f-4075-b687-861asd91a1',
+        featured: false,
+    },
+    {
+        category: 'tours',
+        title: 'Primera experiencia desde barco (buzo no certificado)',
+        titleEN: 'First experience from a boat (not certified diver)',
+        subtitle: '',
+        subtitleEN: '',
+        text: 'Esta guía es para la gente que nunca ha buceado en su vida y quiere experimentar algo nuevo! ',
+        textEN: 'This guide is for people who have never dived in their life and want to experience something new!',
+        description:
+            'Esta guía consta de la clase básica y enseñanza acerca del mundo del buceo y dos inmersiones en distintas secciones del arrecife, sera acompañado en todo momento por un instructor certificado.',
+        descriptionEN:
+            'This guide consists of the basic class and teaching about the world of diving and two dives in different sections of the reef, you will be accompanied at all times by a certified instructor.',
+        duration: '2 horas aproximadas',
+        durationEN: 'Approximately 2 hours',
+        included: [
+            'Viaje en lancha',
+            'Agua fresca',
+            'Refrigerio (chocolate, fruta, galleta)',
+            'Equipo completo!',
+        ],
+        includedEN: [
+            'Boat trip',
+            'Fresh Water',
+            'Snacks (Chocolate, fresh fruit, cookie)',
+            'Full Equipment!',
+        ],
+        image: fistDive, //imagenes de 400px x 400px
+        imageDetail: [
+            {
+                image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://placeimg.com/600/600/arch',
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://placeimg.com/600/600/arch',
+                alt: 'some alt desc',
+            },
+        ],
+        id: '31789978-ad86-41d4-bbbc-dfd84149635a',
+        featured: false,
+    },
     {
         category: 'tours',
         title: 'Submarino Atlantico',
@@ -324,18 +333,18 @@ export const dataArray = [
         category: 'tours',
         title: 'Paravelismo',
         titleEN: 'Parasailing',
-        subtitle: '',
-        subtitleEN: '',
-        text: 'Los participantes de la actividad disfrutarán de un vuelo lleno de emoción y adrenalina. Durante el vuelo, los participantes podrán gozar de unas vistas panorámicas privilegiadas en todo momento. ¡La sensación de libertad es inigualable cuando ves que tienes el mar a tus pies!',
-        textEN: 'The participants of the activity will enjoy a flight full of excitement and adrenaline. During the flight, participants will be able to enjoy privileged panoramic views at all times. The feeling of freedom is unmatched when you see the sea at your feet!',
+        subtitle: 'Paseo en lancha con parasail',
+        subtitleEN: 'Boat ride with parasail',
+        text: 'Da un paseo en lancha pero desde la aventura parasail',
+        textEN: 'Take a boat ride but from the parasail adventure',
         description:
-            'Salimos del muelle de el bar carlota Horarios (dependiendo la disponibilidad de la embarcacion).',
+            'Los participantes de la actividad disfrutarán de un vuelo lleno de emoción y adrenalina. Durante el vuelo, los participantes podrán gozar de unas vistas panorámicas privilegiadas en todo momento. ¡La sensación de libertad es inigualable cuando ves que tienes el mar a tus pies!',
         descriptionEN:
-            'We leave from the dock of the carlota bar. Schedules (depending on the availability of the boat).',
+            'The participants of the activity will enjoy a flight full of excitement and adrenaline. During the flight, participants will be able to enjoy privileged panoramic views at all times. The feeling of freedom is unmatched when you see the sea at your feet!',
         duration: '30 minutos',
         durationEN: '30 minutes',
-        included: ['Vuelo en paracaidas'],
-        includedEN: ['Skydive'],
+        included: ['Equipo parasail'],
+        includedEN: ['Parasail gear'],
         image: parasail, //imagenes de 400px x 400px
         imageDetail: [
             {
@@ -355,90 +364,7 @@ export const dataArray = [
         featured: false,
     }, //8
 
-    {
-        category: 'tours',
-        title: 'Primera experiencia desde la playa (buzo no certificado)',
-        titleEN: 'First experiencie from the beach (not certified diver)',
-        subtitle: '',
-        subtitleEN: '',
-        text: 'Esta guía es para la gente que nunca ha buceado en su vida y quiere experimentar algo nuevo! ',
-        textEN: 'This guide is for people who have never dived in their life and want to experience something new!',
-        description:
-            'Esta guía consta de la clase básica y enseñanza acerca del mundo del buceo, luego vamos al mar para hacer 3 ejercicios básicos,  limpiar el visor,  recuperación del regulador y flotabilidad neutra. Luego continuamos con nuestro buceo por espacio de una hora aproximado.',
-        descriptionEN:
-            'This guide consists of the basic class and teaching about the world of diving, then we go to the sea to do 3 basic exercises, clean the visor, recover the regulator and neutral buoyancy. Then we continue with our diving for approximately one hour.',
-        duration: '2 horas aproximadas',
-        durationEN: 'Approximately 2 hours',
-        included: [
-            'Instuctor certificado',
-            'Equipo completo!',
-        ],
-        includedEN: [
-            'Certified instrFullctor',
-            'F Equipment!',
-        ],
-        image: fistDive, //imagenes de 400px x 400px
-        imageDetail: [
-            {
-                image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
-                alt: 'some alt desc',
-            },
-            {
-                image: 'https://placeimg.com/600/600/arch',
-                alt: 'some alt desc',
-            },
-            {
-                image: 'https://placeimg.com/600/600/arch',
-                alt: 'some alt desc',
-            },
-        ],
-        id: 'af6751a0-9e1f-4075-b687-861asd91a1',
-        featured: false,
-    },
-    {
-        category: 'tours',
-        title: 'Primera experiencia desde barco (buzo no certificado)',
-        titleEN: 'First experience from a boat (not certified diver)',
-        subtitle: '',
-        subtitleEN: '',
-        text: 'Esta guía es para la gente que nunca ha buceado en su vida y quiere experimentar algo nuevo! ',
-        textEN: 'This guide is for people who have never dived in their life and want to experience something new!',
-        description:
-            'Esta guía consta de la clase básica y enseñanza acerca del mundo del buceo y dos inmersiones en distintas secciones del arrecife, sera acompañado en todo momento por un instructor certificado.',
-        descriptionEN:
-            'This guide consists of the basic class and teaching about the world of diving and two dives in different sections of the reef, you will be accompanied at all times by a certified instructor.',
-        duration: '2 horas aproximadas',
-        durationEN: 'Approximately 2 hours',
-        included: [
-            'Viaje en lancha',
-            'Agua fresca',
-            'Refrigerio (chocolate, fruta, galleta)',
-            'Equipo completo!',
-        ],
-        includedEN: [
-            'Boat trip',
-            'Fresh Water',
-            'Snacks (Chocolate, fresh fruit, cookie)',
-            'Full Equipment!',
-        ],
-        image: fistDive, //imagenes de 400px x 400px
-        imageDetail: [
-            {
-                image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
-                alt: 'some alt desc',
-            },
-            {
-                image: 'https://placeimg.com/600/600/arch',
-                alt: 'some alt desc',
-            },
-            {
-                image: 'https://placeimg.com/600/600/arch',
-                alt: 'some alt desc',
-            },
-        ],
-        id: '31789978-ad86-41d4-bbbc-dfd84149635a',
-        featured: false,
-    },
+   
 
     /* -------------------------------------------------------------------------- */
     /*                                  SERVICES                                  */
@@ -468,7 +394,7 @@ export const dataArray = [
             'Civil liability insurance',
             '100% third party damage insurance',
         ],
-        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        image: srvBike, //imagenes de 400px x 400px
         imageDetail: [
             {
                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
@@ -510,7 +436,7 @@ export const dataArray = [
             'Civil liability insurance',
             '100% third party damage insurance',
         ],
-        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        image: srvCar, //imagenes de 400px x 400px
         imageDetail: [
             {
                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
@@ -533,7 +459,55 @@ export const dataArray = [
     /* -------------------------------------------------------------------------- */
     {
         category: 'courses',
-        title: 'Aventura avanzada',
+        title: 'Open water',
+        titleEN: 'Open water',
+        subtitle: 'Curso para obtener certificacion mundial de buceo',
+        subtitleEN: 'World diving certification course',
+        text: 'Aprende a bucear bajo la supervisión de un instructor altamente cualificado',
+        textEN: 'Learn how to dive under the supervision of a highly-trained PADI instructor.',
+        description:
+            'Open Water Diver es el primer nivel de certificación de buceo y es una licencia reconocida mundialmente para toda la vida. Aprende a bucear bajo la supervisión de un instructor altamente cualificado. Te apoyaremos en cada paso del camino creando un ambiente de aprendizaje seguro y relajado. Obtén la certificación para bucear hasta 60 pies- ¡aquí es donde comienza la aventura!. El curso consta de 3 secciones: teoría del buceo, sesiones de habilidades en aguas confinadas e inmersiones en aguas abiertas. Durante las sesiones en aguas confinadas aprenderás habilidades básicas de buceo que te mantendrán seguro y cómodo en aguas abiertas.',
+        descriptionEN:
+            'Open Water Diver is the first scuba certification level and is a lifetime worldwide recognized license. Learn how to dive under the supervision of a highly-trained instructor. We will support you every step of the way by creating a safe and relaxed learning environment. Get certified to dive to 60 ft- this is where the adventure begins!. The course consists of 3 sections: dive theory, confined water skill sessions and open water dives. During your confined water sessions you will learn basic diving skills that will keep you safe and comfortable in the open water. ',
+        duration: '3 dias se necesitan para completar el curso',
+        durationEN: '3 days are needed to complete the course',
+        included: [
+            'E-learning del curso',
+            'Sesión de repaso teórico',
+            'Sesiones en aguas confinadas',
+            'Inmersiones en aguas abiertas desde costa',
+            'Inmersiones en aguas abiertas desde barco y tarifa de certificación.',
+            'El precio no incluye el alquiler del equipo.',
+        ],
+        includedEN: [
+            'PADI Open Water Diver e-learning',
+            'Theory review session',
+            'Confined water sessions',
+            'Open water shore dives',
+            'Open water boat dives and certification fee',
+            'Price does not include gear rental.',
+        ],
+        image: open, //imagenes de 400px x 400px
+        imageDetail: [
+            {
+                image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://placeimg.com/600/600/arch',
+                alt: 'some alt desc',
+            },
+            {
+                image: 'https://placeimg.com/600/600/arch',
+                alt: 'some alt desc',
+            },
+        ],
+        id: '54de02c5-2560-42dd-9899-0660a8751c43',
+        featured: true,
+    },
+    {
+        category: 'courses',
+        title: 'Advanced Adventure',
         titleEN: 'Advanced Adventure',
         subtitle:
             'Orientado a buzos certificados que quieren avanzar aumentar sus conocimientos y experiencias',
@@ -561,7 +535,7 @@ export const dataArray = [
             'open water boat dives and certification fee',
             'Price does not include gear rental.',
         ],
-        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        image: advance, //imagenes de 400px x 400px
         imageDetail: [
             {
                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
@@ -579,58 +553,11 @@ export const dataArray = [
         id: 'de079720-946c-4610-b26a-e043cfd66c32',
         featured: false,
     },
+   
+
     {
         category: 'courses',
-        title: 'Aguas abiertas',
-        titleEN: 'Open water',
-        subtitle: 'Curso para obtener certificacion mundial de buceo',
-        subtitleEN: 'World diving certification course',
-        text: 'Aprende a bucear bajo la supervisión de un instructor altamente cualificado',
-        textEN: 'Learn how to dive under the supervision of a highly-trained PADI instructor.',
-        description:
-            'Open Water Diver es el primer nivel de certificación de buceo y es una licencia reconocida mundialmente para toda la vida. Aprende a bucear bajo la supervisión de un instructor altamente cualificado. Te apoyaremos en cada paso del camino creando un ambiente de aprendizaje seguro y relajado. Obtén la certificación para bucear hasta 60 pies- ¡aquí es donde comienza la aventura!. El curso consta de 3 secciones: teoría del buceo, sesiones de habilidades en aguas confinadas e inmersiones en aguas abiertas. Durante las sesiones en aguas confinadas aprenderás habilidades básicas de buceo que te mantendrán seguro y cómodo en aguas abiertas.',
-        descriptionEN:
-            'Open Water Diver is the first scuba certification level and is a lifetime worldwide recognized license. Learn how to dive under the supervision of a highly-trained instructor. We will support you every step of the way by creating a safe and relaxed learning environment. Get certified to dive to 60 ft- this is where the adventure begins!. The course consists of 3 sections: dive theory, confined water skill sessions and open water dives. During your confined water sessions you will learn basic diving skills that will keep you safe and comfortable in the open water. ',
-        duration: '3 dias se necesitan para completar el curso',
-        durationEN: '3 days are needed to complete the course',
-        included: [
-            'E-learning del curso de Aguas Abiertas',
-            'Sesión de repaso teórico',
-            'Sesiones en aguas confinadas',
-            'Inmersiones en aguas abiertas desde costa',
-            'Inmersiones en aguas abiertas desde barco y tarifa de certificación.',
-            'El precio no incluye el alquiler del equipo.',
-        ],
-        includedEN: [
-            'PADI Open Water Diver e-learning',
-            'Theory review session',
-            'Confined water sessions',
-            'Open water shore dives',
-            'Open water boat dives and certification fee',
-            'Price does not include gear rental.',
-        ],
-        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
-        imageDetail: [
-            {
-                image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
-                alt: 'some alt desc',
-            },
-            {
-                image: 'https://placeimg.com/600/600/arch',
-                alt: 'some alt desc',
-            },
-            {
-                image: 'https://placeimg.com/600/600/arch',
-                alt: 'some alt desc',
-            },
-        ],
-        id: '54de02c5-2560-42dd-9899-0660a8751c43',
-        featured: true,
-    },
-'Theory review session',
-    {
-        category: 'courses',
-        title: 'Maestro de buceo',
+        title: 'Dive master',
         titleEN: 'Dive master',
         subtitle: 'Curso orientado para buceadores avanzados que quieran profundizar conociemientos',
         subtitleEN: 'Course oriented for advanced divers who want to deepen their knowledge',
@@ -656,7 +583,7 @@ export const dataArray = [
             'Theory review session',
             'International certification',
         ],
-        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        image: dive, //imagenes de 400px x 400px
         imageDetail: [
             {
                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
@@ -700,7 +627,7 @@ export const dataArray = [
             'Training sessions covering',
             'Open water boat dives and certification fee',
         ],
-        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        image: rescue, //imagenes de 400px x 400px
         imageDetail: [
             {
                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px
@@ -740,7 +667,7 @@ export const dataArray = [
             'E-learning of the Nitrox course',
             'Certification fee',
         ],
-        image: 'https://placeimg.com/400/400/arch', //imagenes de 400px x 400px
+        image: nitrox, //imagenes de 400px x 400px
         imageDetail: [
             {
                 image: 'https://placeimg.com/600/600/arch', //imagenes de 600px x 600px

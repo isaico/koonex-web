@@ -3,8 +3,6 @@ import girlsUnderwater from '../assets/girls-underwater.jpg';
 
 export const Banner = ({
     gradientTitle,
-    gradientButtonCourses,
-    gradientButtonTours,
     t,
 }) => {
     return (
@@ -30,10 +28,10 @@ export const Banner = ({
                         rel="noreferrer"
                     >
                         <button
-                            className={`btn button font-bold ${
+                            className={`btn button font-bold text-white ${
                                 gradientTitle !== 'CURSOS'
-                                    ? gradientButtonTours
-                                    : gradientButtonCourses
+                                    ? 'gradientButtonTours'
+                                    : 'gradientButtonCourses'
                             } animate-bg-positions`}
                         >
                             {t('coursesContainer.bannerBtn')}

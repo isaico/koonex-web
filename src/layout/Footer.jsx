@@ -19,10 +19,11 @@ export const Footer = () => {
                     href="mailto:koonextyt@gmail.com"
                     target="_blank"
                     rel="noreferrer"
+                    className='flex gap-2 items-center'
                 >
                     <MdEmail className="text-xl sm:text-2xl text-white hover:text-grey-regular" />
+                    <p className="text-xs sm:text-lg">koonextyt@gmail.com</p>
                 </a>
-                <p className="text-xs sm:text-lg">koonextyt@gmail.com</p>
             </div>
         </div>
     );

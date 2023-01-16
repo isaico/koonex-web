@@ -6,7 +6,7 @@ export const Card = ({ index, item, currentLanguage, t, bgColor }) => {
     const { URL } = useParams();
     return (
         <div
-            className={`flex card overflow-visible max-w-[350px] ${
+            className={`flex card overflow-visible w-[400px] ${
                 item.featured ? 'bg-indigo' : bgColor
             } my-16  shadow-xl `}
             key={index}
@@ -31,7 +31,7 @@ export const Card = ({ index, item, currentLanguage, t, bgColor }) => {
                 <div className="card-actions justify-end mt-4 sm:mt-0">
                     <NavLink to={`${URL}/${item.id}`}>
                         <button
-                            className={`btn button btn-tour hover:opacity-90 hover:bg-hero  btn-hover`}
+                            className={`btn text-white border-none px-8 hover:opacity-90 hover:bg-hero  btn-hover ${URL==='cursos' ? 'gradientButtonCourses' : 'gradientButtonTours'}`}
                         >
                             {t('cardBtn')}
                         </button>

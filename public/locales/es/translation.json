@@ -13,7 +13,7 @@
         "bannerDesc": "Elija sus {{gradientTitle}} favoritos, compre y disfrute. Nosotros nos encargamos del resto. Diversión y nuevas experiencias garantizadas. Si deseas más información no dude en contactarnos.",
         "bannerBtn": "ENVÍANOS UN CORREO",
         "categoryTitleCourse": "CURSOS",
-        "categoryTitleTour": "RECORRIDOS",
+        "categoryTitleTour": "TOURS",
         "categoryTitleMostSold": "LO MAS VENDIDO",
         "categoryTitleServices": "SERVICIOS"
 
@@ -22,7 +22,7 @@
         "linkHome": "INICIO",
         "linkProd": "PRODUCTOS",
         "linkProdChild1": "CURSOS",
-        "linkProdChild2": "RECORRIDOS",
+        "linkProdChild2": "TOURS",
         "linkContact": "CONTACTO"
     },
     "featured": "MAS VENDIDO",

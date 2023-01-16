@@ -55,7 +55,7 @@ export const CoursesDetail = () => {
                                     : item.subtitleEN}
                             </h3>
                            
-                                {/* <img src={item.imageDetail[0].image} className='float-right m-8 w-[150px]'></img> */}
+                               
                                 <p className=" text-[0.9rem]  sm:text-lg sm:leading-8 my-8 sm:my-6 font-monserrat clear-left">
                                     {currentLanguage === 'es'
                                         ? item.description
@@ -116,7 +116,7 @@ export const CoursesDetail = () => {
                                     rel="noreferrer"
                                 >
                                     <button
-                                        className={`btn btn-card animate-bg-positions btn-hover w-[13rem] sm:w- `}
+                                        className={`btn gradientButtonCourses text-white animate-bg-positions btn-hover w-[13rem] sm:w- `}
                                     >
                                         <span className=" px-6">
                                             {t('courseDetail.infoBtn')}

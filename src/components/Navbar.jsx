@@ -5,6 +5,8 @@ import flagMX from '../assets/mx.png';
 import flagUS from '../assets/us.png';
 import { TbLanguageKatakana } from 'react-icons/tb';
 import { RiMenu4Fill } from 'react-icons/ri';
+import { TbMessageShare } from 'react-icons/tb';
+
 import logo from '../assets/logo.png';
 export const Navbar = () => {
     const { t, i18n } = useTranslation();
@@ -59,7 +61,7 @@ export const Navbar = () => {
             </div>
 
             <div className="flex-none hidden  sm:block">
-                <ul className="menu menu-horizontal p-0">
+                <ul className="menu menu-horizontal p-0 gap-1">
                     <li>
                         <NavLink to="/" end className="btn btn-ghost" activeClassName="active">
                             {t('navbar.linkHome')}
@@ -84,7 +86,8 @@ export const Navbar = () => {
                             rel="noreferrer"
                             className="btn btn-ghost"
                         >
-                            {t('navbar.linkContact')}
+                            {t('navbar.linkContact')} 
+                            <TbMessageShare className='text-xl'></TbMessageShare>
                         </a>
                     </li>
                 </ul>
