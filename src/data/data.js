@@ -135,9 +135,9 @@ export const dataArray = [
         ],
         includedEN: [
             'Certified guide',
-            'Natural water, flavored water, soft drink ,or beer',
+            'Natural water, flavored water, soft drink',
             'Tons of fun',
-            'SNORKE equipment!',
+            'Full equipment!',
         ],
         schedule: 'Horarios: a disponibilidad',
         scheduleEN: 'Schedule: to availability ',
@@ -178,8 +178,8 @@ export const dataArray = [
             'Equipo completo!',
         ],
         includedEN: [
-            'Certified instrFullctor',
-            'F Equipment!',
+            'Certified instructor',
+            'Full Equipment!',
         ],
         image: fistDive, //imagenes de 400px x 400px
         imageDetail: [
@@ -260,12 +260,12 @@ export const dataArray = [
         included: [
             'Agua natural, agua de sabor o refresco, cerveza, y fruta de temporada',
             'Pase para subir',
-            'EQUIPO SNORKE!',
+            
         ],
         includedEN: [
             'Natural water, flavored water or soft drink, beer and seasonal fruit',
             'Ticket to ride',
-            'SNORKE equipment!',
+           
         ],
         image: submarino, //imagenes de 400px x 400px
         imageDetail: [
