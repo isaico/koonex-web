@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { dataArray } from '../../data/data';
-import { Carrousel } from '../../components/Carrousel';
 import { BsCheck2All } from 'react-icons/bs';
 import { Footer } from '../Footer';
 import { Loader } from '../../components/Loader/Loader';

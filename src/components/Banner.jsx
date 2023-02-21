@@ -1,5 +1,5 @@
 import React from 'react';
-import girlsUnderwater from '../assets/girls-underwater.jpg';
+import bannerPic from '../assets/buceo-cozumel.jpg';
 
 export const Banner = ({
     gradientTitle,
@@ -9,9 +9,9 @@ export const Banner = ({
         <div className="hero min-h-[50vh] backdrop-blur-lg  sm:py-12 relative bg-cyan">
             <div className="hero-content flex-col lg:flex-row pb-16">
                 <img
-                    src={girlsUnderwater}
-                    alt="two girls under the sea holding a mexico flag"
-                    className=" rounded-lg shadow-2xl sm:w-full w-[300px]"
+                    src={bannerPic}
+                    alt="a dive master and a turtle on the botom of the ocean"
+                    className=" rounded-lg shadow-2xl sm:w-[500px] w-[300px]"
                 />
                 <div className="px-10 ">
                     <h2 className="sm:text-5xl text-3xl font-bold py-5 italic text-white ">
