@@ -8,6 +8,7 @@ import { Loader } from '../../components/Loader/Loader';
 import { useTranslation } from 'react-i18next';
 import { Banner } from '../../components/Banner';
 import { ServicesList } from '../../components/ServicesList';
+import { Header } from '../../components/Header';
 
 export const CoursesConteiner = () => {
     const { t, i18n } = useTranslation(['translation']);
@@ -40,37 +41,22 @@ export const CoursesConteiner = () => {
             ) : (
                 <div
                     className={`flex flex-col relative ${
-                        gradientTitle === 'CURSOS' ? 'bgCourses' : 'bgTours'
-                    } animate-bg
-            
+                        gradientTitle === 'CURSOS'
+                            ? 'sm:bgCourses '
+                            : 'sm:bgTours'
+                    } 
                 `}
                 >
-                    <div className="screen-container w-3/4  sm:w-3/5 self-center ">
-                        <h2
-                            className={` self-center text-center my-10  text-transparent sm:text-5xl text-4xl bg-clip-text font-monserrat font-extrabold ${
-                                gradientTitle !== 'CURSOS'
-                                    ? 'gradientTitleTours'
-                                    : 'gradientTitleCourses'
-                            } sm:text-8xl animate-bg-positions
-                            `}
-                        >
-                            {URL === 'cursos'
-                                ? t('coursesContainer.titleCourse')
-                                : t('coursesContainer.titleTour')}
-                        </h2>
-                        <p className="sm:text-xl sm:my-12 text-base text-center leading-8 self-center w-full">
-                            {t('coursesContainer.sub')}
-                        </p>
-                    </div>
-
+                    <Header gradientTitle={gradientTitle} URL={URL} t={t} />
                     <CoursesList
                         data={data}
                         gradientTitle={gradientTitle}
                         language={i18n.language}
+                        URL={URL}
                     />
-                    <div className="bg-primaryDark">
-                        <ServicesList services={services} t={t} />
-                    </div>
+
+                    <ServicesList services={services} t={t} />
+
                     <Banner gradientTitle={gradientTitle} t={t} />
                     <Footer />
                 </div>

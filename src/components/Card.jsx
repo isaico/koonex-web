@@ -6,14 +6,12 @@ export const Card = ({ index, item, currentLanguage, t, bgColor }) => {
     const { URL } = useParams();
     return (
         <div
-            className={`flex card overflow-visible w-[300px] sm:w-[400px] ${
-                item.featured ? 'bg-indigo' : bgColor
-            } sm:my-16 my-10  shadow-xl `}
+            className={`flex card overflow-visible w-[300px] sm:w-[400px]  sm:my-16 my-10  drop-shadow-lg ${bgColor} hover:scale-105 transition ease`}
             key={index}
         >
             {item.featured && (
                 <span
-                    className={` absolute top-0 z-10 w-full  bg-indigo border-none text-bold text-white border  indicator-item text-center`}
+                    className={` absolute top-0 z-10 w-full  bg-secondary border-none text-bold text-white border  indicator-item text-center`}
                 >
                     {t('featured')}
                 </span>

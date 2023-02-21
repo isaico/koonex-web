@@ -5,32 +5,30 @@
 @tailwind utilities;
 
 @layer base {
-    .screen-container {
-        @apply flex flex-col mt-16;
-    }
+  
     html {
         @apply font-fira;
     }
-
+    .paralel-bars{
+        @apply px-24;
+    }
+    .paralel-bars-sm{
+        @apply px-14;
+    }
 }
-.gradientTitleCourses{
-   @apply bg-gradient-to-r from-secondary to-white border-none
+.gradientTitleCourses {
+    @apply bg-gradient-to-r from-secondary to-white border-none;
 }
-.gradientTitleTours{
-    @apply bg-gradient-to-r from-indigo to-white border-none
+.gradientTitleTours {
+    @apply bg-gradient-to-r from-indigo to-white border-none;
 }
-.gradientButtonCourses{
-    @apply bg-gradient-to-r from-secondary to-indigo border-none
+.gradientButtonCourses {
+    @apply bg-gradient-to-r from-secondary to-indigo border-none;
 }
 .gradientButtonTours {
-   @apply  bg-gradient-to-r from-accent to-green border-none
+    @apply bg-gradient-to-r from-indigo to-green border-none;
 }
-.bgCourses{
-    @apply bg-blob bg-primaryDark
-}
-.bgTours{
-    @apply bg-blob2 bg-secondary
-}
+
 
 /* .btn-hero {
     @apply bg-gradient-to-r from-secondary to-indigo border-none;
@@ -51,19 +49,20 @@
     background-repeat: no-repeat;
 }
 
-.bg-blob {
-    background-image: url('./assets/blob-secondary-4k.svg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.bg-blob2 {
-    background-image: url('./assets/blob-primary-4k.svg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
 
 .bg-mesh {
     background-image: url('./assets/mesh-238.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-layered-waves{
+    background-image: url('./assets/layered-waves.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-stacked-waves{
+    background-image: url('./assets/stacked-waves.svg');
     background-size: cover;
     background-repeat: no-repeat;
 }

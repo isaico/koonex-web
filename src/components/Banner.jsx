@@ -6,7 +6,7 @@ export const Banner = ({
     t,
 }) => {
     return (
-        <div className="hero min-h-[50vh] backdrop-blur-lg  sm:py-12 relative">
+        <div className="hero min-h-[50vh] backdrop-blur-lg  sm:py-12 relative bg-cyan">
             <div className="hero-content flex-col lg:flex-row pb-16">
                 <img
                     src={girlsUnderwater}
@@ -17,10 +17,8 @@ export const Banner = ({
                     <h2 className="sm:text-5xl text-3xl font-bold py-5 italic text-white ">
                         {t('coursesContainer.bannerTitle')}
                     </h2>
-                    <p className="py-6 sm:text-xl text-base">
-                        {t('coursesContainer.bannerDesc', {
-                            gradientTitle,
-                        })}
+                    <p className="py-6 sm:text-xl text-base text-primaryDark">
+                        {t('coursesContainer.bannerDesc')}
                     </p>
                     <a
                         href="mailto:koonextyt@gmail.com"

@@ -3,9 +3,7 @@ module.exports = {
     content: ['./src/**/*.{js,jsx,ts,tsx}'],
     theme: {
         extend: {
-            backgroundImage: {
-                wave: "url('/src/assets/svg.png')",
-            },
+           
             colors: {
                 primary: '#102E4A',
                 primaryDark: '#0A1E31',
@@ -18,6 +16,7 @@ module.exports = {
                 white: '#f4f4f4',
                 sky: '#0369a1',
                 indigo: '#4338ca',
+                cyan:'#7fcdff'
             },
             fontFamily: {
                 monserrat: ['Montserrat', 'sans-serif'],
