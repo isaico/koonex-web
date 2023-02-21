@@ -6,9 +6,9 @@ import logo from '../assets/logo.png';
 export const Footer = () => {
     return (
         <div className="w-screen flex flex-col sm:flex-row p-6 justify-between items-center bg-primary text-neutral-content">
-            <div className="flex items-center">
+            <div className="flex items-center ">
                 <img src={logo} alt="logo" className=" w-8 sm:w-12" />
-                <h2 className="sm:text-xl px-2">KOONEX</h2>
+                <h2 className="sm:text-xl text-lg px-2">KOONEX</h2>
             </div>
             <p className="text-xs sm:text-lg py-1 ">
                 {' '}

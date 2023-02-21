@@ -20,7 +20,7 @@ export const CoursesList = (props) => {
                 ))}
             </div> */}
             <div className="">
-                <h2 className=" text-center sm:text-5xl text-2xl sm:my-16 font-bold  py-5 text-white italic">
+                <h2 className=" text-center sm:text-5xl text-3xl mt-6 sm:my-16 font-bold  py-5 text-white italic">
                     {props.gradientTitle === 'CURSOS'
                         ? t('coursesContainer.categoryTitleCourse')
                         : t('coursesContainer.categoryTitleTour')}
@@ -28,7 +28,7 @@ export const CoursesList = (props) => {
                 {/* <h2 className=" text-center sm:text-3xl text-2xl sm:my-16 font-bold  py-5 text-white italic">
                     {t('coursesContainer.categoryTitleMostSold')}
                 </h2> */}
-                <div className="flex flex-wrap justify-center  gap-8 sm:px-24 ">
+                <div className="flex flex-wrap justify-center  gap-0 sm:gap-8 sm:px-24 ">
                     {props.data.map((course, index) => (
                         <Card
                             index={index}

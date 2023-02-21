@@ -11,7 +11,7 @@ export const Banner = ({
                 <img
                     src={girlsUnderwater}
                     alt="two girls under the sea holding a mexico flag"
-                    className=" rounded-lg shadow-2xl sm:w-full w-3/4"
+                    className=" rounded-lg shadow-2xl sm:w-full w-[300px]"
                 />
                 <div className="px-10 ">
                     <h2 className="sm:text-5xl text-3xl font-bold py-5 italic text-white ">

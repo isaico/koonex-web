@@ -47,7 +47,7 @@ export const CoursesConteiner = () => {
                 >
                     <div className="screen-container w-3/4  sm:w-3/5 self-center ">
                         <h2
-                            className={` self-center text-center my-10  text-transparent text-5xl bg-clip-text font-monserrat font-extrabold ${
+                            className={` self-center text-center my-10  text-transparent sm:text-5xl text-4xl bg-clip-text font-monserrat font-extrabold ${
                                 gradientTitle !== 'CURSOS'
                                     ? 'gradientTitleTours'
                                     : 'gradientTitleCourses'
